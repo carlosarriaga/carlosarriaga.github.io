@@ -1,0 +1,185 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: white !important;
+	/*	overflow: hidden !important;*/
+}
+
+main{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.preloadbg{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+/*---------------------------*/
+.miparallax {
+	position:relative;
+	background: url('../imgs/parallax.jpg') no-repeat fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 750px;
+}
+
+.titulo{	
+	/*	margin: 0.67em 0;*/
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 100;
+}
+
+.tit-frame{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.tit-frame div{
+	margin-bottom: 0px;
+}
+
+.subtitulo{	
+	/*	margin: 0.67em 0;*/
+	color: #ffff00;
+	font-size: 9px;
+	text-align: justify;
+	/*	font-weight: bold;*/
+	/*	margin: 0 auto;*/
+	width: 250px;
+	position: absolute;
+	top: 257px;
+	left: 486px;
+	margin-top: -8%;
+	margin-left: -400px;
+	/*	opacity:0.8;*/
+}
+
+.nombre{
+	margin-bottom: 0px;
+	margin-top: 100px;
+}
+
+.apellido{
+	margin-top: 0px;
+}
+
+.mtitulo{
+	margin: 0px;
+}
+
+.msubtitulo{
+	margin-top: 0px;
+	font-size: 10px;
+	/*	color: #ff0000;*/
+}
+
+.ftitulo{
+	margin: 50px 0px 70px 0px;
+	font-size: 50px;
+	font-weight: 100;
+}
+
+.fondomargen{
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+#home{
+	padding-top: 0px !important;
+}
+
+.bordes{
+	border-radius: 3px;
+	color: rgb(173, 173, 173);
+	border: 1px solid rgb(173, 173, 173) !important;
+}
+
+.bordesa{
+	border-radius: 3px;
+	color: rgb(24, 253, 253) !important;
+	border: 1px solid rgb(24, 253, 253) !important;
+}
+
+/*CAMBIOS EN MATERIAL*/
+
+/*
+.collapsible-header{
+border-bottom: 1px solid rgb(38, 50, 56) !important;
+}
+*/
+
+.collapsible-body{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.red{
+	background-color: #ff0000 !important;
+}
+
+.cyan{
+	background-color: rgb(24, 253, 253) !important;
+}
+
+.waves-effect.waves-cyan .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: #00bcd4 !important;
+}
+
+header, main, footer {
+	padding-left: 350px !important;
+}
+
+/*----------------------CAMBIOS PARA PANTALLAS DE 992PX Y MENORES----------------------------------------*/
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 0 !important;
+	}
+
+	.miparallax {
+		min-height: 400px;
+	}
+
+	.parallax-container {
+		height: 120px !important;
+	}
+	
+	.contacto{
+		padding: 30px 50px 30px 50px !important;
+	}
+	
+}
+
+.parallax-container {
+	height: 150px;
+}
+
+footer{
+	padding-bottom: 0px !important;
+
+}
+
+footer.page-footer{
+	padding-top: 60px !important;
+}
+
+.contacto{
+	padding: 30px 50px 30px 50px !important;
+}
+
+.footer-copyright{
+	background-color: #1D272B !important;
+	margin-top: 80px;
+}

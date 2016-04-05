@@ -1,0 +1,1 @@
+!function($){$(function(){$(".scrollspy").scrollSpy(),$(".parallax").parallax(),$(".button-collapse").sideNav({menuWidth:400,edge:"left",closeOnClick:!1})})}(jQuery);
