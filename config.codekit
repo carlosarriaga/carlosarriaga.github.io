@@ -865,6 +865,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/web.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82386,
+		"inputAbbreviatedPath": "\/imgs\/web.png",
+		"outputAbbreviatedPath": "\/imgs\/web.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -951,7 +962,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "carlos",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-fry"
+	"iconImageName": "meme-grumpy"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
