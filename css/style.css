@@ -113,6 +113,15 @@ main{
 	margin-top: 20px;	
 }
 
+.extrapad-arriba{
+	padding-top: 50px !important;
+}
+
+.extrapad-abajo{
+	padding-bottom: 90px !important;
+
+}
+
 /*CAMBIOS EN MATERIAL*/
 
 /*
@@ -137,9 +146,9 @@ border-bottom: 1px solid rgb(38, 50, 56) !important;
 }
 
 .waves-effect.waves-cyan .waves-ripple {
-     /* The alpha value allows the text and background color
-     of the button to still show through. */
-      background-color: #00bcd4 !important;
+	/* The alpha value allows the text and background color
+	of the button to still show through. */
+	background-color: #00bcd4 !important;
 }
 
 header, main, footer {
@@ -159,11 +168,11 @@ header, main, footer {
 	.parallax-container {
 		height: 120px !important;
 	}
-	
+
 	.contacto{
 		padding: 30px 50px 30px 50px !important;
 	}
-	
+
 }
 
 .parallax-container {
@@ -186,4 +195,93 @@ footer.page-footer{
 .footer-copyright{
 	background-color: #1D272B !important;
 	margin-top: 80px;
+}
+
+
+/*---------------------SLIDER----------------------------------*/
+ul.animate {
+	-webkit-transition: -webkit-transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+	-moz-transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+	-o-transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+	transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); /* ease-in-out */	
+}
+
+.stage {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 12%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.sldr {
+	max-width: 300px !important;
+	margin: 0 auto;
+	overflow: visible;
+	position: relative;
+	clear: both;
+	display: block;
+}
+
+.sldr > ul > li {
+	float: left;
+	display: block;
+	width: 300px;
+}
+
+div.skew {
+	max-width: 300px !important;
+	margin: 0 auto;
+
+	display: block;
+	overflow: hidden;
+
+
+}
+
+div.skew > div.wrap {
+	display: block;
+	overflow: hidden;
+
+
+	margin-left: -10.1%;
+	width: 122%;
+}
+
+sldimg {
+	max-width: 300px !important;
+	width: 100%;
+/*	height: auto;*/
+	display: block;
+	margin: 0 auto;
+}
+
+.selectors {
+	/*margin: 15px 0 0;*/
+}
+
+.selectors li {
+	font-size: 46px;
+	line-height: 32px;
+	display: inline;
+	padding: 0 2px;	
+}
+
+.selectors li a {
+	text-decoration: none;
+}
+
+.selectors li.focalPoint a {
+	color: #CCC;
+	cursor: default;
+}
+
+/*-------button fx-----------*/
+.boton{
+	border: 1px solid #607d8b;
+}
+
+.boton:hover{
+	border: 1px solid rgb(24, 253, 253);
+	color: rgb(24, 253, 253) !important;
 }
