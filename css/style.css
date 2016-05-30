@@ -155,6 +155,14 @@ header, main, footer {
 	padding-left: 350px !important;
 }
 
+.blue-grey.darken-5{
+	background: #263238; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(70deg, #263238, #455a64); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(70deg, #263238, #455a64); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(70deg, #263238, #455a64); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(70deg, #263238, #455a64); /* Standard syntax */
+}
+
 /*----------------------CAMBIOS PARA PANTALLAS DE 992PX Y MENORES----------------------------------------*/
 @media only screen and (max-width : 992px) {
 	header, main, footer {
@@ -251,7 +259,7 @@ div.skew > div.wrap {
 sldimg {
 	max-width: 300px !important;
 	width: 100%;
-/*	height: auto;*/
+	/*	height: auto;*/
 	display: block;
 	margin: 0 auto;
 }
@@ -279,6 +287,7 @@ sldimg {
 /*-------button fx-----------*/
 .boton{
 	border: 1px solid #607d8b;
+	margin-top: 10px;
 }
 
 .boton:hover{
