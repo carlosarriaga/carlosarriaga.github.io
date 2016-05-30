@@ -21,7 +21,7 @@ main{
 /*---------------------------*/
 .miparallax {
 	position:relative;
-	background: url('../imgs/parallax.jpg') no-repeat fixed;
+	background: url('../imgs/room.jpg') no-repeat fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

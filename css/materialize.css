@@ -5729,7 +5729,7 @@ small {
 	transition: box-shadow .25s;
 	border-radius: 2px; }
 .card .card-title {
-	font-size: 24px;
+	font-size: 16px;
 	font-weight: 300; }
 .card .card-title.activator {
 	cursor: pointer; }
