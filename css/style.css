@@ -1,172 +1,320 @@
 body{
-	margin: 0px;
-	padding: 0px;
-	background-color: white !important;
-	/*	overflow: hidden !important;*/
+	background-color: #ffffff;
+	font-family: 'Poppins', sans-serif;
 }
 
-main{
-	margin-top: 0px;
-	padding-top: 0px;
+form {
+    font-size: 24px;
+    padding: 10px;
+    
+    color: white;
+    text-shadow: 0px 0px 0px #fff;
+    -webkit-text-fill-color: transparent;
 }
 
-.preloadbg{
-	position: fixed;
-	top: 0px;
-	bottom: 0px;
-	right: 0px;
-	left: 0px;
+
+form::-webkit-input-placeholder{
+    color:
+    text-shadow: none;
+    -webkit-text-fill-color: initial;
 }
 
-/*---------------------------*/
-.miparallax {
-	position:relative;
-	background: url('../imgs/room.jpg') no-repeat fixed;
-	background-position: center center;
+p{
+	font-size: 1.2em !important;
+}
+
+footer .container{
+	height: 500px !important;
+}
+
+.panel {
+	height: 100%;
+	width: 100%;
+}
+
+.hero {
+	background: url('/imgs/parallax.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	min-height: 750px;
-}
+	display: table;
+	width: 100%; 
 
-.titulo{	
-	/*	margin: 0.67em 0;*/
-	color: #fff;
-	font-size: 80px;
+}
+.hero .container {
+	display: table-cell;
 	text-align: center;
-	font-weight: 100;
+	color: white;
+	vertical-align: middle;
+	height: 689px
 }
 
-.tit-frame{
-	padding-top: 40px;
-	padding-bottom: 20px;
+nav div{
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
-.tit-frame div{
-	margin-bottom: 0px;
+.justify{
+	text-align: justify !important;
 }
 
-.subtitulo{	
-	/*	margin: 0.67em 0;*/
-	color: #ffff00;
-	font-size: 9px;
-	text-align: justify;
-	/*	font-weight: bold;*/
-	/*	margin: 0 auto;*/
-	width: 250px;
-	position: absolute;
-	top: 257px;
-	left: 486px;
-	margin-top: -8%;
-	margin-left: -400px;
-	/*	opacity:0.8;*/
+.margen-abajo{
+	margin-bottom: 50px;
 }
 
-.nombre{
-	margin-bottom: 0px;
+.margen-arriba{
+	margin-top: 50px;
+}
+
+.margen-abajo2{
+	margin-bottom: 100px;
+}
+
+.margen-arriba2{
 	margin-top: 100px;
 }
 
-.apellido{
-	margin-top: 0px;
-}
-
-.mtitulo{
-	margin: 0px;
-}
-
-.msubtitulo{
-	margin-top: 0px;
-	font-size: 10px;
-	/*	color: #ff0000;*/
-}
-
-.ftitulo{
-	margin: 50px 0px 70px 0px;
-	font-size: 50px;
-	font-weight: 100;
-}
-
-.fondomargen{
-	padding: 20px;
-	margin-bottom: 0px;
-}
-
-#home{
-	padding-top: 0px !important;
-}
-
-.bordes{
-	border-radius: 3px;
-	color: rgb(173, 173, 173);
-	border: 1px solid rgb(173, 173, 173) !important;
-}
-
-.bordesa{
-	border-radius: 3px;
-	color: rgb(24, 253, 253) !important;
-	border: 1px solid rgb(24, 253, 253) !important;
-}
-
-.margenportafolio{
-	margin-top: 20px;	
-}
-
-.extrapad-arriba{
+.padd-arriba{
 	padding-top: 50px !important;
 }
 
-.extrapad-abajo{
-	padding-bottom: 90px !important;
-
+.padd-abajo{
+	padding-bottom: 50px !important;
 }
 
-/*CAMBIOS EN MATERIAL*/
-
-/*
-.collapsible-header{
-border-bottom: 1px solid rgb(38, 50, 56) !important;
-}
-*/
-
-.collapsible-body{
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
-	padding-bottom: 10px;
+.padd-arriba2{
+	padding-top: 100px !important;
 }
 
-.red{
-	background-color: #ff0000 !important;
+.padd-abajo2{
+	padding-bottom: 100px !important;
 }
 
-.cyan{
-	background-color: rgb(24, 253, 253) !important;
+.no-padd{
+	padding: 0px !important;
 }
 
-.waves-effect.waves-cyan .waves-ripple {
-	/* The alpha value allows the text and background color
-	of the button to still show through. */
-	background-color: #00bcd4 !important;
+.no-margin{
+	margin: 0px;
 }
 
-header, main, footer {
-	padding-left: 350px !important;
+
+/*--------------------------------------------NAVBAR--------------------------------------*/
+.transparent2 {
+	background-color: rgba(0, 0, 0, 0.14) !important;
+}
+/*--------------------------------------------INTRO--------------------------------------*/
+
+.mini{
+	height: 275px !important;
 }
 
-.blue-grey.darken-5{
-	background: #263238; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(70deg, #263238, #455a64); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(70deg, #263238, #455a64); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(70deg, #263238, #455a64); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(70deg, #263238, #455a64); /* Standard syntax */
+.mini2{
+	height: 275px !important;
+}
+
+.service{
+	margin: 15px 20px 15px 20px;
+}
+
+.serv-icon{
+	padding: 5px;	
+}
+
+.somos{
+	/*	padding-left: 80px !important;*/
+}
+
+.margen{
+	margin: 150px 0px 100px;
+}
+
+.text-card{
+	padding: 200px 200px 30px 40px !important;	
+	height: 550px !important;
+}
+
+.text-card img{
+	padding-top: 20px !important;
+	padding-left: 50px !important;
+}
+
+.text-card-border{
+	padding-left: 20px !important;
+	margin-left: 10px !important;
+	border-left: 10px solid #ffffff;
+}
+
+.intro-img{
+	background: url('/imgs/parallaxmob.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	height: 550px;
+}
+
+.intro-img2{
+	background: url('/imgs/parallax3.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	height: 550px;
+}
+
+.mini-img{
+	background: url('/imgs/parallax4.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	height: 550px;
+}
+
+
+.mini-img2{
+	background: url('/imgs/parallax5.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	height: 550px;
+}
+
+.serv-card {
+	min-height: 260px !important;
+	-webkit-transition: color 0.5 s !important; /* Safari */
+	transition: color 0.5s !important;
+	padding: 0px 5px;
+}
+
+.serv-card:hover{
+	/*	background-color: #eaeaea !important;*/
+	color: #36d7b6 !important;
+}
+
+
+/*--------------------------------------------WEB--------------------------------------*/
+
+.webcard-left{
+	padding-right: 0px !important;
+}
+
+.webcard-right{
+	padding-left: 0px !important;
+}
+
+.card-img{
+	background: url('/imgs/parallax6.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	height: 237px;
+}
+
+.card-img2{
+	background: url('/imgs/parallax7.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	height: 237px;		
+}
+
+.webcard-title{
+	padding-top: 100px !important;
+}
+
+.web-serv{
+	height: 250px !important;
+}
+
+.features{
+	padding:0px 40px 0px 40px;
+}
+
+.feature{
+	padding: 15px 0px 15px 0px !important;
+}
+
+.bordes{
+	border-left: 2px solid #d6d6d6;
+	border-right: 2px solid #d6d6d6;
+}
+
+.comercial-padd{
+	padding:50px 150px 0px 5px !important;	
+}
+
+.comercial-padd h1{
+	line-height: 40% !important;
+}
+
+.comercial-padd .more-light{
+	padding-bottom: 80px;
+}
+
+.comercial-padd2{
+	padding:80px 0px 0px 120px !important;	
+}
+
+.more-bold{
+	font-weight: 600 !important;
+}
+
+.more-light{
+	font-weight: 100 !important;
+}
+
+/*-----------------------------------------DISEÑO-----------------------------------------*/
+.bordes2{
+	border-left: 2px solid #d6d6d6;
+	border-right: 2px solid #d6d6d6;
+}
+
+/*-----------------------------------------MKT-----------------------------------------*/
+.mkt-serv{
+	padding: 5px !important;
+}
+
+.mkt-serv div{	
+	border-top: 2px solid #a5a3a3 !important;	
+}
+
+/*---------------------------------------PROYECTOS-------------------------------------*/
+.marcas{
+	height: 117px !important;
 }
 
 /*----------------------CAMBIOS PARA PANTALLAS DE 992PX Y MENORES----------------------------------------*/
 @media only screen and (max-width : 992px) {
-	header, main, footer {
-		padding-left: 0 !important;
+	.hero{
+		background: url('/imgs/parallaxmob.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		display: table;
+		width: 100%; 		
+	}
+
+	.hero .container {
+		padding: 0px 20px;
 	}
 
 	.miparallax {
@@ -177,120 +325,175 @@ header, main, footer {
 		height: 120px !important;
 	}
 
-	.contacto{
-		padding: 30px 50px 30px 50px !important;
+	/*intro*/
+	.margen{
+		margin: 0px 0px 60px;
 	}
 
+	.text-card{
+		padding: 20px 20px 30px 20px !important;		
+		border: none !important;
+		height: auto !important;
+	}
+
+	/*web*/
+	.webcard-left{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+
+	.webcard-right{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	.mini2{
+		height: auto !important;
+	}
+
+	.bordes{
+		padding: 40px 0px 40px 0px !important;
+		border-left: none !important;
+		border-right: none !important;
+	}
+
+	.bordes2{
+		padding: 40px 0px 40px 0px !important;
+		border-left: none !important;
+		border-right: none !important;
+	}
+
+	.comercial-padd{
+		padding:50px 30px 0px 30px !important;	
+	}
+
+	.comercial-padd2{
+		padding:30px 30px 0px 30px !important;	
+	}
+}
+
+/*----------------------CAMBIOS PARA PANTALLAS DE 600PX Y MENORES----------------------------------------*/
+@media only screen and (max-width : 600px) {
+	.detail2{
+		border: none !important;
+	}
+
+	.bordes{
+		padding: 40px 0px 40px 0px !important;
+		border-left: none !important;
+		border-right: none !important;
+	}
+
+	.bordes2{
+		padding: 40px 0px 40px 0px !important;
+		border-left: none !important;
+		border-right: none !important;
+	}
+
+	.padd-arriba-mob{
+		padding-top: 50px !important;
+	}
+
+	.marcas{
+		height: 117px !important;
+		padding-top: 40px !important;
+	}
+
+}
+
+/*-----------------------------------PARALLAX---------------------------------------------*/
+
+.miparallax2 {
+	position:relative;
+	background: url('/imgs/parallax7.jpg') no-repeat fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 770px;
+}
+
+.miparallax3 {
+	position:relative;
+	background: url('/imgs/parallax5.jpg') no-repeat fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 400px;
+	max-height: 401px !important;
+}
+
+.miparallax4 {
+	position:relative;
+	background: url('/imgs/parallax8.jpg') no-repeat fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 350px;
+	/*	max-height: 351px !important;*/
+}
+
+.titulo{	
+	/*	margin: 0.67em 0;*/
+	color: #fff;
+	font-size: 80px !important;
+	text-align: center;
+	font-weight: 100;
+}
+
+.miparallax {
+	position:relative;
+	background: url('../imgs/parallaxmob.jpg') no-repeat fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 350px;
 }
 
 .parallax-container {
 	height: 150px;
 }
 
-footer{
-	padding-bottom: 0px !important;
+
+/*--------------detalles-----------------------*/
+.detail1{
+	border-top: 2px solid #2962ff;
+}
+
+.detail2{
+	border-left: 2px solid #9e9e9e;
+}
+
+.yellow2{
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd65e+0,ffa705+79,ffa705+100 */
+	background: #ffd65e; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ffd65e 0%, #ffa705 79%, #ffa705 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #ffd65e 0%,#ffa705 79%,#ffa705 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #ffd65e 0%,#ffa705 79%,#ffa705 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#ffa705',GradientType=1 ); /* IE6-9 */
 
 }
 
-footer.page-footer{
-	padding-top: 60px !important;
+.color{
+	background-color: #36d7b6 !important;
 }
 
-.contacto{
-	padding: 30px 50px 30px 50px !important;
+.text-color{
+	color: #36d7b6 !important
 }
 
-.footer-copyright{
-	background-color: #1D272B !important;
-	margin-top: 80px;
+.text-color2{
+	color: #a5a5a5 !important
 }
 
-
-/*---------------------SLIDER----------------------------------*/
-ul.animate {
-	-webkit-transition: -webkit-transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
-	-moz-transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
-	-o-transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
-	transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); /* ease-in-out */	
-}
-
-.stage {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0 12%;
-	text-align: center;
-	overflow: hidden;
-}
-
-.sldr {
-	max-width: 300px !important;
-	margin: 0 auto;
-	overflow: visible;
-	position: relative;
-	clear: both;
-	display: block;
-}
-
-.sldr > ul > li {
-	float: left;
-	display: block;
-	width: 300px;
-}
-
-div.skew {
-	max-width: 300px !important;
-	margin: 0 auto;
-
-	display: block;
-	overflow: hidden;
-
-
-}
-
-div.skew > div.wrap {
-	display: block;
-	overflow: hidden;
-
-
-	margin-left: -10.1%;
-	width: 122%;
-}
-
-sldimg {
-	max-width: 300px !important;
-	width: 100%;
-	/*	height: auto;*/
-	display: block;
-	margin: 0 auto;
-}
-
-.selectors {
-	/*margin: 15px 0 0;*/
-}
-
-.selectors li {
-	font-size: 46px;
-	line-height: 32px;
-	display: inline;
-	padding: 0 2px;	
-}
-
-.selectors li a {
-	text-decoration: none;
-}
-
-.selectors li.focalPoint a {
-	color: #CCC;
-	cursor: default;
-}
-
-/*-------button fx-----------*/
-.boton{
-	border: 1px solid #607d8b;
-	margin-top: 10px;
-}
-
-.boton:hover{
-	border: 1px solid rgb(24, 253, 253);
-	color: rgb(24, 253, 253) !important;
+.color2{
+	background-color: #1c1f26 !important;
 }

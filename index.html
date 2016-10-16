@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>		
+	<head>
 		<meta property="og:title" content="Carlos Arriaga" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="http://carlosarriaga.github.io" />
@@ -12,19 +12,26 @@
 
 		<title>Carlos Arriaga</title>
 		<meta charset="utf-8">
-		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />		
+		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
 
 		<!--Import Google Icon Font-->
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!--Import materialize.css-->
-		<!--		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>-->
+		<!--				<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>-->
 		<!--website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-		<link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>		
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="js/jquery-1.10.2.min.js"></script>
-		<script src="js/jquery.sldr.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+		<!--		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">-->
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+
+		<!--		<script src="js/jquery-1.10.2.min.js"></script>-->
+		<!--		<script src="js/jquery.sldr.js"></script>-->
 		<script src="js/materialize.js"></script>
 		<script src="js/init.js"></script>
 
@@ -36,537 +43,500 @@
 	</head>
 
 	<body>
+		<!------------------NAVBAR-------------------------------------------->
+		<div class="navbar-fixed ">
+			<nav class="transparent2">
+				<div class="nav-wrapper">
+					<a href="#!" class="brand-logo hide-on-large-only">Logo</a>
+					<ul class="right hide-on-med-and-down table-of-contents">
+						<li><a href="#introduction">SOMOS</a></li>
+						<li><a href="#web">WEB</a></li>
+						<li><a href="#diseno">DISEÑO</a></li>
+						<li><a href="#social">SOCIAL</a></li>
+						<li><a href="#contacto">CONTACTO</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!------------------MAIN-------------------------------------------->
 		<main>
-			<!--			SIDE-NAVBAR------------------------------------->
-			<ul id="slide-out" class="side-nav fixed table-of-contents center blue-grey darken-4 z-depth-5 hide-on-small-only">
-				<h1 class="thin white-text nombre">Carlos</h1>
-				<h1 class="thin white-text apellido">Arriaga</h1>
-				<p class="subtitulo thin">DESIGN - CREATE - INNOVATE </p>
-
-				<li><a href="#home">HOME</a></li>				
-				<!--				<li><a href="#labo">red<span class="red-text" style="font-weight:400">O</span></a></li>-->
-				<li><a href="#web">WEB</a></li>
-				<li><a href="#diseno">DISEÑO</a></li>
-				<li><a href="#me">ME</a></li>
-				<li><a href="#contacto">CONTACTO</a></li>				
-			</ul>
-			<!--			SCROLLSPY--------------------------------------->
-			<div class="row">
-				<!--CONTENEDOR HOME-------------------------------------------->
-				<div id="home" class="section scrollspy">
-
-					<!--	INICIO HOME------------------------------>
-					<div class="miparallax valign-wrapper" id="title">
-						<div class="row valign hide-on-small-only">
-							<p class="titulo thin white-text">
-								Do | Create | Make
-							</p>							
-						</div>
-						<!--ENCABEZADOS PARA MOVIL----------------------->
-						<div class="tit-frame hide-on-med-and-up row">
-							<div class="col l12 s12 center">
-								<h3 class="thin mtitulo white-text" id="tit">Carlos Arriaga</h3>
-								<p class="thin msubtitulo yellow-text">DESIGN - CREATE - INNOVATE </p>
-							</div>
-						</div>
+			<!------------------HERO-------------------------------------------->
+			<section class="hero scrollspy" id="home">
+				<div class="miparallax2 valign-wrapper hide-on-med-and-down" id="title">
+					<div class="row valign hide-on-small-only">
+						<p class="titulo thin white-text">
+							Algo cool
+						</p>							
 					</div>
-
-				</div>	
-				<!--CONTENEDOR LABO-------------------------------------------------------->
-				<!--
-<div id="labo" class="section scrollspy">
-<div class="fondomargen">
-<div class="container">
-<div class="row center"  style="margin-bottom:70px !important;">
-<div class="col s12 l12">
-<h1 class="thin">red<span class="red-text">O</span></h1>
-</div>
-<div class="col s12 l5 center">
-<img class="responsive-img" src="imgs/redo.svg">
-</div>
-<div class="col s12 l7">
-<p>
-red<span class="red-text" style="font-weight:400">O</span> 
-es una iniciativa para crear cambio sólo porque sí.
-<br>
-Es el espacio para la publicación de ideas, emprendimientos y proyectos por gusto
-</p>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col s2 l1">
-<a class="btn-floating btn-large waves-effect waves-light 
-amber modal-trigger" href="#modal1">
-<i class="material-icons">fiber_manual_record</i>
-<img src="imgs/i.svg" class="responsive-img">
-</a>
-<div id="modal1" class="modal amber white-text">
-<div class="modal-footer">
-<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">
-<i class="material-icons">clear</i>
-</a>
-</div>
-<div class="modal-content center">
-<h4>Héroe sin Capa</h4>
-
-
-<a class="twitter-timeline" href="https://twitter.com/sin_capa" 
-data-widget-id="727481834683015168">Tweets por el @sin_capa.</a> 
-<script>
-!function(d,s,id){
-var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-if(!d.getElementById(id)){
-js=d.createElement(s);
-js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
-fjs.parentNode.insertBefore(js,fjs);
-}}(document,"script","twitter-wjs");
-</script>											
-</div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
--->
-				<!--CONTENEDOR WEB--------------------------------------------------------->
-				<div id="web" class="section scrollspy">
-					<div class="parallax-container valign-wrapper">
-						<div class="parallax">
-							<img src="imgs/spider.jpg" />							
-						</div>
-						<div class="container center valign">
-							<h1 class="thin white-text">WEB</h1>
-						</div>
-					</div>
-					<!--	CONTENEDOR WEB----------------------------------------------------------->
-					<div class="blue-grey darken-4 fondomargen">
-						<div class="container extrapad-arriba extrapad-abajo">
-							<div class="row">								
-								<div class="col l4 s12 center">	
-									<div class="card blue-grey darken-2">
-										<div class="card-image">
-											<img src="imgs/code.jpg">
-											<span class="card-title"><i class="material-icons tiny">web</i>
-												DESARROLLO WEB</span>
-										</div>
-										<div class="card-content">
-											<p class="light grey-text text-lighten-1">
-												Con arquitectura MVC y Diseño WEB responsive para adaptarse en smartphones y tablets, incluyendo
-												el diseño <a class="cyan-text text-accent-1" target="_blank" href="https://www.google.com/design/spec/material-design/introduction.html">Material</a> de Google.
-											</p>
-										</div>										
-									</div>									
-								</div>
-								<div class="col l4 s12 center">
-									<div class="card blue-grey darken-2">
-										<div class="card-image">
-											<img src="imgs/contenido.jpg">
-											<span class="card-title black-text"><i class="material-icons tiny">edit</i>
-												CONTENIDOS</span>
-										</div>
-										<div class="card-content">
-											<p class="light grey-text text-lighten-1">
-												Creación, edición y desarrollo de contenido textual y digital para ser incluido en proyectos WEB. Selección y organización para los contenidos visualizados en sitios WEB.
-											</p>
-										</div>										
-									</div>									
-								</div>
-								<div class="col l4 s12 center">
-									<div class="card blue-grey darken-2">
-										<div class="card-image">
-											<img src="imgs/cm.jpg">
-											<span class="card-title black-text"><i class="material-icons tiny">assessment</i>
-												SMM &amp; CM</span>
-										</div>
-										<div class="card-content">
-											<p class="light grey-text text-lighten-1">
-												Desarrollo de contenidos y actividad para el impulso de Redes Sociales. Search Engine Optimization (SEO) y Search Engine Marketing.
-											</p>
-										</div>										
-									</div>										
-								</div>
-							</div>
-
-							<!--POPOUT WEB------------------------------------------------------------------>
-							<ul class="collapsible popout" data-collapsible="accordion">
-								<li class="bordes">
-									<div class="collapsible-header transparent z-depth-3">
-										<i class="material-icons">code</i>WEB
-									</div>
-									<div class="collapsible-body blue-grey darken-1 hide-on-small-only">																
-										<!--DESKTOP-------------------------------------------------------------->
-										<div class="row valign-wrapper hide-on-med-and-down">
-											<div class="col l4 s12 valign">
-												<h6 class="white-text">HTML <span class="light">80%</span></h6>
-												<div class="progress lighten-4 z-depth-1">
-													<div class="determinate cyan" style="width: 80%"></div>
-												</div>
-												<h6 class="white-text">CSS <span class="light">70%</span></h6>
-												<div class="progress lighten-4 z-depth-1">
-													<div class="determinate cyan" style="width: 70%"></div>
-												</div>
-												<h6 class="white-text">JS &amp; JQUERY <span class="light">60%</span></h6>
-												<div class="progress lighten-4 z-depth-1">
-													<div class="determinate cyan" style="width: 60%"></div>
-												</div>
-											</div>
-											<div class="col l3 s12 valign hide-on-small-only center">
-												<img src="imgs/web.png" class="responsive-img circle">
-											</div>
-											<div class="col s12 l5 valign">
-												<p class="center white-text light">
-													Desarrollador de proyectos WEB
-													<br>
-													(Arquitecura MVC, Resposive &amp; Material Design)												
-												</p>
-											</div>
-										</div>
-
-									</div>
-									<!--MOVIL--------------------------------------------------------------->
-									<div class="collapsible-body blue-grey darken-1 hide-on-large-only">																
-										<div class="col l3 s12 valign center">
-											<img src="imgs/web.png" class="responsive-img circle">
-										</div>
-										<div class="row">
-											<div class="col s12 l5">
-												<p class="center white-text light">
-													Desarrollador de proyectos WEB
-													<br>
-													(Arquitecura MVC, Resposive &amp; Material Design)												
-												</p>
-											</div>
-											<div class="col l4 s12">
-												<h6 class="white-text">HTML <span class="light">80%</span></h6>
-												<div class="progress lighten-4 z-depth-1">
-													<div class="determinate cyan" style="width: 80%"></div>
-												</div>
-												<h6 class="white-text">CSS <span class="light">70%</span></h6>
-												<div class="progress lighten-4 z-depth-1">
-													<div class="determinate cyan" style="width: 70%"></div>
-												</div>
-												<h6 class="white-text">JS &amp; JQUERY <span class="light">60%</span></h6>
-												<div class="progress lighten-4 z-depth-1">
-													<div class="determinate cyan" style="width: 60%"></div>
-												</div>
-											</div>																						
-										</div>
-
-									</div>
-								</li>
-
-							</ul>
-							<!-- FIN POPOUT WEB------------------------------------------------------------------>
-						</div>
-						<div class="container">
-
-						</div>
-					</div>
-					<!--FIN CONTENEDOR WEB----------------------------------------------------------->
 				</div>
-				<!--CONTENEDOR DISEÑO----------------------------------------------------------->		
-				<div id="diseno" class="section scrollspy">
-					<!--	PARALLAX DISEÑO----------------------------------------------------------->
-					<div class="parallax-container valign-wrapper">
-						<div class="parallax">
-							<img src="imgs/comic.jpg">
-						</div>
-						<div class="container center valign">
-							<h1 class="thin white-text">DISEÑO</h1>
-						</div>
+				<section class="container hide-on-large-only">
+					<h1>Algún logo o texto cool</h1>
+					Algun texto más largo aquí, quizás nada porque menos es más, maybe 
+					otro estilo de letra
+					<a href="">See Our Work</a>
+				</section>
+			</section>
+
+			<!------------------INTRO-------------------------------------------->
+			<section class="scrollspy" id="introduction">
+				<div class="row lighten-4 color">					
+					<div class="col l6 s12 no-padd intro-img hide-on-med-and-down">
 					</div>
-					<!--	FIN PARALLAX DISEÑO----------------------------------------------------------->
-					<div class="blue-grey darken-4 fondomargen">
-						<div class="container extrapad-arriba">	
-							<div class="row">
-								<div class="col s12 l12 center">
-									<i class="medium material-icons white-text">gesture</i>
-									<p class="grey-text text-lighten-1 light">
-										Creación y Diseño de soluciones digitales.
-										<br>
-										Elaboración de <b>Marcas y Logotipos</b> empresariales profesionales enfocados a tendencias de diseño actules.
-										<br>
-										Publicidad, banners y cualquier tipo de proyecto de elaboración digital. 
-										<br>
-										Desarrollo de proyectos <b>UI Android / iOS</b>, diseño de interfaz y recursos para desarrollo de apps.
-									</p>
-								</div>
-							</div>
-							<!--POPOUT DISEÑO------------------------------------------------------------------>
-							<ul class="collapsible popout" data-collapsible="accordion">
-								<li class="bordes">
-									<div class="collapsible-header transparent z-depth-3">
-										<i class="material-icons">gesture</i>DISEÑO</div>
-									<div class="collapsible-body blue-grey darken-1 hide-on-small-only">																
-										<!--DESKTOP-------------------------------------------------------------->
-										<div class="row valign-wrapper hide-on-med-and-down">
-											<div class="col l4 s12 valign">
-												<h6 class="light white-text">Corel Draw <span class="thin">90%</span></h6>
-												<div class="progress lighten-4 z-depth-1">
-													<div class="determinate cyan" style="width: 90%"></div>
-												</div>
-												<h6 class="light white-text">Adobe Illustrator <span class="thin">70%</span></h6>
-
-												<div class="progress lighten-4 z-depth-1">
-													<div class="determinate cyan" style="width: 70%"></div>
-												</div>
-											</div>
-											<div class="col l3 s12 valign hide-on-small-only center">
-												<img src="imgs/cuadro.png" class="responsive-img circle">
-											</div>
-											<div class="col s12 l5 valign">
-												<p class="center white-text light">
-													Aprendiendo del diseño a cada trazo y creativo desde que
-													se presenta la oportunidad. 
-													<br>
-													Hacer para Crear para Hacer.
-												</p>
-											</div>
-										</div>
-
-									</div>
-									<!--MOVIL--------------------------------------------------------------->
-									<div class="collapsible-body blue-grey darken-1 hide-on-large-only">																
-										<div class="col l3 s12 valign center">
-											<img src="imgs/cuadro.png" class="responsive-img circle">
-										</div>
-										<div class="row">
-											<div class="col s12 l5">
-												<p class="center white-text light">
-													Aprendiendo del diseño a cada trazo y creativo desde que
-													se presenta la oportunidad.
-													<br>
-													<span class="">Hacer para Crear para Hacer.</span>
-												</p>
-											</div>
-											<div class="col l4 s12">
-												<h6 class="light white-text">Corel Draw <span class="thin">90%</span></h6>
-												<div class="progress lighten-4 z-depth-1">
-													<div class="determinate cyan" style="width: 90%"></div>
-												</div>
-												<h6 class="light white-text">Adobe Illustrator <span class="thin">70%</span></h6>
-
-												<div class="progress lighten-4 z-depth-1">
-													<div class="determinate cyan" style="width: 70%"></div>
-												</div>
-											</div>																						
-										</div>
-
-									</div>
-								</li>
-
-							</ul>
-							<!-- FIN POPOUT DISEÑO------------------------------------------------------------------>
-						</div>
-
+					<div class="col l6 s12 text-card">
+						<div class="text-card-border white-text">
+							<h5>Crear y seguir creando</h5>
+							<p class="thin">
+								Soy Ingeniero de Software con gusto por el diseño, aprendiendo
+								por cada línea de código, por cada trazado y siendo creativo 
+								desde que se presenta la oportunidad
+							</p>
+							<img src="imgs/firma.svg" class="responrive-img">
+						</div>					
 					</div>
-
-					<div class="stage">
-						<div id="SLDR-ONE" class="sldr">
-							<ul class="wrp animate">
-								<li class="elmnt-one"><div class="skew"><div class="wrap"><img class="sldimg" src="imgs/galeria/1.png"></div></div></li>
-								<li class="elmnt-two"><div class="skew"><div class="wrap"><img class="sldimg" src="imgs/galeria/16.png"></div></div></li>
-								<li class="elmnt-three"><div class="skew"><div class="wrap"><img class="sldimg" src="imgs/galeria/18.png"></div></div></li>
-								<li class="elmnt-four"><div class="skew"><div class="wrap"><img class="sldimg" src="imgs/galeria/17.png"></div></div></li>
-								<li class="elmnt-five" style="width:400px !important;"><div class="skew" ><div class="wrap" style="width:400px !important;"><img class="sldimg" src="imgs/galeria/4.png" style="padding-top: 15px;"></div></div></li>
-								<li class="elmnt-six" style="width:400px !important;"><div class="skew" ><div class="wrap" style="width:400px !important;"><img class="sldimg" src="imgs/galeria/6.png" style="padding-top: 30px;"></div></div></li>
-							</ul>
-						</div>
-					</div>
-					<!--inicio portafolio------>					
-					<div class="row blue-grey darken-4 extrapad-abajo">						
-						<div class="container center">
-							<div class="col s12 l12 center">
-								<p class="blue-grey-text text-darken-1">
-									Portafolios completos:
-								</p>
-							</div>
-							<div class="col s12 l4">
-								<a class="waves-effect waves-cyan btn-flat blue-grey-text text-darken-1 tooltipped boton"
-									data-position="top" data-delay="50" data-tooltip="Behance"
-									href="https://www.behance.net/gallery/31323711/Portafolio-LogotiposBanner"
-									target="_blank">Diseño Gr&aacute;fico</a>
-							</div>
-							<div class="col s12 l4">
-								<a class="waves-effect waves-cyan btn-flat blue-grey-text text-darken-1 tooltipped boton"
-									data-position="top" data-delay="50" data-tooltip="Behance WEB"
-									href="https://www.behance.net/gallery/34380963/Web-Development-Responsive-design"
-									target="_blank">Diseño UI WEB</a>
-							</div>
-							<div class="col s12 l4">
-								<a class="waves-effect waves-cyan btn-flat blue-grey-text text-darken-1 tooltipped boton"
-									data-position="top" data-delay="50" data-tooltip="Behance UI Android"
-									href="https://www.behance.net/gallery/36288799/UI-Android-Material-Design"
-									target="_blank">Diseño UI Android</a>
-							</div>						
-						</div>
-						<!--fin portafolio------>
-					</div>
-					<!--FIN CONTENEDOR DISEÑO----------------------------------------------------------->
-				</div>
-				<!--CONTENEDOR ME------------------------------------------------------>
-				<div id="me" class="section scrollspy blue-grey darken-3">
-					<!--	MOVIL ---------------------------------------->
-					<div class="newcontainer hide-on-large-only" style="padding:50px 35px;">
-						<div class="row center">
-							<div class="col s12">
-								<img src="imgs/perfil.png" class="responsive-img circle"/>
-							</div>
-							<div class="col s12">
-								<h4 class="thin white-text" style="margin:20px 0px 5px 0px;
-																			  padding:0px 0px 5px 0px;
-																			  border-bottom:1px solid #607d8b">Carlos Arriaga</h4>
-								<h6 class="light blue-grey-text" style="margin:2px;">Ingeniero de Software</h6>
-								<h6 class="light blue-grey-text" style="margin:2px;">Desarrollo WEB &amp; Apps</h6>
-								<h6 class="light blue-grey-text" style="margin:2px;">Diseño Gráfico / UI / WEB</h6>
-							</div>
-						</div>
-						<div class="row center" style="margin-top:40px;">
-							<a class="waves-effect waves-cyan btn-flat blue-grey-text boton"
-								target="_blank"
-								href="https://about.me/carlos.arriaga">About.me</a>
-						</div>
-					</div>
-					<!--	DESKTOP ---------------------------------------->
-					<div class="newcontainer hide-on-med-and-down" style="padding:50px 35px;">
-						<div class="row center">
-							<div class="col l6 right-align" style="border-right:1px solid #607d8b;
-																				padding: 0px 50px 0px 0px;">
-								<img src="imgs/perfil.png" class="responsive-img circle"/>
-							</div>
-							<div class="col l6 left-align">
-								<h4 class="thin white-text" style="margin:20px 0px 20px 0px;
-																			  padding:0px 0px 0px 40px;">Carlos Arriaga</h4>
-								<h6 class="light blue-grey-text" style="padding: 0px 0px 0px 40px">Ingeniero de Software</h6>
-								<h6 class="light blue-grey-text" style="padding: 0px 0px 0px 40px">Desarrollo WEB &amp; Apps</h6>
-								<h6 class="light blue-grey-text" style="padding: 0px 0px 0px 40px">Diseño Gráfico / UI / WEB</h6>
-							</div>
-						</div>
-						<div class="row center" style="margin-top:40px;">
-							<a class="waves-effect waves-cyan btn-flat blue-grey-text boton"
-								target="_blank"
-								href="https://about.me/carlos.arriaga">About.me</a>
-						</div>
-					</div>
-
 				</div>
 
+				<div class="row">										
+					<div class="col l6 s12 no-padd">
+						<div class="row">
+							<div class="col l6 s12 mini mini-img">									
+							</div>
+							<div class="col l6 s12 mini2 center">
+								<img class="responsive-img" src="imgs/logo-02.svg" width="200px">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col l6 s12 center mini2">
+								<h5 class="light" style="font-size: 1.50rem;">Hacer para Crear para Hacer</h5>
+							</div>
+							<div class="col l6 s12 mini mini-img2">								
+							</div>
+						</div>
+					</div>
+					<div class="col l6 s12 no-padd intro-img2 hide-on-med-and-down">
+					</div>
+				</div>
+			</section>
+			<section class="scrollspy white" id="servicios">
+				<div class="row">
+					<div class="col l12 s12 center grey-text margen-arriba2">
+						<h3 class="thin">Explora nuestros servicios</h3>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row margen-abajo2 margen-arriba bar">
+						<div class="col l4 s12 no-padd">
+							<a href="#web">
+								<div class="card serv-card z-depth-0 black-text center">
+									<div class="card-content padd-arriba padd-abajo">
+										<i class="fa fa-hand-spock-o  fa-3x" style="display:block;"></i>
+										<span class="card-title"><b>Diseño Web</b></span>
+										<p class="center">Larga vida y prosperidad a tu sitio web</p>
+										<p class="light justify">										
+											Olvida las plantilas "Baratas", nosotros creamos tu Sitio web 
+											o Landing page a medida, estilo y diseños profesionales 
+											ajustados a tu marca.
+										</p>
+									</div>							
+								</div>
+							</a>
+						</div>
+						<div class="col l4 s12 no-padd">
+							<a href="#diseno">
+								<div class="card serv-card z-depth-0 black-text center">
+									<div class="card-content padd-arriba padd-abajo">
+										<i class="fa fa-paint-brush fa-3x" style="display:block;"></i>
+										<span class="card-title"><b>Diseño Gráfico</b></span>
+										<p class="center">Que tu negocio resalte!</p>
+										<p class="light justify">
+											Es hora de que tu marca cobre vida, mucha calidad y tendencias 
+											actuales, desde tu logotoipo hasta tu identidad corporativa.
+										</p>
+									</div>							
+								</div>
+							</a>
+						</div>
+						<div class="col l4 s12 no-padd">
+							<a href="#social">
+								<div class="card serv-card z-depth-0 black-text center">
+									<div class="card-content padd-arriba padd-abajo">
+										<i class="fa fa-rocket fa-3x" style="display:block;"></i>
+										<span class="card-title"><b>Redes Sociales</b></span>
+										<p class="center">Estamos listos para tu despegue!</p>
+										<p class="light justify">
+											Impulsamos tu negocio con campañas creativas y estratégicas en
+											redes sociales, te ayudaremos a crecer tu negocio en poco tiempo.
+										</p>
+									</div>							
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
 
-				</main>
-			<!--FOOTER------------------------------------------>
-			<footer class="page-footer blue-grey darken-4 section scrollspy s12" id="contacto" style="margin:0px;">
-				<div class="container center contacto">
-					<h5 class="white-text ftitulo thin">HEY!</h5>
-					<p class="grey-text light" style="text-align: justify;">
-						Always prefer to meet and work with people interested 
-						in create, innovate and develop new technology to enhance our world.
-						<br>
-						So feel free to send me a message to my personal e-mail
-						<a href="mailto:carlos.arriaga@live.com" class="cyan-text text-accent-2">carlos.arriaga@live.com</a>
-					</p>
-					<div class="col s6 l12 center">
-						<p class="grey-text light" >
-							<a target="_blank"href="https://www.behance.net/carlosarriagaj" class="light-blue-text text-accent-2">Bēhance</a> 
-							<a target="_blank"href="https://www.pinterest.com/carlitosarriaga/" class="red-text">Pinterest</a>			
-							<a target="_blank"href="https://open.spotify.com/user/1288872061" class="light-green-text text-accent-4">Spotify</a>
-							<a target="_blank"href="https://github.com/carlosarriaga" class="deep-purple-text text-accent-1">Github</a>
-							<a target="_blank"href="https://sumry.me/carlosarriaga" class="teal-text text-accent-3">Sumry</a>
-							<a target="_blank"href="https://mx.linkedin.com/in/carlosjarriaga" class=" light-blue-text">LinkedIn</a>
+				<div class="row color">
+					<div class="col l12 s12 center margen-abajo2 margen-arriba2 white-text">
+						<h3 class="thin">No ofrecemos servicios, ofrecemos experiencias</h3>
+					</div>
+				</div>
+
+			</section>
+			<!------------------WEB-------------------------------------------->
+			<section class="scrollspy" id="web">
+				<div class="miparallax valign-wrapper hide-on-med-and-down" id="title">
+				</div>
+
+				<div class="row">
+					<div class="col l12 s12 center black-text margen-arriba2">
+						<h3 class="light">Larga vida y prosperidad para tu Sitio Web</h3>
+					</div>
+					<div class="col l12 s12 center text-color2 margen-abajo2">
+						<p class="light">
+							Planeamos, diseñamos y creamos justo a 
+							tu medida para que la medida de tu marca crezca.
+							<br>
+							Te brindamos el mejor producto convirtiendo tus ideas en realidad.
 						</p>
 					</div>
 				</div>
-				<div class="footer-copyright center">
+
+
+				<div class="row padd-abajo2">
+					<div class="col l7 m12 s12 no-padd">
+						<img class="responsive-img" src="imgs/browser.png">
+					</div>
+					<div class="col l5 s12 comercial-padd">
+						<h1 class="more-bold">ESTUDIO</h1>
+						<h1 class="more-light">CREATIVO</h1>
+						<br>
+						<h3 class="no-margin">
+							<b>
+								Algo de responsive
+							</b>
+						</h3>
+						<p class="light justify">
+							La arquitectura de desarrollo que utilizamos permite que tu sitio web
+							se adapte a smartphones y tablets. Alcanzar más dispositivos, más clientes,
+							más ganancias... Tu marca gana!
+						</p>
+					</div>
+				</div>
+
+				<div class="row padd-arriba padd-abajo2">					
+					<div class="col l5 s12 comercial-padd2 left-align">
+						<h3 class="no-margin">
+							<b>
+								Algo de diseño
+							</b>
+						</h3>
+						<p class="light justify">
+							Comercio, Ecología, Medicina, Finanzas, Organizaciones, Exposiciones...
+							<br>
+							Cualquiera que sea el motivo, nosotros nos adaptamos para hacer tu Sitio Web
+							enfocándonos a tu Mercado, tu Marca y Identidad corporativa.
+						</p>
+					</div>
+					<div class="col l7 m12 s12 no-padd">
+						<img class="responsive-img" src="imgs/web.png">
+					</div>
+				</div>				
+
+
+
+				<div class="row black-text padd-arriba padd-abajo2 features">
+					<div class="row">
+						<div class="col s12 l9 offset-l3">
+							<h3 class="no-margin"><b>
+								Proyección.<br>
+								Diseño. Creatividad.
+								</b></h3>
+						</div>
+						<div class="col s12 l5 offset-l3 padd-abajo">
+							<p class="light">
+								Tenemos la creatividad y visión para ofrecerte ventajas
+								competitivas y profesionales y darle el impulso que tu negocio necesita 
+								y que sea un elemento de éxito.
+							</p>
+						</div>
+					</div>					
+					<div class="col l4 s12 center light feature">
+						<i class="material-icons large" style="display:block; padding-bottom:30px;">phonelink</i>
+						Responsive
+					</div>
+					<div class="col l4 s12 center light feature bordes">
+						<i class="material-icons large" style="display:block; padding-bottom:30px;">web</i>
+						Minimalista
+					</div>
+					<div class="col l4 s12 center light feature">
+						<i class="material-icons large" style="display:block; padding-bottom:30px;">style</i>
+						Personalizado
+					</div>
+				</div>
+
+
+
+				<div class="row center margen-arriba">
+
+
+
+					</section>
+				<!----------------------------------DISEÑO----------------------------->
+				<section class="scrollspy" id="diseno">
+					<div class="miparallax4 valign-wrapper" id="title">										
+					</div>
+
+					<div class="row">
+						<div class="col l12 s12 center black-text margen-arriba2">
+							<h3 class="light">Empodera tu marca desde su diseño.</h3>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col l8 offset-l2 s12 center black-text">
+							<p class="light">																
+								Juntos elegiremos la mejor manera de resaltar tu marca, quizás más de una.
+							</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col l8 offset-l2 s12 center black-text">
+							<p class="light">																
+								Somos cerebros creativos
+							</p>
+						</div>
+					</div>
+
+					<div class="row color2 white-text padd-arriba padd-abajo">
+						<div class="container right-align">
+							<div class="col s12 l8 offset-l4">
+								<h3 class="no-margin">
+									<b>
+										CREACIÓN.<br>
+										RE-DISEÑO. VECTORIZAR.
+									</b>
+								</h3>
+							</div>
+							<div class="col s12 l6 offset-l6 padd-abajo">
+								<p class="light">
+									No importa la razón... si es <em>Diseñable</em>, nosotros lo hacemos.
+									Es momento de darle un giro y presencia a tu marca.
+									<br>
+									...y créenos, todo es <em>diseñable</em>
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row padd-arriba padd-abajo">
+						<div class="container">
+							<div class="col s12 l12">
+								<h3 class="no-margin">
+									<b>
+										Tu Marca, de primera
+									</b>
+								</h3>
+							</div>
+							<div class="col s12 l12">
+								<p class="light">
+									Es hora de que seas el <em>Tú</em> que siempre quisiste ser a través de tu Logo, tu Marca.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="row black-text padd-abajo2 features">					
+						<div class="col l4 s12 center light feature">
+							<i class="fa fa-cube fa-4x" style="display:block; padding-bottom:30px;"></i>
+							Basado en Iconos
+						</div>
+						<div class="col l4 s12 center light feature bordes2">
+							<i class="fa fa-rocket fa-4x" style="display:block; padding-bottom:30px;"></i>
+							Basado en Nombre
+						</div>
+						<div class="col l4 s12 center light feature">
+							<i class="fa fa-font fa-4x" style="display:block; padding-bottom:30px;"></i>
+							Basado en Letra
+						</div>
+					</div>
+
+				</section>
+
+				<!----------------------------------SOCIAL----------------------------->
+				<section class="scrollspy" id="social">
+					<div class="miparallax3 valign-wrapper" id="title">										
+					</div>
+
+					<div class="row">
+						<div class="col l12 s12 center black-text margen-arriba2">
+							<h3 class="light">Titulo cool para las redes sociales.</h3>
+						</div>
+					</div>
+
+					<div class="row padd-arriba padd-abajo">
+						<div class="container">
+							<div class="col s12 l12">
+								<h3 class="light">Redes Sociales.</h3>
+							</div>
+							<div class="col s6 l3 mkt-serv">
+								<div>
+									<p><b>TITULO</b></p>
+									<p class="light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+								</div>
+							</div>
+							<div class="col s6 l3 mkt-serv">
+								<div>
+									<p><b>TITULO</b></p>
+									<p class="light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+								</div>
+							</div>
+							<div class="col s6 l3 mkt-serv">
+								<div>
+									<p><b>TITULO</b></p>
+									<p class="light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+								</div>
+							</div>
+							<div class="col s6 l3 mkt-serv">
+								<div>
+									<p><b>TITULO</b></p>
+									<p class="light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</section>
+				<!------------------------------------PROJECTS---------------------------------------->
+				<section class="scrollspy" id="proyetos">
+
+					<div class="miparallax4" id="title">
+						<div class="row light padd-arriba2 padd-abajo white-text">
+
+							<div class="col l3 s6 center">
+								<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
+								<p>Tazas de Café</p>
+								<h3 class="light timer count-title" id="count-number" data-to="923" data-speed="2000"></h3>
+							</div>
+
+							<div class="col l3 s6 center">
+								<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
+								<p>Proyectos</p>
+								<h3 class="light timer count-title" id="count-number" data-to="123" data-speed="1500"></h3>
+							</div>
+
+							<div class="col l3 s6 center padd-arriba-mob">
+								<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
+								<p>Líneas de código</p>
+								<h3 class="light timer count-title" id="count-number" data-to="9754" data-speed="2200"></h3>
+							</div>
+
+							<div class="col l3 s6 center padd-arriba-mob">
+								<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
+								<p>Clientes</p>
+								<h3 class="light timer count-title" id="count-number" data-to="74" data-speed="1500"></h3>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="row color2 padd-abajo2">
+						<div class="col l12 s12 center white-text margen-arriba2 margen-abajo2">
+							<h5 class="thin">Hemos sido afortunados de trabajar con...</h5>
+						</div>
+						<div class="col l2 offset-l1 s6 center black-text marcas">
+							<img src="imgs/marcas/umbrella.svg" class="responsive-img">
+						</div>
+						<div class="col l2 s6 center black-text marcas">
+							<img src="imgs/marcas/ar.svg" class="responsive-img">
+						</div>
+						<div class="col l2 s6 center black-text marcas">
+							<img src="imgs/marcas/umbrella.svg" class="responsive-img">
+						</div>
+						<div class="col l2 s6 center black-text marcas">
+							<img src="imgs/marcas/ar.svg" class="responsive-img">
+						</div>
+						<div class="col l2 s6 center black-text marcas">
+							<img src="imgs/marcas/umbrella.svg" class="responsive-img">
+						</div>
+					</div>
+
+				</section>
+
+
+
+				</main>
+			<!-----------------------FOOTER------------------------------------------>
+			<footer class="page-footer color2 scrollspy" id="contacto">
+				<div class="container">
+					<div class="row">
+						<div class="col s12 l12 center white-text">
+							logo
+						</div>
+					</div>
+					<div class="row">
+						<div class="col l6 s12">
+							<h5 class="white-text">Footer Content</h5>
+							<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+						</div>
+						<div class="col l6 s12">
+							<form class="col s12">
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="first_name2" type="text" class="validate">
+										<label class="active" for="first_name2">First Name</label>
+									</div>									
+								</div>								
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="email" type="email" class="validate">
+										<label for="email">Email</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12">
+										<textarea id="textarea1" class="materialize-textarea"></textarea>
+										<label for="textarea1">Textarea</label>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright darken-4">
 					<div class="container">
-						Todos los derechos reservados © 2015
-						<!--					<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+						© 2014 Copyright Text
+						<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
 					</div>
 				</div>
 			</footer>
-
-			<!--  Scripts-->		
-			<script type="text/javascript">
-				$( window ).load( function() {
-
-					$( '.sldr' ).each( function() {
-						var th = $( this );
-						th.sldr({
-							focalClass    : 'focalPoint',
-							offset        : th.width() / 2,
-							sldrWidth     : 'responsive',
-							nextSlide     : th.nextAll( '.sldr-nav.next:first' ),
-							previousSlide : th.nextAll( '.sldr-nav.prev:first' ),
-							selectors     : th.nextAll( '.selectors:first' ).find( 'li' ),
-							toggle        : th.nextAll( '.captions:first' ).find( 'div' ),
-							sldrInit      : sliderInit,
-							sldrStart     : slideStart,
-							sldrComplete  : slideComplete,
-							sldrLoaded    : sliderLoaded,
-							sldrAuto      : true,
-							sldrTime      : 5000,
-							hasChange     : true
-						});
-					});
-
-				});
-
-				/**
- * Sldr Callbacks
- */
-
-				/**
- * When the sldr is initiated, before the DOM is manipulated
- * @param {object} args the slides, callback, and config of the slider
- * @return null
- */
-				function sliderInit( args ) {
-
-				}
-
-				/**
- * When individual slides are loaded
- * @param {object} args the slides, callback, and config of the slider
- * @return null
- */
-				function slideLoaded( args ) {
-
-				}
-
-				/**
- * When the full slider is loaded, after the DOM is manipulated
- * @param {object} args the slides, callback, and config of the slider
- * @return null
- */
-				function sliderLoaded( args ) {
-
-				}
-
-				/**
- * Before the slides change focal points
- * @param {object} args the slides, callback, and config of the slider
- * @return null
- */
-				function slideStart( args ) {
-
-				}
-
-				/**
- * After the slides are done changing focal points
- * @param {object} args the slides, callback, and config of the slider
- * @return null
- */
-				function slideComplete( args ) {
-
-				}
-			</script>
-
-
-
 
 
 			</body>
 
 		</html>
+
+
+	<script type="text/javascript">
+
+		window.sr = ScrollReveal();
+
+		sr.reveal('.foo', { 
+			distance: '400px', 
+			origin: 'left', 
+			easing: 'ease',
+			reset : false,
+			duration: 1000 });
+
+		sr.reveal('#derecha', { 
+			distance: '400px', 
+			origin: 'right', 
+			easing: 'ease',
+			reset : false,
+			duration: 1000 });
+
+		sr.reveal('.bar', { duration: 2000 });
+
+	</script>
+
+
+	<script src="js/index.js"></script>
