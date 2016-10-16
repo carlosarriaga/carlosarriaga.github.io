@@ -1264,6 +1264,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/video\/hero\/Snapshots\/Busy-People.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244705,
+		"inputAbbreviatedPath": "\/video\/hero\/Snapshots\/Busy-People.jpg",
+		"outputAbbreviatedPath": "\/video\/hero\/Snapshots\/Busy-People.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [

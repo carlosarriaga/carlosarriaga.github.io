@@ -34,7 +34,30 @@
 		<!--		<script src="js/jquery.sldr.js"></script>-->
 		<script src="js/materialize.js"></script>
 		<script src="js/init.js"></script>
+		<script type="text/javascript">
+			function isIE () {
+				var myNav = navigator.userAgent.toLowerCase();
+				return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+			}
 
+			window.isIEOld = isIE() && isIE() < 9;
+			window.isiPad = navigator.userAgent.match(/iPad/i);
+
+			var img = $('.video').data('placeholder'),
+				 video = $('.video').data('video'),
+				 noVideo = $('.video').data('src'),
+				 el = '';
+
+			if($(window).width() > 599 && !isIEOld && !isiPad) {
+				el +=   '<video autoplay loop poster="' + img + '">';
+				el +=       '<source src="' + video + '" type="video/mp4">';
+				el +=   '</video>';
+			} else {
+				el = '<div class="video-element" style="background-image: url(' + noVideo + ')"></div>';
+			}
+
+			$('.video').prepend(el);
+		</script>
 
 		<style type="text/css">
 
@@ -60,21 +83,37 @@
 		</div>
 		<!------------------MAIN-------------------------------------------->
 		<main>
-			<!------------------HERO-------------------------------------------->
-			<section class="hero scrollspy" id="home">
-				<div class="miparallax2 valign-wrapper hide-on-med-and-down" id="title">
-					<div class="row valign hide-on-small-only">
-						<p class="titulo thin white-text">
-							Algo cool
-						</p>							
+			<!------------------HERO-------------------------------------------->			
+			<section class="scrollspy black" id="home">
+				<div class="homepage-hero-module hide-on-med-and-down">
+
+
+
+					<div class="video-container">
+
+
+						<div class="filter"></div>
+						<video autoplay loop class="fillWidth">		
+							<source src="/video/hero/MP4/hero.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+							<source src="/video/hero/WEBM/hero.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+						</video>
+
+						<div class="row center hero-content">
+							<p class="titulo thin white-text">
+								Algo cool
+							</p>							
+						</div>
+
 					</div>
-				</div>
-				<section class="container hide-on-large-only">
+				</div>				
+			</section>
+			<section class="hero-mob hide-on-large-only black white-text">
+				<div class="container center">
 					<h1>Algún logo o texto cool</h1>
 					Algun texto más largo aquí, quizás nada porque menos es más, maybe 
 					otro estilo de letra
 					<a href="">See Our Work</a>
-				</section>
+				</div>
 			</section>
 
 			<!------------------INTRO-------------------------------------------->
@@ -306,7 +345,7 @@
 						</div>
 					</div>
 
-					<div class="row color2 white-text padd-arriba padd-abajo">
+					<div class="row color2 white-text padd-arriba padd-abajo parallaxv">
 						<div class="container right-align">
 							<div class="col s12 l8 offset-l4">
 								<h3 class="no-margin">
@@ -380,26 +419,35 @@
 							</div>
 							<div class="col s6 l3 mkt-serv">
 								<div>
-									<p><b>TITULO</b></p>
-									<p class="light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+									<p><b>GESTIÓN DE REDES SOCIALES</b></p>
+									<p class="light">
+										Preocupate por otra cosa, nosotros nos hacemos cargo! Manejamos tus
+										redes sociales, llegaremos a tus clientes en las diversas plataformas que utilices.
+									</p>
 								</div>
 							</div>
 							<div class="col s6 l3 mkt-serv">
 								<div>
-									<p><b>TITULO</b></p>
-									<p class="light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+									<p><b>CREACIÓN DE CONTENIDO</b></p>
+									<p class="light">
+										Texto, Imágen, Video... Crearemos para ti el contenido que tus clientes quieren ver, contenido atractivo y original en conjunto a tu marca.
+									</p>
 								</div>
 							</div>
 							<div class="col s6 l3 mkt-serv">
 								<div>
-									<p><b>TITULO</b></p>
-									<p class="light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+									<p><b>ATENCIÓN A TUS CLIENTES	</b></p>
+									<p class="light">
+										Tus clientes son importantes así que los cuidaremos y atenderemos como merecen a través de tus medios sociales. 
+									</p>
 								</div>
 							</div>
 							<div class="col s6 l3 mkt-serv">
 								<div>
-									<p><b>TITULO</b></p>
-									<p class="light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+									<p><b>ANÁLISIS DE RESULTADOS</b></p>
+									<p class="light">
+										Sólo buscamos impulsar tu marca, encontrando mejores estratégias para llegar a tus clientes y atraer aún más. Interpretamos y estudiamos las estadísticas de tus redes sociales.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -515,7 +563,7 @@
 
 		</html>
 
-
+	<!--hero-->
 	<script type="text/javascript">
 
 		window.sr = ScrollReveal();
