@@ -1037,6 +1037,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/parallax9blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.17787e+06,
+		"inputAbbreviatedPath": "\/imgs\/parallax9blur.png",
+		"outputAbbreviatedPath": "\/imgs\/parallax9blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/parallaxmob.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

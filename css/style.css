@@ -4,28 +4,25 @@ body{
 }
 
 form {
-    font-size: 24px;
-    padding: 10px;
-    
-    color: white;
-    text-shadow: 0px 0px 0px #fff;
-    -webkit-text-fill-color: transparent;
+	font-size: 24px;
+	padding: 10px;
+
+	color: white;
+	text-shadow: 0px 0px 0px #fff;
+	-webkit-text-fill-color: transparent;
 }
 
 
 form::-webkit-input-placeholder{
-    color:
-    text-shadow: none;
-    -webkit-text-fill-color: initial;
+	color:
+		text-shadow: none;
+	-webkit-text-fill-color: initial;
 }
 
 p{
 	font-size: 1.2em !important;
 }
 
-footer .container{
-	height: 500px !important;
-}
 
 .panel {
 	height: 100%;
@@ -78,60 +75,82 @@ nav div{
 }
 
 .no-margin{
-	margin: 0px;
+	margin: 0px !important;
+}
+/*
+vw ->with 
+vh-> height
+*/
+.screenFiller {
+	height: 100vh;
 }
 
+.halfFiller{
+	height: 50vh;
+}
 
+.mobFiller100-50{
+	height: 100vh;
+}
+
+.mobFiller100-auto{
+	height: 100vh;
+}
+
+.mobFiller50-auto{
+	height: 50vh;
+}
 /*--------------------------------------------NAVBAR--------------------------------------*/
 .transparent2 {
 	background-color: rgba(0, 0, 0, 0.14) !important;
 }
 
 /*----------------------------------HERO--------------------------------*/
-.homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
-}
 .no-video .video-container video,
 .touch .video-container video {
-    display: none;
+	display: none;
 }
+
 .no-video .video-container .poster,
 .touch .video-container .poster {
-    display: block !important;
+	display: block !important;
 }
+
 .video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
+	position: relative;
+	bottom: 0%;
+	left: 0%;
+	height: inherit;
+	width: inherit;
+	overflow: hidden;
+	background: #000;
 }
 .video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
 }
 .video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
+	z-index: 100;
+	position: absolute;
+	/*	background: rgba(0, 0, 0, 0.4);*/
+	height: 100vw;
 }
 .video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
+	position: absolute;
+	z-index: 0;
+	bottom: 0;
 }
 .video-container video.fillWidth {
-    width: 100%;
+	width: 100vw !important;
 }
 /*---*/
 .hero-content{
 	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
 }
 
 .hero-mob{
@@ -336,8 +355,32 @@ nav div{
 	border-right: 2px solid #d6d6d6;
 }
 
-/*-----------------------------------------MKT-----------------------------------------*/
-.mkt-serv{
+/*-----------------------------------------SOCIAL-----------------------------------------*/
+.social-serv{
+	-webkit-transition: background-color 0.7s !important; /* Safari */
+	transition: background-color 0.7s !important;
+	padding: 20px 30px 0px 30px !important;
+/*	text-align: justify !important;*/
+}
+
+.social-serv:hover{
+	background-color: rgba(54, 215, 182, 0.7);
+}
+
+.social-serv2{
+	-webkit-transition: background-color 0.7 s !important; /* Safari */
+	transition: background-color 0.7s !important;
+	padding: 20px 30px 0px 30px !important;
+/*	text-align: justify !important;*/
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.social-serv2:hover{
+	background-color: rgba(54, 215, 182, 0.7);
+}
+
+
+}.mkt-serv{
 	padding: 5px !important;
 }
 
@@ -348,6 +391,25 @@ nav div{
 /*---------------------------------------PROYECTOS-------------------------------------*/
 .marcas{
 	height: 117px !important;
+}
+
+.team h5, .team p{
+	margin: 3px 0px; !important;
+}
+
+/*----------------------------------FOOTER-------------------------------------*/
+
+
+footer{
+	position: relative;
+}
+
+.footer-copyright{	
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
 /*----------------------CAMBIOS PARA PANTALLAS DE 992PX Y MENORES----------------------------------------*/
@@ -372,6 +434,18 @@ nav div{
 
 	.parallax-container {
 		height: 120px !important;
+	}
+
+	.mobFiller100-50{
+		height: 50vh !important;
+	}
+
+	.mobFiller100-auto{
+		height: none !important;
+	}
+
+	.mobFiller50-auto{
+		height: none !important;
 	}
 
 	/*intro*/
@@ -419,6 +493,7 @@ nav div{
 	.comercial-padd2{
 		padding:30px 30px 0px 30px !important;	
 	}
+
 }
 
 /*----------------------CAMBIOS PARA PANTALLAS DE 600PX Y MENORES----------------------------------------*/
@@ -483,16 +558,30 @@ nav div{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	min-height: 350px;
+
 	/*	max-height: 351px !important;*/
 }
 
-.titulo{	
-	/*	margin: 0.67em 0;*/
-	color: #fff;
-	font-size: 80px !important;
-	text-align: center;
-	font-weight: 100;
+.parallaxSocial {	
+	background: url('/imgs/parallax9blur.png') no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoContacto {	
+	background: url('/imgs/parallax3.jpg') no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.logo{	
+	padding: 130px 0px 0px 0px !important;
 }
 
 .miparallax {
@@ -511,7 +600,7 @@ nav div{
 }
 
 .parallaxv {
-	
+
 	background: url('/imgs/logotrazo-03.svg') no-repeat left bottom;	
 	-webkit-background-size: 50%;
 	-moz-background-size: 50%;

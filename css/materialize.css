@@ -4971,7 +4971,13 @@ small {
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+/*  background-color: #26a69a;*/
+	background-color: rgba(255, 255, 255, 0);
+/* agregado por Carlos Arriaga	*/
+  border: 2px solid white;
+  -webkit-transition: all 0.7s !important; /* Safari */
+	transition: all 0.7s !important;
+/**/
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
@@ -4979,7 +4985,11 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+  /*background-color: #2bbbad;*/
+  /*agregado por Carlos Arriaga*/
+  border: 2px solid #36d7b6;
+  color: #36d7b6;
+  /**/
 }
 
 .btn-floating {
