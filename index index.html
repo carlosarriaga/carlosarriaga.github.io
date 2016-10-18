@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta property="og:title" content="Carlos Arriaga" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://carlosarriaga.github.io" />
+		<meta property="og:image" content="http://carlosarriaga.github.io/imgs/bannerfb.jpg" />
+		<meta property="og:description" content="Software Enginner / UI Android Designer / WEB Developer"/>
+		<meta property="og:image:width" content="300" />
+		<meta property="og:image:height" content="300" />
+
+
+		<title>Carlos Arriaga</title>
+		<meta charset="utf-8">
+		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+
+		<!--Import Google Icon Font-->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<!--				<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>-->
+		<!--website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+		<!--		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">-->
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+
+		<!--		<script src="js/jquery-1.10.2.min.js"></script>-->
+		<!--		<script src="js/jquery.sldr.js"></script>-->
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+		<script type="text/javascript">
+			function isIE () {
+				var myNav = navigator.userAgent.toLowerCase();
+				return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+			}
+
+			window.isIEOld = isIE() && isIE() < 9;
+			window.isiPad = navigator.userAgent.match(/iPad/i);
+
+			var img = $('.video').data('placeholder'),
+				 video = $('.video').data('video'),
+				 noVideo = $('.video').data('src'),
+				 el = '';
+
+			if($(window).width() > 599 && !isIEOld && !isiPad) {
+				el +=   '<video autoplay loop poster="' + img + '">';
+				el +=       '<source src="' + video + '" type="video/mp4">';
+				el +=   '</video>';
+			} else {
+				el = '<div class="video-element" style="background-image: url(' + noVideo + ')"></div>';
+			}
+
+			$('.video').prepend(el);
+		</script>
+
+		<style type="text/css">
+
+
+		</style>
+	</head>
+
+	<body>
+		<!------------------NAVBAR-------------------------------------------->
+		<div class="navbar-fixed ">
+			<nav class="transparent2">
+				<div class="nav-wrapper">
+					<a href="#introduction" class="brand-logo hide-on-large-only">
+						<img src="imgs/logo-06.svg" class="responsive-img" width="30px">
+					</a>
+					<ul class="right hide-on-med-and-down table-of-contents">
+						<li><a href="#introduction">SOMOS</a></li>
+						<li><a href="#web">WEB</a></li>
+						<li><a href="#diseno">DISEÑO</a></li>
+						<li><a href="#social">SOCIAL</a></li>
+						<li><a href="#contacto">CONTACTO</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!------------------MAIN-------------------------------------------->
+		<main>
+			<!------------------HERO-------------------------------------------->			
+			<section class="scrollspy black hide-on-med-and-down" id="home">
+
+				<div class="video-container screenFiller">
+					<div class="filter"></div>
+					<video autoplay loop class="fillWidth">		
+						<source src="/video/hero/MP4/hero.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+						<source src="/video/hero/WEBM/hero.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+					</video>
+
+					<div class="row center hero-content logo white-text">						
+						<img src="imgs/logo-06.svg" class="responsive-img">
+						<h1 class="more-bold">NOMBRE COOL</h1>
+					</div>
+				</div>
+
+			</section>
+			<section class="hero-mob hide-on-large-only black white-text">
+				<div class="container center">
+					<img src="imgs/logo-06.svg" class="responsive-img" width="250px">
+					<h3>Algún logo o texto cool</h3>					
+				</div>
+			</section>
+
+			<!------------------INTRO-------------------------------------------->
+			<section class="scrollspy" id="introduction">
+
+				<div class="row padd-arriba2 padd-abajo2 screenFiller">
+					<div class="container center">
+						<div class="col s12 l12">
+							<h3>
+								<b>HOLA</b>
+							</h3>
+						</div>
+						<div class="col s12 l12">
+							<h4 class="light">
+								Somos la Agencia Creativa de Diseño enfocadas en encontar nuevas
+								y significativas maneras de hacer crecer a las empresas, de cualquier tamaño, 
+								en el mundo digital
+							</h4>
+						</div>
+					</div>
+
+
+					<div class="row padd-arriba">
+						<div class="container center">
+							<div class="col s12 l4">
+								una opcion here
+							</div>
+							<div class="col s12 l4">
+								otra here
+							</div>
+							<div class="col s12 l4">
+								y then otra here
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row lighten-4 color">					
+					<div class="col l6 s12 no-padd intro-img hide-on-med-and-down">
+					</div>
+					<div class="col l6 s12 text-card">
+						<div class="text-card-border white-text">
+							<h5>Crear y seguir creando</h5>
+							<p class="thin">
+								Soy Ingeniero de Software con gusto por el diseño, aprendiendo
+								por cada línea de código, por cada trazado y siendo creativo 
+								desde que se presenta la oportunidad
+							</p>
+							<img src="imgs/firma.svg" class="responrive-img">
+						</div>					
+					</div>
+				</div>
+
+				<div class="row">										
+					<div class="col l6 s12 no-padd">
+						<div class="row">
+							<div class="col l6 s12 mini mini-img">									
+							</div>
+							<div class="col l6 s12 mini2 center">
+								<img class="responsive-img" src="imgs/logo-02.svg" width="200px">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col l6 s12 center mini2">
+								<h5 class="light" style="font-size: 1.50rem;">Hacer para Crear para Hacer</h5>
+							</div>
+							<div class="col l6 s12 mini mini-img2">								
+							</div>
+						</div>
+					</div>
+					<div class="col l6 s12 no-padd intro-img2 hide-on-med-and-down">
+					</div>
+				</div>
+			</section>
+			<section class="scrollspy white" id="servicios">
+				<div class="row">
+					<div class="col l12 s12 center grey-text margen-arriba2">
+						<h3 class="thin">Explora nuestros servicios</h3>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row margen-abajo2 margen-arriba bar">
+						<div class="col l4 s12 no-padd">
+							<a href="#web">
+								<div class="card serv-card z-depth-0 black-text center">
+									<div class="card-content padd-arriba padd-abajo">
+										<i class="fa fa-hand-spock-o  fa-3x" style="display:block;"></i>
+										<span class="card-title"><b>Diseño Web</b></span>
+										<p class="center">Larga vida y prosperidad a tu sitio web</p>
+										<p class="light justify">										
+											Olvida las plantilas "Baratas", nosotros creamos tu Sitio web 
+											o Landing page a medida, estilo y diseños profesionales 
+											ajustados a tu marca.
+										</p>
+									</div>							
+								</div>
+							</a>
+						</div>
+						<div class="col l4 s12 no-padd">
+							<a href="#diseno">
+								<div class="card serv-card z-depth-0 black-text center">
+									<div class="card-content padd-arriba padd-abajo">
+										<i class="fa fa-paint-brush fa-3x" style="display:block;"></i>
+										<span class="card-title"><b>Diseño Gráfico</b></span>
+										<p class="center">Que tu negocio resalte!</p>
+										<p class="light justify">
+											Es hora de que tu marca cobre vida, mucha calidad y tendencias 
+											actuales, desde tu logotoipo hasta tu identidad corporativa.
+										</p>
+									</div>							
+								</div>
+							</a>
+						</div>
+						<div class="col l4 s12 no-padd">
+							<a href="#social">
+								<div class="card serv-card z-depth-0 black-text center">
+									<div class="card-content padd-arriba padd-abajo">
+										<i class="fa fa-rocket fa-3x" style="display:block;"></i>
+										<span class="card-title"><b>Redes Sociales</b></span>
+										<p class="center">Estamos listos para tu despegue!</p>
+										<p class="light justify">
+											Impulsamos tu negocio con campañas creativas y estratégicas en
+											redes sociales, te ayudaremos a crecer tu negocio en poco tiempo.
+										</p>
+									</div>							
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row color">
+					<div class="col l12 s12 center margen-abajo2 margen-arriba2 white-text">
+						<h3 class="thin">No ofrecemos servicios, ofrecemos experiencias</h3>
+					</div>
+				</div>
+
+			</section>
+			<!------------------WEB-------------------------------------------->
+			<section class="scrollspy" id="web">
+				<div class="miparallax valign-wrapper hide-on-med-and-down" id="title">
+				</div>
+
+				<div class="row">
+					<div class="col l12 s12 center black-text margen-arriba2">
+						<h3 class="light">Larga vida y prosperidad para tu Sitio Web</h3>
+					</div>
+					<div class="col l12 s12 center text-color2 margen-abajo2">
+						<p class="light">
+							Planeamos, diseñamos y creamos justo a 
+							tu medida para que la medida de tu marca crezca.
+							<br>
+							Te brindamos el mejor producto convirtiendo tus ideas en realidad.
+						</p>
+					</div>
+				</div>
+
+
+				<div class="row padd-abajo2">
+					<div class="col l7 m12 s12 no-padd">
+						<img class="responsive-img" src="imgs/browser.png">
+					</div>
+					<div class="col l5 s12 comercial-padd">
+						<h1 class="more-bold">ESTUDIO</h1>
+						<h1 class="more-light">CREATIVO</h1>
+						<br>
+						<h3 class="no-margin">
+							<b>
+								Algo de responsive
+							</b>
+						</h3>
+						<p class="light justify">
+							La arquitectura de desarrollo que utilizamos permite que tu sitio web
+							se adapte a smartphones y tablets. Alcanzar más dispositivos, más clientes,
+							más ganancias... Tu marca gana!
+						</p>
+					</div>
+				</div>
+
+				<div class="row padd-arriba padd-abajo2">					
+					<div class="col l5 s12 comercial-padd2 left-align">
+						<h3 class="no-margin">
+							<b>
+								Algo de diseño
+							</b>
+						</h3>
+						<p class="light justify">
+							Comercio, Ecología, Medicina, Finanzas, Organizaciones, Exposiciones...
+							<br>
+							Cualquiera que sea el motivo, nosotros nos adaptamos para hacer tu Sitio Web
+							enfocándonos a tu Mercado, tu Marca y Identidad corporativa.
+						</p>
+					</div>
+					<div class="col l7 m12 s12 no-padd">
+						<img class="responsive-img" src="imgs/web.png">
+					</div>
+				</div>				
+
+
+
+				<div class="row black-text padd-arriba padd-abajo2 features">
+					<div class="row">
+						<div class="col s12 l9 offset-l3">
+							<h3 class="no-margin"><b>
+								Proyección.<br>
+								Diseño. Creatividad.
+								</b></h3>
+						</div>
+						<div class="col s12 l5 offset-l3 padd-abajo">
+							<p class="light">
+								Tenemos la creatividad y visión para ofrecerte ventajas
+								competitivas y profesionales y darle el impulso que tu negocio necesita 
+								y que sea un elemento de éxito.
+							</p>
+						</div>
+					</div>					
+					<div class="col l4 s12 center light feature">
+						<i class="material-icons large" style="display:block; padding-bottom:30px;">phonelink</i>
+						Responsive
+					</div>
+					<div class="col l4 s12 center light feature bordes">
+						<i class="material-icons large" style="display:block; padding-bottom:30px;">web</i>
+						Minimalista
+					</div>
+					<div class="col l4 s12 center light feature">
+						<i class="material-icons large" style="display:block; padding-bottom:30px;">style</i>
+						Personalizado
+					</div>
+				</div>
+
+
+
+
+
+			</section>
+			<!----------------------------------DISEÑO----------------------------->
+			<section class="scrollspy" id="diseno">
+				<div class="miparallax4 valign-wrapper" id="title">										
+				</div>
+
+				<div class="row">
+					<div class="col l12 s12 center black-text margen-arriba2">
+						<h3 class="light">Empodera tu marca desde su diseño.</h3>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col l8 offset-l2 s12 center black-text">
+						<p class="light">																
+							Juntos elegiremos la mejor manera de resaltar tu marca, quizás más de una.
+						</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col l8 offset-l2 s12 center black-text">
+						<p class="light">																
+							Somos cerebros creativos
+						</p>
+					</div>
+				</div>
+
+				<div class="row color2 white-text padd-arriba padd-abajo parallaxv">
+					<div class="container right-align">
+						<div class="col s12 l8 offset-l4">
+							<h3 class="no-margin">
+								<b>
+									CREACIÓN.<br>
+									RE-DISEÑO. VECTORIZAR.
+								</b>
+							</h3>
+						</div>
+						<div class="col s12 l6 offset-l6 padd-abajo">
+							<p class="light">
+								No importa la razón... si es <em>Diseñable</em>, nosotros lo hacemos.
+								Es momento de darle un giro y presencia a tu marca.
+								<br>
+								...y créenos, todo es <em>diseñable</em>
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row padd-arriba padd-abajo">
+					<div class="container">
+						<div class="col s12 l12">
+							<h3 class="no-margin">
+								<b>
+									Tu Marca, de primera
+								</b>
+							</h3>
+						</div>
+						<div class="col s12 l12">
+							<p class="light">
+								Es hora de que seas el <em>Tú</em> que siempre quisiste ser a través de tu Logo, tu Marca.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row black-text padd-abajo2 features">					
+					<div class="col l4 s12 center light feature">
+						<i class="fa fa-cube fa-4x" style="display:block; padding-bottom:30px;"></i>
+						Basado en Iconos
+					</div>
+					<div class="col l4 s12 center light feature bordes2">
+						<i class="fa fa-rocket fa-4x" style="display:block; padding-bottom:30px;"></i>
+						Basado en Nombre
+					</div>
+					<div class="col l4 s12 center light feature">
+						<i class="fa fa-font fa-4x" style="display:block; padding-bottom:30px;"></i>
+						Basado en Letra
+					</div>
+				</div>
+
+			</section>
+
+			<!----------------------------------SOCIAL----------------------------->
+			<section class="scrollspy" id="social">
+				<div class="miparallax3 valign-wrapper" id="title">										
+				</div>
+
+				<div class="row">
+					<div class="col l12 s12 center black-text margen-arriba2 margen-abajo2">
+						<h3 class="light">Titulo cool para las redes sociales.</h3>
+					</div>
+				</div>
+
+				<div class="row parallaxSocial white-text">						
+					<div class="col s12 l3 halfFiller social-serv">
+						<h5 class=center><b>GESTIÓN DE REDES SOCIALES</b></h5>
+						<p class="light">
+							Ocúpate por otra cosa, nosotros nos hacemos cargo! Manejamos tus
+							redes sociales, llegaremos a tus clientes en las diversas plataformas que utilices.
+						</p>
+					</div>
+					<div class="col s12 l3 halfFiller social-serv2">
+						<h5 class=center><b>CREACIÓN DE CONTENIDO</b></h5>
+						<p class="light">
+							Texto, Imágen, Video... Crearemos para ti el contenido que tus clientes quieren ver, contenido atractivo y original en conjunto a tu marca.
+						</p>
+					</div>
+					<div class="col s12 l3 halfFiller social-serv">
+						<h5 class=center><b>ATENCIÓN A TUS CLIENTES	</b></h5>
+						<p class="light">
+							Tus clientes son importantes así que los cuidaremos y atenderemos como merecen a través de tus medios sociales. 
+						</p>
+					</div>
+					<div class="col s12 l3 halfFiller social-serv2">
+						<h5 class=center><b>ANÁLISIS DE RESULTADOS</b></h5>
+						<p class="light">
+							Sólo buscamos impulsar tu marca, encontrando mejores estratégias para llegar a tus clientes y atraer aún más. Interpretamos y estudiamos las estadísticas de tus redes sociales.
+						</p>
+					</div>
+					<div class="col s12 l3 social-serv2 hide-on-small-only"></div>
+					<div class="col s12 l3 social-serv hide-on-small-only"></div>
+					<div class="col s12 l3 social-serv2 hide-on-small-only"></div>
+					<div class="col s12 l3 social-serv hide-on-small-only"></div>
+
+				</div>
+
+				<div class="row padd-arriba padd-abajo">
+					<div class="container">
+						<div class="col s12 l12">
+							<h3 class="light">Redes Sociales.</h3>
+						</div>
+						<div class="col s6 l3 mkt-serv">
+							<div>
+								<p><b>GESTIÓN DE REDES SOCIALES</b></p>
+								<p class="light">
+									Ocúpate por otra cosa, nosotros nos hacemos cargo! Manejamos tus
+									redes sociales, llegaremos a tus clientes en las diversas plataformas que utilices.
+								</p>
+							</div>
+						</div>
+						<div class="col s6 l3 mkt-serv">
+							<div>
+								<p><b>CREACIÓN DE CONTENIDO</b></p>
+								<p class="light">
+									Texto, Imágen, Video... Crearemos para ti el contenido que tus clientes quieren ver, contenido atractivo y original en conjunto a tu marca.
+								</p>
+							</div>
+						</div>
+						<div class="col s6 l3 mkt-serv">
+							<div>
+								<p><b>ATENCIÓN A TUS CLIENTES	</b></p>
+								<p class="light">
+									Tus clientes son importantes así que los cuidaremos y atenderemos como merecen a través de tus medios sociales. 
+								</p>
+							</div>
+						</div>
+						<div class="col s6 l3 mkt-serv">
+							<div>
+								<p><b>ANÁLISIS DE RESULTADOS</b></p>
+								<p class="light">
+									Sólo buscamos impulsar tu marca, encontrando mejores estratégias para llegar a tus clientes y atraer aún más. Interpretamos y estudiamos las estadísticas de tus redes sociales.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row fondoContacto white-text padd-arriba padd-abajo">
+					<div class="container">
+						<div class="col s12 l8">
+							<h5 class="light">NOS ENCANTARÁ SABER SOBRE TU PROYECTO</h5>
+						</div>
+						<div class="col s12 l4">
+							<a class=" btn-large z-depth-0">Contáctanos</a>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!------------------------------------PROJECTS---------------------------------------->
+			<section class="scrollspy" id="proyetos">
+
+				<div class="miparallax4" id="title">
+					<div class="row light padd-arriba2 padd-abajo white-text">
+
+						<div class="col l3 s6 center">
+							<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
+							<p>Tazas de Café</p>
+							<h3 class="light timer count-title" id="count-number" data-to="923" data-speed="2000"></h3>
+						</div>
+
+						<div class="col l3 s6 center">
+							<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
+							<p>Proyectos</p>
+							<h3 class="light timer count-title" id="count-number" data-to="123" data-speed="1500"></h3>
+						</div>
+
+						<div class="col l3 s6 center padd-arriba-mob">
+							<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
+							<p>Líneas de código</p>
+							<h3 class="light timer count-title" id="count-number" data-to="9754" data-speed="2200"></h3>
+						</div>
+
+						<div class="col l3 s6 center padd-arriba-mob">
+							<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
+							<p>Clientes</p>
+							<h3 class="light timer count-title" id="count-number" data-to="74" data-speed="1500"></h3>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="row padd-arriba2 padd-abajo2">
+					<div class="container center">
+						<div class="row padd-abajo">
+							<div class="col s12 l12">
+								<h3 class="light">Da team</h3>
+							</div>
+						</div>
+						<div class="col s12 l4 team padd-arriba">
+							<img src="imgs/cuadro.png" class="responsive-img circle">
+							<h5>NOMBRE</h5>
+							<p>puesto</p>
+						</div>
+
+						<div class="col s12 l4 team padd-arriba">
+							<img src="imgs/cuadro.png" class="responsive-img circle">
+							<h5>NOMBRE</h5>
+							<p>puesto</p>
+						</div>
+
+						<div class="col s12 l4 team padd-arriba">
+							<img src="imgs/cuadro.png" class="responsive-img circle">
+							<h5>NOMBRE</h5>
+							<p>puesto</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row color2 padd-abajo2">
+					<div class="col l12 s12 center white-text margen-arriba2 margen-abajo2">
+						<h5 class="thin">Hemos sido afortunados de trabajar con...</h5>
+					</div>
+					<div class="col l2 offset-l1 s6 center black-text marcas">
+						<img src="imgs/marcas/umbrella.svg" class="responsive-img">
+					</div>
+					<div class="col l2 s6 center black-text marcas">
+						<img src="imgs/marcas/ar.svg" class="responsive-img">
+					</div>
+					<div class="col l2 s6 center black-text marcas">
+						<img src="imgs/marcas/umbrella.svg" class="responsive-img">
+					</div>
+					<div class="col l2 s6 center black-text marcas">
+						<img src="imgs/marcas/ar.svg" class="responsive-img">
+					</div>
+					<div class="col l2 s6 center black-text marcas">
+						<img src="imgs/marcas/umbrella.svg" class="responsive-img">
+					</div>
+				</div>
+
+			</section>
+
+
+
+		</main>
+		<!-----------------------FOOTER------------------------------------------>
+		<footer class="page-footer color2 scrollspy screenFiller no-padd no-margin" id="contacto">
+			<div class="container">
+				<div class="row padd-abajo">
+					<div class="col s12 l12 center white-text">
+						<img src="imgs/logo-06.svg" class="responsive-img" width="80px">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Footer Content</h5>
+						<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+					</div>
+					<div class="col l6 s12">
+						<form class="col s12">
+							<div class="row">
+								<div class="input-field col s12">
+									<input id="first_name2" type="text" class="validate">
+									<label class="active" for="first_name2">First Name</label>
+								</div>									
+							</div>								
+							<div class="row">
+								<div class="input-field col s12">
+									<input id="email" type="email" class="validate">
+									<label for="email">Email</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-field col s12">
+									<textarea id="textarea1" class="materialize-textarea"></textarea>
+									<label for="textarea1">Textarea</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="row center">						
+					© 2014 Copyright Text						
+				</div>
+			</div>
+		</footer>
+
+
+	</body>
+
+</html>
+
+<!--hero-->
+<script type="text/javascript">
+
+	window.sr = ScrollReveal();
+
+	sr.reveal('.foo', { 
+		distance: '400px', 
+		origin: 'left', 
+		easing: 'ease',
+		reset : false,
+		duration: 1000 });
+
+	sr.reveal('#derecha', { 
+		distance: '400px', 
+		origin: 'right', 
+		easing: 'ease',
+		reset : false,
+		duration: 1000 });
+
+	sr.reveal('.bar', { duration: 2000 });
+
+</script>
+
+
+<script src="js/index.js"></script>
