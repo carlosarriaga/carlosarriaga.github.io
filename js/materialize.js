@@ -2029,7 +2029,7 @@ $(document).ready(function(){
         }
         else {
           // Insert as text;
-          toast.innerHTML = html; 
+          toast.innerHTML = html;
         }
         // Bind hammer
         var hammerHandler = new Hammer(toast, {prevent_default: false});
@@ -2607,7 +2607,10 @@ $(document).ready(function(){
 	$.scrollSpy = function(selector, options) {
 	  var defaults = {
 			throttle: 100,
-			scrollOffset: 200 // offset - 200 allows elements near bottom of page to scroll
+      //modificado por Carlos Arriaga
+      //scrollspy
+      //de 200 a 0
+			scrollOffset: 0 // offset - 200 allows elements near bottom of page to scroll
     };
     options = $.extend(defaults, options);
 

@@ -4976,6 +4976,7 @@ small {
 /* agregado por Carlos Arriaga	*/
   border: 2px solid white;
   -webkit-transition: all 0.7s !important; /* Safari */
+  transition-timing-function: ease-in-out;
 	transition: all 0.7s !important;
 /**/
   text-align: center;
@@ -4989,6 +4990,7 @@ small {
   /*agregado por Carlos Arriaga*/
   border: 2px solid #36d7b6;
   color: #36d7b6;
+  background-color: #ffffff;
   /**/
 }
 
@@ -6807,9 +6809,9 @@ input[type=range]:focus::-ms-fill-upper {
 
 .table-of-contents a {
   display: inline-block;
-  font-weight: 300;
-  color: #ffffff;
-  padding-left: 20px;
+  /*font-weight: 300;*/
+  /*color: #ffffff;*/
+  /*padding-left: 20px;*/
   height: 1.5rem;
   line-height: 1.5rem;
   letter-spacing: .4;
@@ -6817,15 +6819,15 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .table-of-contents a:hover {
-  color: #2962ff;
-  padding-left: 19px;
-  border-left: 1px solid #2962ff;
+  /*color: #2962ff;*/
+  /*padding-left: 19px;*/
+  /*border-left: 1px solid #2962ff;*/
 }
 
 .table-of-contents a.active {
-  font-weight: 500;
-  padding-left: 18px;
-  border-left: 2px solid #2962ff;
+  /*font-weight: 500;*/
+  /*padding-left: 18px;*/
+  /*border-left: 2px solid #2962ff;*/
 }
 
 .side-nav {

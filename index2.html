@@ -31,6 +31,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 
 		<!--		<script src="js/jquery-1.10.2.min.js"></script>-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!--		<script src="js/jquery.sldr.js"></script>-->
 		<script src="js/materialize.js"></script>
 		<script src="js/init.js"></script>
@@ -61,28 +62,37 @@
 
 		<style type="text/css">
 
-
 		</style>
 	</head>
 
 	<body>
 		<!------------------NAVBAR-------------------------------------------->
-		<div class="navbar-fixed ">
+
+		<div class="navbar-fixed">
 			<nav class="transparent2">
 				<div class="nav-wrapper">
 					<a href="#introduction" class="brand-logo hide-on-large-only">
 						<img src="imgs/logo-06.svg" class="responsive-img" width="30px">
 					</a>
-					<ul class="right hide-on-med-and-down table-of-contents">
+					<ul class="right hide-on-med-and-down table-of-contents navbar-style">
 						<li><a href="#introduction">SOMOS</a></li>
 						<li><a href="#web">WEB</a></li>
 						<li><a href="#diseno">DISEÑO</a></li>
 						<li><a href="#social">SOCIAL</a></li>
 						<li><a href="#contacto">CONTACTO</a></li>
+						<li><a href="#cafe" class="hide">CAFE</a></li>
 					</ul>
 				</div>
 			</nav>
 		</div>
+		<!----------FAB------------>
+		<!--
+<div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 45px; right: 24px;">
+<a class="btn-floating btn-large red" href="#introduction">
+<i class="material-icons">menu</i>
+</a>			
+</div>
+-->
 		<!------------------MAIN-------------------------------------------->
 		<main>
 			<!------------------HERO-------------------------------------------->			
@@ -102,6 +112,7 @@
 				</div>
 
 			</section>
+
 			<section class="hero-mob hide-on-large-only black white-text">
 				<div class="container center">
 					<img src="imgs/logo-06.svg" class="responsive-img" width="250px">
@@ -110,9 +121,9 @@
 			</section>
 
 			<!------------------INTRO-------------------------------------------->
-			<section class="scrollspy" id="introduction">
+			<section class="scrollspy mobFiller100-auto color2 white-text" id="introduction">
 
-				<div class="row padd-arriba2 padd-abajo2 screenFiller">
+				<div class="row padd-arriba2">
 					<div class="container center">
 						<div class="col s12 l12">
 							<h3>
@@ -121,67 +132,167 @@
 						</div>
 						<div class="col s12 l12">
 							<h4 class="light">
-								Somos la Agencia Creativa de Diseño enfocadas en encontar nuevas
+								Somos la Agencia Creativa de Diseño enfocada en encontar nuevas
 								y significativas maneras de hacer crecer a las empresas, de cualquier tamaño, 
 								en el mundo digital
 							</h4>
 						</div>
 					</div>
-
-
-					<div class="row padd-arriba">
-						<div class="container center">
-							<div class="col s12 l4">
-								una opcion here
-							</div>
-							<div class="col s12 l4">
-								otra here
-							</div>
-							<div class="col s12 l4">
-								y then otra here
-							</div>
-						</div>
-					</div>
-
 				</div>
+				<div class="row padd-arriba2 padd-abajo2">
+					<div class="container center">
 
-				<div class="row lighten-4 color">					
-					<div class="col l6 s12 no-padd intro-img hide-on-med-and-down">
-					</div>
-					<div class="col l6 s12 text-card">
-						<div class="text-card-border white-text">
-							<h5>Crear y seguir creando</h5>
-							<p class="thin">
-								Soy Ingeniero de Software con gusto por el diseño, aprendiendo
-								por cada línea de código, por cada trazado y siendo creativo 
-								desde que se presenta la oportunidad
-							</p>
-							<img src="imgs/firma.svg" class="responrive-img">
-						</div>					
-					</div>
-				</div>
-
-				<div class="row">										
-					<div class="col l6 s12 no-padd">
-						<div class="row">
-							<div class="col l6 s12 mini mini-img">									
+						<div class="col s12 l4">
+							<div class="hover_me">
+								<a href="#process" class="text-color">
+									<i class="fa fa-lightbulb-o fa-4x" aria-hidden="true"></i>
+									<h5>El proceso</h5>
+								</a>
 							</div>
-							<div class="col l6 s12 mini2 center">
-								<img class="responsive-img" src="imgs/logo-02.svg" width="200px">
+							<div class="show_me">
+								Conoce un poco más acerca de nuestro proceso creativo.
 							</div>
 						</div>
-						<div class="row">
-							<div class="col l6 s12 center mini2">
-								<h5 class="light" style="font-size: 1.50rem;">Hacer para Crear para Hacer</h5>
+
+						<div class="col s12 l4">
+							<div class="hover_me">
+								<a href="#experience" class="text-color">
+									<i class="fa fa-lightbulb-o fa-4x" aria-hidden="true"></i>
+									<h5>Nuestro trabajo</h5>
+								</a>
 							</div>
-							<div class="col l6 s12 mini mini-img2">								
-							</div>
+							<div class="show_me">
+								Conoce un poco más acerca de nuestro proceso creativo.
+							</div>													
 						</div>
-					</div>
-					<div class="col l6 s12 no-padd intro-img2 hide-on-med-and-down">
+
+						<div class="col s12 l4 table-of-contents">
+							<div class="hover_me">
+								<a href="#team" class="text-color">
+									<i class="fa fa-lightbulb-o fa-4x" aria-hidden="true"></i>
+									<h5>El equipo</h5>
+								</a>
+							</div>
+							<div class="show_me">
+								Los cientificos locos detrás de esta creatividad.
+							</div>							
+						</div>
+
 					</div>
 				</div>
 			</section>
+			<!----------------------------------PROCESO-------------------------------------->
+			<section class="scrollspy white wallProcess" id="process">
+				<div class="row padd-arriba2 padd-abajo2">
+
+					<ul class="flip-cards">
+						<li ontouchstart="this.classList.toggle('hover');" class="colorFrente white-text">
+							<div class="large button card-front">
+								<span class="flipTitle">Idea</span>
+								<i class="fa fa-lightbulb-o card-icon "></i>
+							</div>
+							<div class="panel card-back">
+								<i class="fa fa-lightbulb-o card-icon"></i>
+								<div class="hub-info white-text">
+									<span class="flipTitle">Idea</span>
+									<p>
+										Nuestro trabajo es entender tu visión, tu mercado y sencillamente idear la mejor forma de llevar a cabo un proyecto integro.
+									</p>
+									<small class="clear">Investigaremos como campeones.</small>
+								</div>
+
+							</div>
+						</li>
+
+						<li ontouchstart="this.classList.toggle('hover');" class="colorFrente2 white-text">
+							<div class="large button card-front">
+								<span class="flipTitle">Diseño</span>
+								<i class="fa fa-pencil-square-o card-icon"></i>
+							</div>
+
+							<div class="panel card-back">
+								<i class="fa fa-pencil-square-o card-icon"></i>
+								<div class="hub-info white-text">
+									<span class="flipTitle">Diseño</span>
+									<p>
+										Usando los cerebros creativos, generamos los planes para tu proyecto de tal manera que se apegue a la escencia de tu Marca, te lo presentamos y juntos colaboramos hasta completar el diseño.
+									</p>
+									<small class="clear">Seguimos calentando motores.</small>
+								</div>									
+							</div>
+						</li>
+
+						<li ontouchstart="this.classList.toggle('hover');" class="colorFrente white-text">
+							<div class="large button card-front">
+								<span class="flipTitle">Código</span>
+								<i class="fa fa-code card-icon "></i>
+							</div>
+							<div class="panel card-back">
+								<i class="fa fa-code card-icon"></i>
+								<div class="hub-info white-text">
+									<span class="flipTitle">Código</span>
+									<p>
+										Esta parte de la magia es puro código, los científicos de inegniería crean soluciones de calidad para ti... BOOM! Magia.
+									</p>
+									<small class="clear">Punto y coma.</small>
+								</div>
+
+							</div>
+						</li>
+
+						<li ontouchstart="this.classList.toggle('hover');" class="colorFrente2 white-text">
+							<div class="large button card-front">
+								<span class="flipTitle">Creatividad</span>
+								<i class="fa fa-paint-brush card-icon"></i>
+							</div>
+
+							<div class="panel card-back">
+								<i class="fa fa-paint-brush card-icon"></i>
+								<div class="hub-info white-text">
+									<span class="flipTitle">Creatividad</span>
+									<p>
+										Genios creativos se dedicarán a crear los diseños gráficos necesarios para el proyecto, llevaremos tu proyecto a otro nivel.
+									</p>
+									<small class="clear">Otro tipo de magia.</small>
+								</div>									
+							</div>
+						</li>
+
+						<li ontouchstart="this.classList.toggle('hover');" class="colorFrente white-text">
+							<div class="large button card-front">
+								<span class=flipTitle>Code</span>
+								<i class="fa fa-code card-icon "></i>
+							</div>
+							<div class="panel card-back">
+								<i class="fa fa-code card-icon"></i>
+								<div class="hub-info white-text">
+									<span class=flipTitle>Code</span>
+									<p>Find coding gists, cheatsheets, plugins, themes, resources, aasdadada dsadadadad adada sd adad and tutorials.</p>
+									<small class="clear">Updated TTH.</small>
+								</div>
+
+							</div>
+						</li>
+
+						<li ontouchstart="this.classList.toggle('hover');" class="colorFrente2 white-text">
+							<div class="large button card-front">
+								<span class=flipTitle>Design</span>
+								<i class="fa fa-pencil-square-o card-icon"></i>
+							</div>
+
+							<div class="panel card-back">
+								<i class="fa fa-pencil-square-o card-icon"></i>
+								<div class="hub-info white-text">
+									<span class=flipTitle>Design</span>
+									<p>Take a look at my graphic design portfolio and contact me for design work.</p>
+									<small class="clear">Updated Saturdays.</small>
+								</div>									
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!----------------------------------SERICIOS-------------------------------------->
 			<section class="scrollspy white" id="servicios">
 				<div class="row">
 					<div class="col l12 s12 center grey-text margen-arriba2">
@@ -238,16 +349,18 @@
 						</div>
 					</div>
 				</div>
+			</section>
 
+
+
+
+			<!------------------WEB-------------------------------------------->
+			<section class="scrollspy" id="web">
 				<div class="row color">
 					<div class="col l12 s12 center margen-abajo2 margen-arriba2 white-text">
 						<h3 class="thin">No ofrecemos servicios, ofrecemos experiencias</h3>
 					</div>
 				</div>
-
-			</section>
-			<!------------------WEB-------------------------------------------->
-			<section class="scrollspy" id="web">
 				<div class="miparallax valign-wrapper hide-on-med-and-down" id="title">
 				</div>
 
@@ -524,9 +637,62 @@
 
 			</section>
 			<!------------------------------------PROJECTS---------------------------------------->
+
+			<section class="scrollspy mobFiller100-auto" id="team">
+				<div class="row padd-arriba2 padd-abajo2">
+					<div class="container center">
+						<div class="row padd-abajo">
+							<div class="col s12 l12">
+								<h3 class="light">Da team</h3>
+							</div>
+						</div>
+						<div class="col s12 l4 team padd-arriba">
+							<img src="imgs/cuadro.png" class="responsive-img circle">
+							<h5>NOMBRE</h5>
+							<p>puesto</p>
+						</div>
+
+						<div class="col s12 l4 team padd-arriba">
+							<img src="imgs/cuadro.png" class="responsive-img circle">
+							<h5>NOMBRE</h5>
+							<p>puesto</p>
+						</div>
+
+						<div class="col s12 l4 team padd-arriba">
+							<img src="imgs/cuadro.png" class="responsive-img circle">
+							<h5>NOMBRE</h5>
+							<p>puesto</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="scrollspy" id="experience">
+				<div class="row color2 padd-abajo2">
+					<div class="col l12 s12 center white-text margen-arriba2 margen-abajo2">
+						<h5 class="thin">Hemos sido afortunados de trabajar con...</h5>
+					</div>
+					<div class="col l2 offset-l1 s6 center black-text marcas">
+						<img src="imgs/marcas/umbrella.svg" class="responsive-img">
+					</div>
+					<div class="col l2 s6 center black-text marcas">
+						<img src="imgs/marcas/ar.svg" class="responsive-img">
+					</div>
+					<div class="col l2 s6 center black-text marcas">
+						<img src="imgs/marcas/umbrella.svg" class="responsive-img">
+					</div>
+					<div class="col l2 s6 center black-text marcas">
+						<img src="imgs/marcas/ar.svg" class="responsive-img">
+					</div>
+					<div class="col l2 s6 center black-text marcas">
+						<img src="imgs/marcas/umbrella.svg" class="responsive-img">
+					</div>
+				</div>
+
+			</section>
+
 			<section class="scrollspy" id="proyetos">
 
-				<div class="miparallax4" id="title">
+				<div class="miparallax4" id="cafe">
 					<div class="row light padd-arriba2 padd-abajo white-text">
 
 						<div class="col l3 s6 center">
@@ -555,58 +721,7 @@
 
 					</div>
 				</div>
-
-				<div class="row padd-arriba2 padd-abajo2">
-					<div class="container center">
-						<div class="row padd-abajo">
-							<div class="col s12 l12">
-								<h3 class="light">Da team</h3>
-							</div>
-						</div>
-						<div class="col s12 l4 team padd-arriba">
-							<img src="imgs/cuadro.png" class="responsive-img circle">
-							<h5>NOMBRE</h5>
-							<p>puesto</p>
-						</div>
-
-						<div class="col s12 l4 team padd-arriba">
-							<img src="imgs/cuadro.png" class="responsive-img circle">
-							<h5>NOMBRE</h5>
-							<p>puesto</p>
-						</div>
-
-						<div class="col s12 l4 team padd-arriba">
-							<img src="imgs/cuadro.png" class="responsive-img circle">
-							<h5>NOMBRE</h5>
-							<p>puesto</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="row color2 padd-abajo2">
-					<div class="col l12 s12 center white-text margen-arriba2 margen-abajo2">
-						<h5 class="thin">Hemos sido afortunados de trabajar con...</h5>
-					</div>
-					<div class="col l2 offset-l1 s6 center black-text marcas">
-						<img src="imgs/marcas/umbrella.svg" class="responsive-img">
-					</div>
-					<div class="col l2 s6 center black-text marcas">
-						<img src="imgs/marcas/ar.svg" class="responsive-img">
-					</div>
-					<div class="col l2 s6 center black-text marcas">
-						<img src="imgs/marcas/umbrella.svg" class="responsive-img">
-					</div>
-					<div class="col l2 s6 center black-text marcas">
-						<img src="imgs/marcas/ar.svg" class="responsive-img">
-					</div>
-					<div class="col l2 s6 center black-text marcas">
-						<img src="imgs/marcas/umbrella.svg" class="responsive-img">
-					</div>
-				</div>
-
 			</section>
-
-
 
 		</main>
 		<!-----------------------FOOTER------------------------------------------>
@@ -614,7 +729,7 @@
 			<div class="container">
 				<div class="row padd-abajo">
 					<div class="col s12 l12 center white-text">
-						<img src="imgs/logo-06.svg" class="responsive-img" width="80px">
+						<img src="imgs/logo-06.svg" class="responsive-img logo-footer" width="80px">
 					</div>
 				</div>
 				<div class="row">
@@ -683,3 +798,9 @@
 
 
 <script src="js/index.js"></script>
+
+<script type="text/javascript">
+
+
+
+</script>

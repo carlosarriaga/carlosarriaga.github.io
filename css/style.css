@@ -20,7 +20,7 @@ form::-webkit-input-placeholder{
 }
 
 p{
-	font-size: 1.2em !important;
+	font-size: 1.1em !important;
 }
 
 
@@ -82,7 +82,7 @@ vw ->with
 vh-> height
 */
 .screenFiller {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .halfFiller{
@@ -90,19 +90,37 @@ vh-> height
 }
 
 .mobFiller100-50{
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .mobFiller100-auto{
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .mobFiller50-auto{
-	height: 50vh;
+	min-height: 50vh;
 }
+
+
 /*--------------------------------------------NAVBAR--------------------------------------*/
 .transparent2 {
 	background-color: rgba(0, 0, 0, 0.14) !important;
+}
+
+.navbar-style a{
+	font-weight: 300;
+	color: #ffffff;
+	padding-left: 20px;
+	-webkit-transition: all 1s !important; /* Safari */
+	transition: all 1s !important;
+}
+
+.navbar-style a:hover{
+	color: #36d7b6;
+}
+
+.navbar-style a.active{
+	color: #36d7b6;
 }
 
 /*----------------------------------HERO--------------------------------*/
@@ -118,12 +136,14 @@ vh-> height
 
 .video-container {
 	position: relative;
+/*
 	bottom: 0%;
 	left: 0%;
-	height: inherit;
-	width: inherit;
-	overflow: hidden;
-	background: #000;
+*/
+/*	height: inherit;*/
+/*	width: inherit;*/
+/*	overflow: hidden;*/
+	background: #1c1f26;
 }
 .video-container .poster img {
 	width: 100%;
@@ -140,6 +160,9 @@ vh-> height
 	position: absolute;
 	z-index: 0;
 	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 .video-container video.fillWidth {
 	width: 100vw !important;
@@ -173,6 +196,52 @@ vh-> height
 }
 
 /*--------------------------------------------INTRO--------------------------------------*/
+
+div {
+	transition: opacity 1s;
+}
+
+.hover_me {
+	cursor:pointer;
+	-webkit-transition: .4s;
+	transition: .4s;
+	display:block;    
+	line-height:30px;
+	text-align:center;
+}
+
+.show_me {
+	opacity: 0;
+}
+
+
+.hover_me:hover + .show_me {
+	color: #ffffff;
+	opacity: 1;
+}
+
+/*
+div.intro-sms {		
+
+padding: 0px 0px 0px 0px;
+display: none;
+}
+
+span.intro{
+min-height: 260px !important;
+-webkit-transition: all 0.5s !important;  Safari 
+transition: all 0.5s !important;
+}
+
+span.intro:hover + div.intro-sms {
+display: block;
+}
+
+span.intro a{
+color: #000000 !important;
+}
+*/
+
 
 .mini{
 	height: 275px !important;
@@ -271,6 +340,206 @@ vh-> height
 	color: #36d7b6 !important;
 }
 
+/*------------------------------------------PROCESS-------------------------------*/
+
+i.card-icon { /* front of card */
+	display: block;
+	margin: 0.5rem auto 0;
+	font-size: 3.5rem;	
+}
+
+/* Card design - front */
+.button.large {
+	margin: 0;
+	padding: 3.25rem;
+}
+
+.flipTitle {
+	color: white;
+	font-size: 2rem;
+	font-weight: 100;
+	margin-top: 2rem;
+}
+
+/* Card design - back */
+/*icon back*/
+.panel i {
+	font-size: 2rem;
+	display: block;
+	float: left;
+	width: 20%;
+	opacity: 0.5;
+	padding: 25px 15px 15px 25px;
+}
+
+.panel small {
+	margin-top: -0.5rem;
+	font-style: italic;
+}
+
+
+
+/* Buttons Card Flipper 
+* Source: http://cssdeck.com/labs/rxcleo5w
+*/
+.flip-cards {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.flip-cards li {
+	float: left;
+	width: 33.3%;
+	min-height: 280px;
+	position: relative;
+}
+
+/*back*/
+.hub-info{
+	padding: 25px 25px;
+}
+
+.card-back .card-icon {
+	font-size: 2rem;	
+	padding: 25px 15px 15px 25px;
+}
+
+/* Button Card Colors */
+/*
+.flip-cards .panel {
+	border: none;
+}
+*/
+
+/* color in cards */
+.flip-cards li.colorFrente > .button {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.flip-cards li.colorFrente > .panel {
+	background-color: rgba(0, 0, 0, .8);	
+}
+
+.flip-cards li.colorFrente2 > .button {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.flip-cards li.colorFrente2 > .panel {
+	background-color: rgba(0, 0, 0, .8);	
+}
+
+
+
+
+/*
+* RESPONSIVENESS -------------------------------------------------
+*/
+@media only screen and ( max-width: 40em ) {
+
+	.flip-cards li {
+		width: 50%;
+		min-height: 280px;
+		/*height: 160px;*/
+	}
+
+	.panel i {
+		padding: 15px 10px 10px 15px;
+	}
+}
+
+@media only screen and ( max-width: 25em ) {
+
+
+	.card-icon {
+		font-size: 1.35rem;
+	}
+	.card-back .card-icon {
+		font-size: 2rem;
+		margin: 0;
+		padding: 20px 20 20px 20px;
+	}
+	.flip-cards li {
+		width: 100%;
+		font-size: 1.35rem;
+		min-height: 220px;
+	}
+	.flip-cards .panel p {
+/*		display: none;	*/
+		font-size: 1rem !important;
+	}
+	.flip-cards .panel small {
+		margin: 0;
+	}
+	.button.large {
+		padding: 2rem;
+	}
+	
+	.panel i {
+		padding: 15px 10px 10px 15px;
+	}
+}
+
+/*transition css*/
+.flip-cards li:hover .card-front {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	-webkit-transform: perspective(1000) rotateY(180deg);
+	-moz-transform: perspective(1000) rotateY(180deg);
+	-ms-transform: perspective(1000) rotateY(180deg);
+	-o-transform: perspective(1000) rotateY(180deg);
+	transform: perspective(1000) rotateY(180deg);
+}
+
+.flip-cards li:hover .card-back {
+	z-index: 950;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transform: perspective(1000) rotateY(0deg);
+	-moz-transform: perspective(1000) rotateY(0deg);
+	-ms-transform: perspective(1000) rotateY(0deg);
+	-o-transform: perspective(1000) rotateY(0deg);
+	transform: perspective(1000) rotateY(0deg);
+}
+
+.flip-cards .card-front,
+.flip-cards .card-back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.6s;
+	-moz-transition: -moz-transform 0.6s;
+	-o-transition: -o-transform 0.6s;
+	transition: transform 0.6s;
+	display: block;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+.flip-cards .card-front {
+	-webkit-transform: perspective(1000) rotateY(0);
+	-moz-transform: perspective(1000) rotateY(0);
+	-ms-transform: perspective(1000) rotateY(0);
+	-o-transform: perspective(1000) rotateY(0);
+	transform: perspective(1000) rotateY(0);
+	z-index: 900;
+}
+
+.flip-cards .card-back {
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	z-index: 800;
+}
 
 /*--------------------------------------------WEB--------------------------------------*/
 
@@ -360,7 +629,7 @@ vh-> height
 	-webkit-transition: background-color 0.7s !important; /* Safari */
 	transition: background-color 0.7s !important;
 	padding: 20px 30px 0px 30px !important;
-/*	text-align: justify !important;*/
+	/*	text-align: justify !important;*/
 }
 
 .social-serv:hover{
@@ -371,7 +640,7 @@ vh-> height
 	-webkit-transition: background-color 0.7 s !important; /* Safari */
 	transition: background-color 0.7s !important;
 	padding: 20px 30px 0px 30px !important;
-/*	text-align: justify !important;*/
+	/*	text-align: justify !important;*/
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -412,6 +681,10 @@ footer{
 	background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
+.logo-footer{
+	padding: 20px 0px;
+}
+
 /*----------------------CAMBIOS PARA PANTALLAS DE 992PX Y MENORES----------------------------------------*/
 @media only screen and (max-width : 992px) {
 	.hero{
@@ -436,17 +709,7 @@ footer{
 		height: 120px !important;
 	}
 
-	.mobFiller100-50{
-		height: 50vh !important;
-	}
 
-	.mobFiller100-auto{
-		height: none !important;
-	}
-
-	.mobFiller50-auto{
-		height: none !important;
-	}
 
 	/*intro*/
 	.margen{
@@ -523,6 +786,18 @@ footer{
 		padding-top: 40px !important;
 	}
 
+	/* fillers	*/
+	.mobFiller100-50{
+		min-height: 50vh !important;
+	}
+
+	.mobFiller100-auto{
+		height: auto !important;
+	}
+
+	.mobFiller50-auto{
+		height: auto !important;
+	}
 }
 
 /*-----------------------------------PARALLAX---------------------------------------------*/
@@ -571,6 +846,15 @@ footer{
 	background-size: cover;
 }
 
+.wallProcess {	
+	background: url('/imgs/parallax10.jpg') no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .fondoContacto {	
 	background: url('/imgs/parallax3.jpg') no-repeat;
 	background-position: center center;
@@ -611,25 +895,6 @@ footer{
 }
 
 /*--------------detalles-----------------------*/
-.detail1{
-	border-top: 2px solid #2962ff;
-}
-
-.detail2{
-	border-left: 2px solid #9e9e9e;
-}
-
-.yellow2{
-
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd65e+0,ffa705+79,ffa705+100 */
-	background: #ffd65e; /* Old browsers */
-	background: -moz-linear-gradient(left,  #ffd65e 0%, #ffa705 79%, #ffa705 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left,  #ffd65e 0%,#ffa705 79%,#ffa705 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right,  #ffd65e 0%,#ffa705 79%,#ffa705 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#ffa705',GradientType=1 ); /* IE6-9 */
-
-}
-
 .color{
 	background-color: #36d7b6 !important;
 }
@@ -638,10 +903,11 @@ footer{
 	color: #36d7b6 !important
 }
 
+.color2{
+	background-color: #1c1f26 !important;
+}
+
 .text-color2{
 	color: #a5a5a5 !important
 }
 
-.color2{
-	background-color: #1c1f26 !important;
-}
