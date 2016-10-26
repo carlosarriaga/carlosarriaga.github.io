@@ -2610,7 +2610,7 @@ $(document).ready(function(){
       //modificado por Carlos Arriaga
       //scrollspy
       //de 200 a 0
-			scrollOffset: 0 // offset - 200 allows elements near bottom of page to scroll
+			scrollOffset: 64 // offset - 200 allows elements near bottom of page to scroll
     };
     options = $.extend(defaults, options);
 

@@ -102,6 +102,45 @@ vh-> height
 }
 
 
+.frase{
+	background: #cecece;
+	color: black;
+	-webkit-transition: all 0.5s !important; /* Safari */
+	transition: all 0.5s !important;
+}
+
+.frase:hover{
+	background: #34ffd5;
+	color: white;
+}
+
+/*------------------------------preloader---------------*/
+#preloader  {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #0e0e24;
+     z-index: 9999;
+    height: 100%;
+ }
+
+#status  {
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     background-image: url(ajax-loader.gif);
+     background-repeat: no-repeat;
+     background-position: center;
+     margin: -100px 0 0 -100px;
+ }
+
+.spinner-color{
+	border-color: #34ffd5;
+}
 /*--------------------------------------------NAVBAR--------------------------------------*/
 .transparent2 {
 	background-color: rgba(0, 0, 0, 0.14) !important;
@@ -116,11 +155,11 @@ vh-> height
 }
 
 .navbar-style a:hover{
-	color: #36d7b6;
+	color: #34ffd5;
 }
 
 .navbar-style a.active{
-	color: #36d7b6;
+	color: #34ffd5;
 }
 
 /*----------------------------------HERO--------------------------------*/
@@ -143,7 +182,7 @@ vh-> height
 	/*	height: inherit;*/
 	/*	width: inherit;*/
 	/*	overflow: hidden;*/
-/*	background: #1c1f26;*/
+	/*	background: #1c1f26;*/
 }
 .video-container .poster img {
 	width: 100%;
@@ -343,7 +382,7 @@ color: #000000 !important;
 
 .serv-card:hover{
 	/*	background-color: #eaeaea !important;*/
-	color: #36d7b6 !important;
+	color: #34ffd5 !important;
 }
 
 /*------------------------------------------PROCESS-------------------------------*/
@@ -351,7 +390,7 @@ color: #000000 !important;
 i.card-icon { /* front of card */
 	display: block;
 	margin: 0.5rem auto 0;
-	font-size: 3.5rem;	
+	font-size: 3rem;	
 }
 
 /* Card design - front */
@@ -369,12 +408,21 @@ i.card-icon { /* front of card */
 
 /* Card design - back */
 /*icon back*/
-.panel i {
-	font-size: 2rem;
+.panel i {	
 	display: block;
 	float: left;
 	width: 20%;
 	opacity: 0.5;
+	padding: 25px 15px 15px 25px;
+}
+
+
+.hub-info{
+	padding: 25px 25px;
+}
+
+.card-back .card-icon {
+	font-size: 2.5rem;	
 	padding: 25px 15px 15px 25px;
 }
 
@@ -401,22 +449,9 @@ i.card-icon { /* front of card */
 	position: relative;
 }
 
-/*back*/
-.hub-info{
-	padding: 25px 25px;
-}
 
-.card-back .card-icon {
-	font-size: 2rem;	
-	padding: 25px 15px 15px 25px;
-}
 
-/* Button Card Colors */
-/*
-.flip-cards .panel {
-border: none;
-}
-*/
+
 
 /* color in cards */
 .flip-cards li.colorFrente > .button {
@@ -624,12 +659,80 @@ border: none;
 	font-weight: 100 !important;
 }
 
+.btn-moreInfo{
+	background-color: rgba(255, 255, 255, 0);
+	border: 2px solid white;
+	color:black;
+}
+
+.btn-moreInfo{
+	background-color: rgba(255, 255, 255, 0);
+	border: 2px solid #a5a5a5;
+	color: #a5a5a5;
+	-webkit-transition: all 0.7s !important; /* Safari */
+  transition-timing-function: ease-in-out;
+	transition: all 0.7s !important;
+/**/
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+
+.btn-moreInfo:hover{
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 2px solid #36d7b6;
+  color: #36d7b6;
+  background-color: #ffffff;
+}
+
 /*-----------------------------------------DISEÑO-----------------------------------------*/
 .bordes2{
 	border-left: 2px solid #d6d6d6;
 	border-right: 2px solid #d6d6d6;
 }
 
+.diagonal{
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+
+.diagonal::after {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: inherit;
+	z-index: -1;
+	bottom: 0;
+	transform-origin: left;
+	-ms-transform-origin: left;
+	-webkit-transform-origin: left;
+	transform: skewY(7deg);
+	-ms-transform: skewY(7deg);
+	-webkit-transform: skewY(7deg);
+}
+
+.diagonal2{
+	height: 400px;
+	width: 100%;
+	position: relative;	
+}
+
+.diagonal2::after {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: inherit;
+	z-index: -1;
+	bottom: 0;
+	transform-origin: left;
+	-ms-transform-origin: left;
+	-webkit-transform-origin: left;
+	transform: skewY(-7deg);
+	-ms-transform: skewY(-7deg);
+	-webkit-transform: skewY(-7deg);
+}
 /*-----------------------------------------SOCIAL-----------------------------------------*/
 .social-serv{
 	-webkit-transition: background-color 0.7s !important; /* Safari */
@@ -904,13 +1007,30 @@ footer{
 	/*	max-height: 351px !important;*/
 }
 
+.blueprint-pat{
+	background-color:#269;
+	background-image: linear-gradient(#2a5372 2px, transparent 2px),
+		linear-gradient(90deg, #2a5372 2px, transparent 2px),
+		linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
+
+.dots-pat{
+	background-color:#fff;
+	background-image: radial-gradient(#34ffd5 3%, transparent 0%);		
+	background-size:80px 80px;
+	background-position: 0 0, 80px 80px;
+}
+
 /*--------------detalles-----------------------*/
 .color{
-	background-color: #36d7b6 !important;
+	background-color: #34ffd5 !important;
 }
 
 .text-color{
-	color: #36d7b6 !important
+	color: #34ffd5 !important
 }
 
 .color2{
@@ -923,11 +1043,11 @@ footer{
 
 .degcolor{
 	background: rgba(28,31,38,1);
-background: -moz-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(28,31,38,1)), color-stop(55%, rgba(38,43,55,1)), color-stop(100%, rgba(47,53,69,1)));
-background: -webkit-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
-background: -o-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
-background: -ms-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
-background: linear-gradient(to right, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1f26', endColorstr='#2f3545', GradientType=1 );
+	background: -moz-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(28,31,38,1)), color-stop(55%, rgba(38,43,55,1)), color-stop(100%, rgba(47,53,69,1)));
+	background: -webkit-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
+	background: -o-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
+	background: -ms-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
+	background: linear-gradient(to right, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1f26', endColorstr='#2f3545', GradientType=1 );
 }
