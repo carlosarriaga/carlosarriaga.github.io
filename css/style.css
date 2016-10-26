@@ -86,7 +86,7 @@ vh-> height
 }
 
 .halfFiller{
-	height: 50vh;
+	min-height: 50vh !important;
 }
 
 .mobFiller100-50{
@@ -692,46 +692,26 @@ i.card-icon { /* front of card */
 	border-right: 2px solid #d6d6d6;
 }
 
-.diagonal{
-	height: 400px;
-	width: 100%;
-	position: relative;
+
+.btn-moreInfo2{
+	background-color: rgba(255, 255, 255, 0);
+	border: 2px solid #a5a5a5;
+	color: #a5a5a5;
+	-webkit-transition: all 0.7s !important; /* Safari */
+  transition-timing-function: ease-in-out;
+	transition: all 0.7s !important;
+/**/
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
 }
 
-.diagonal::after {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	background: inherit;
-	z-index: -1;
-	bottom: 0;
-	transform-origin: left;
-	-ms-transform-origin: left;
-	-webkit-transform-origin: left;
-	transform: skewY(7deg);
-	-ms-transform: skewY(7deg);
-	-webkit-transform: skewY(7deg);
-}
-
-.diagonal2{
-	height: 400px;
-	width: 100%;
-	position: relative;	
-}
-
-.diagonal2::after {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	background: inherit;
-	z-index: -1;
-	bottom: 0;
-	transform-origin: left;
-	-ms-transform-origin: left;
-	-webkit-transform-origin: left;
-	transform: skewY(-7deg);
-	-ms-transform: skewY(-7deg);
-	-webkit-transform: skewY(-7deg);
+.btn-moreInfo2:hover{
+/*	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	border: 2px solid #36d7b6;
+  color: #36d7b6;
+/*  background-color: #ffffff;*/
 }
 /*-----------------------------------------SOCIAL-----------------------------------------*/
 .social-serv{
@@ -769,6 +749,54 @@ i.card-icon { /* front of card */
 /*---------------------------------------PROYECTOS-------------------------------------*/
 .marcas{
 	height: 117px !important;
+}
+
+.marcaUmbrella{
+	background: url('/imgs/marcas/marca-01.svg') no-repeat center center;
+}
+
+.marcaUmbrella:hover{
+	background: url('/imgs/marcas/marca-02.svg') no-repeat center center;
+}
+
+.marcaPinta{
+	background: url('/imgs/marcas/marca-03.svg') no-repeat center center;
+}
+
+.marcaPinta:hover{
+	background: url('/imgs/marcas/marca-04.svg') no-repeat center center;
+}
+
+.marcaAR{
+	background: url('/imgs/marcas/marca-05.svg') no-repeat center center;
+}
+
+.marcaAR:hover{
+	background: url('/imgs/marcas/marca-06.svg') no-repeat center center;
+}
+
+.marcaBio{
+	background: url('/imgs/marcas/marca-07.svg') no-repeat center center;
+}
+
+.marcaBio:hover{
+	background: url('/imgs/marcas/marca-08.svg') no-repeat center center;
+}
+
+.marcaSinver{
+	background: url('/imgs/marcas/marca-09.svg') no-repeat center center;
+}
+
+.marcaSinver:hover{
+	background: url('/imgs/marcas/marca-10.svg') no-repeat center center;
+}
+
+.marcaGui{
+	background: url('/imgs/marcas/marca-11.svg') no-repeat center center;
+}
+
+.marcaGui:hover{
+	background: url('/imgs/marcas/marca-12.svg') no-repeat center center;
 }
 
 .team h5, .team p{
@@ -1029,12 +1057,16 @@ footer{
 	background-color: #34ffd5 !important;
 }
 
-.text-color{
-	color: #34ffd5 !important
-}
-
 .color2{
 	background-color: #1c1f26 !important;
+}
+
+.color3{
+	background-color: #232831 !important;
+}
+
+.text-color{
+	color: #34ffd5 !important
 }
 
 .text-color2{
