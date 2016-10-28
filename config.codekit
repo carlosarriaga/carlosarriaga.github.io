@@ -1092,6 +1092,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/perfil2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55007,
+		"inputAbbreviatedPath": "\/imgs\/perfil2.jpg",
+		"outputAbbreviatedPath": "\/imgs\/perfil2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/redo copia.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1165,6 +1176,39 @@
 		"initialSize": 271444,
 		"inputAbbreviatedPath": "\/imgs\/super.jpg",
 		"outputAbbreviatedPath": "\/imgs\/super.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/wallDiseno-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 145106,
+		"inputAbbreviatedPath": "\/imgs\/wallDiseno-01.png",
+		"outputAbbreviatedPath": "\/imgs\/wallDiseno-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/wallDiseno-02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64134,
+		"inputAbbreviatedPath": "\/imgs\/wallDiseno-02.png",
+		"outputAbbreviatedPath": "\/imgs\/wallDiseno-02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/wallDiseno-03.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234679,
+		"inputAbbreviatedPath": "\/imgs\/wallDiseno-03.png",
+		"outputAbbreviatedPath": "\/imgs\/wallDiseno-03.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

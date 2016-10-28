@@ -116,27 +116,27 @@ vh-> height
 
 /*------------------------------preloader---------------*/
 #preloader  {
-     position: absolute;
-     top: 0;
-     left: 0;
-     right: 0;
-     bottom: 0;
-     background-color: #0e0e24;
-     z-index: 9999;
-    height: 100%;
- }
+	position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #0e0e24;
+	z-index: 9999;
+	height: 100%;
+}
 
 #status  {
-     width: 200px;
-     height: 200px;
-     position: absolute;
-     left: 50%;
-     top: 50%;
-     background-image: url(ajax-loader.gif);
-     background-repeat: no-repeat;
-     background-position: center;
-     margin: -100px 0 0 -100px;
- }
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-image: url(ajax-loader.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+}
 
 .spinner-color{
 	border-color: #34ffd5;
@@ -216,7 +216,7 @@ vh-> height
 }
 
 .hero-mob{
-	background: url('/imgs/parallax.jpg') no-repeat center center;
+	background: url('/video/hero/Snapshots/Busy-People.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -265,29 +265,6 @@ div {
 	opacity: 1;
 }
 
-/*
-div.intro-sms {		
-
-padding: 0px 0px 0px 0px;
-display: none;
-}
-
-span.intro{
-min-height: 260px !important;
--webkit-transition: all 0.5s !important;  Safari 
-transition: all 0.5s !important;
-}
-
-span.intro:hover + div.intro-sms {
-display: block;
-}
-
-span.intro a{
-color: #000000 !important;
-}
-*/
-
-
 .mini{
 	height: 275px !important;
 }
@@ -302,10 +279,6 @@ color: #000000 !important;
 
 .serv-icon{
 	padding: 5px;	
-}
-
-.somos{
-	/*	padding-left: 80px !important;*/
 }
 
 .margen{
@@ -670,20 +643,20 @@ i.card-icon { /* front of card */
 	border: 2px solid #a5a5a5;
 	color: #a5a5a5;
 	-webkit-transition: all 0.7s !important; /* Safari */
-  transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
 	transition: all 0.7s !important;
-/**/
-  text-align: center;
-  letter-spacing: .5px;
-  transition: .2s ease-out;
-  cursor: pointer;
+	/**/
+	text-align: center;
+	letter-spacing: .5px;
+	transition: .2s ease-out;
+	cursor: pointer;
 }
 
 .btn-moreInfo:hover{
 	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border: 2px solid #36d7b6;
-  color: #36d7b6;
-  background-color: #ffffff;
+	color: #36d7b6;
+	background-color: #ffffff;
 }
 
 /*-----------------------------------------DISEÑO-----------------------------------------*/
@@ -692,58 +665,98 @@ i.card-icon { /* front of card */
 	border-right: 2px solid #d6d6d6;
 }
 
-
 .btn-moreInfo2{
 	background-color: rgba(255, 255, 255, 0);
 	border: 2px solid #a5a5a5;
 	color: #a5a5a5;
 	-webkit-transition: all 0.7s !important; /* Safari */
-  transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
 	transition: all 0.7s !important;
-/**/
-  text-align: center;
-  letter-spacing: .5px;
-  transition: .2s ease-out;
-  cursor: pointer;
+	/**/
+	text-align: center;
+	letter-spacing: .5px;
+	transition: .2s ease-out;
+	cursor: pointer;
 }
 
 .btn-moreInfo2:hover{
-/*	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	/*	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 	border: 2px solid #36d7b6;
-  color: #36d7b6;
-/*  background-color: #ffffff;*/
+	color: #36d7b6;
+	background-color: rgba(255, 255, 255, 0.39);
 }
+
+.padd-left{
+	padding-right: 30px !important;
+}
+
+.padd-left p{
+	padding-left:200px;	
+}
+
+padd-right{
+	padding-left: 30px !important;
+}
+
+.padd-right p { 
+	padding-right: 100px;	
+}
+
+.resalta{
+	-webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+}
+
 /*-----------------------------------------SOCIAL-----------------------------------------*/
 .social-serv{
 	-webkit-transition: background-color 0.7s !important; /* Safari */
 	transition: background-color 0.7s !important;
 	padding: 20px 30px 0px 30px !important;
-	/*	text-align: justify !important;*/
+	min-height:300px !important;
 }
 
 .social-serv:hover{
 	background-color: rgba(54, 215, 182, 0.7);
+	-webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
 }
 
 .social-serv2{
 	-webkit-transition: background-color 0.7 s !important; /* Safari */
 	transition: background-color 0.7s !important;
 	padding: 20px 30px 0px 30px !important;
-	/*	text-align: justify !important;*/
 	background-color: rgba(0, 0, 0, 0.3);
+	min-height:300px !important;
 }
 
 .social-serv2:hover{
 	background-color: rgba(54, 215, 182, 0.7);
+	-webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
 }
 
 
-}.mkt-serv{
-	padding: 5px !important;
+.btn-contacto{
+	background-color: rgba(255, 255, 255, 0);
+	border: 2px solid #fff;
+	color: #fff;
+	-webkit-transition: all 0.7s !important; /* Safari */
+	transition-timing-function: ease-in-out;
+	transition: all 0.7s !important;
+	text-align: center;
+	letter-spacing: .5px;
+	transition: .2s ease-out;
+	cursor: pointer;
 }
 
-.mkt-serv div{	
-	border-top: 2px solid #a5a3a3 !important;	
+.btn-contacto:hover{
+	/*	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	border: 2px solid #36d7b6;
+	color: #36d7b6;
+	background-color: rgba(255, 255, 255, 0.39);
 }
 
 /*---------------------------------------PROYECTOS-------------------------------------*/
@@ -761,10 +774,13 @@ i.card-icon { /* front of card */
 
 .marcaPinta{
 	background: url('/imgs/marcas/marca-03.svg') no-repeat center center;
+	background-size: 120px;
 }
 
 .marcaPinta:hover{
 	background: url('/imgs/marcas/marca-04.svg') no-repeat center center;
+	background-size: 120px;
+
 }
 
 .marcaAR{
@@ -777,10 +793,12 @@ i.card-icon { /* front of card */
 
 .marcaBio{
 	background: url('/imgs/marcas/marca-07.svg') no-repeat center center;
+	background-size: 120px;
 }
 
 .marcaBio:hover{
 	background: url('/imgs/marcas/marca-08.svg') no-repeat center center;
+	background-size: 120px;
 }
 
 .marcaSinver{
@@ -937,7 +955,12 @@ footer{
 	}
 
 	.hola{
-		font-size: 3rem;		
+		font-size: 4rem;		
+	}
+
+	.padd-left p{
+		padding-left:30px;
+		padding-bottom: 40px;
 	}
 }
 
@@ -962,8 +985,7 @@ footer{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	min-height: 400px;
-	max-height: 401px !important;
+	min-height: 250px;	
 }
 
 .miparallax4 {
@@ -994,6 +1016,46 @@ footer{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.wallDiseno {	
+	background: url('/imgs/wallDiseno-01.png') no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 450px !important;
+}
+
+.wallDiseno2 {	
+	background: url('/imgs/parallax12.jpg') no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 450px !important;
+}
+
+.wallDiseno3 {	
+	background: url('/imgs/wallDiseno-02.png') no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 450px !important;
+}
+
+.wallDiseno4 {	
+	background: url('/imgs/wallDiseno-03.png') no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 450px !important;
 }
 
 .fondoContacto {	
