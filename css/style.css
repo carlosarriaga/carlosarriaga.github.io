@@ -1,6 +1,6 @@
 body{
 	background-color: #ffffff;
-	font-family: 'Poppins', sans-serif;
+	/*	font-family: 'Poppins', sans-serif;*/
 }
 
 form {
@@ -121,7 +121,7 @@ vh-> height
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #0e0e24;
+	background-color: #003241;
 	z-index: 9999;
 	height: 100%;
 }
@@ -139,11 +139,19 @@ vh-> height
 }
 
 .spinner-color{
-	border-color: #34ffd5;
+	border-color: #ffffff;
 }
 /*--------------------------------------------NAVBAR--------------------------------------*/
+.nav-wrapper2{
+	padding-left: 10% !important;
+}
+
+@media only screen and (min-width: 601px){
+
+}
+
 .transparent2 {
-	background-color: rgba(0, 0, 0, 0.14) !important;
+	background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
 .navbar-style a{
@@ -163,76 +171,7 @@ vh-> height
 }
 
 /*----------------------------------HERO--------------------------------*/
-.no-video .video-container video,
-.touch .video-container video {
-	display: none;
-}
 
-.no-video .video-container .poster,
-.touch .video-container .poster {
-	display: block !important;
-}
-
-.video-container {
-	position: relative;
-	/*
-	bottom: 0%;
-	left: 0%;
-	*/
-	/*	height: inherit;*/
-	/*	width: inherit;*/
-	/*	overflow: hidden;*/
-	/*	background: #1c1f26;*/
-}
-.video-container .poster img {
-	width: 100%;
-	bottom: 0;
-	position: absolute;
-}
-.video-container .filter {
-	z-index: 100;
-	position: absolute;
-	/*	background: rgba(0, 0, 0, 0.4);*/
-	height: 100vw;
-}
-.video-container video {
-	position: absolute;
-	z-index: 0;
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-}
-.video-container video.fillWidth {
-	width: 100vw !important;
-}
-/*---*/
-.hero-content{
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	top: 0;
-}
-
-.hero-mob{
-	background: url('/video/hero/Snapshots/Busy-People.jpg') no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	display: table;
-	width: 100%;
-	min-height: 550px;
-}
-
-.hero-mob .container {
-	display: table-cell;
-	text-align: center;
-	color: white;
-	vertical-align: middle !important;
-	height: 689px
-}
 
 /*--------------------------------------------INTRO--------------------------------------*/
 
@@ -609,7 +548,7 @@ i.card-icon { /* front of card */
 }
 
 .comercial-padd{
-	padding:50px 150px 0px 5px !important;	
+	padding: 0px 150px 0px 5px !important;	
 }
 
 .comercial-padd h1{
@@ -625,11 +564,13 @@ i.card-icon { /* front of card */
 }
 
 .more-bold{
-	font-weight: 600 !important;
+	font-weight: 600 !important;	
+	margin: 0px !important;
 }
 
 .more-light{
 	font-weight: 100 !important;
+	margin: 0px !important;
 }
 
 .btn-moreInfo{
@@ -708,12 +649,24 @@ padd-right{
 	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
 }
 
+.img-logonombre{	
+	/*	display: block;*/
+	padding-bottom: 23px;
+	margin: 0px !important;
+	width: 90px !important;
+}
+
 /*-----------------------------------------SOCIAL-----------------------------------------*/
 .social-serv{
 	-webkit-transition: background-color 0.7s !important; /* Safari */
 	transition: background-color 0.7s !important;
 	padding: 20px 30px 0px 30px !important;
-	min-height:300px !important;
+	min-height:450px !important;
+	padding-top:40px !important;
+}
+
+.social-serv h5{
+	padding-top: 40px;
 }
 
 .social-serv:hover{
@@ -728,7 +681,12 @@ padd-right{
 	transition: background-color 0.7s !important;
 	padding: 20px 30px 0px 30px !important;
 	background-color: rgba(0, 0, 0, 0.3);
-	min-height:300px !important;
+	min-height:450px !important;
+	padding-top:40px !important;
+}
+
+.social-serv2 h5{
+	padding-top: 40px;
 }
 
 .social-serv2:hover{
@@ -741,8 +699,8 @@ padd-right{
 
 .btn-contacto{
 	background-color: rgba(255, 255, 255, 0);
-	border: 2px solid #fff;
-	color: #fff;
+	border: 2px solid #000;
+	color: #000;
 	-webkit-transition: all 0.7s !important; /* Safari */
 	transition-timing-function: ease-in-out;
 	transition: all 0.7s !important;
@@ -754,9 +712,9 @@ padd-right{
 
 .btn-contacto:hover{
 	/*	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-	border: 2px solid #36d7b6;
-	color: #36d7b6;
-	background-color: rgba(255, 255, 255, 0.39);
+	/*	border: 2px solid #36d7b6;*/
+	color: #fff;
+	background-color: #000;
 }
 
 /*---------------------------------------PROYECTOS-------------------------------------*/
@@ -864,6 +822,14 @@ footer{
 		height: 120px !important;
 	}
 
+	nav a.button-collapse {
+		height: 60px;
+		line-height: 19px;
+		margin-top: 12px;
+		font-size: 1.5rem;
+		text-align: center;
+		min-height: 45px;		
+	}
 
 
 	/*intro*/
@@ -899,7 +865,7 @@ footer{
 	}
 
 	.bordes2{
-		padding: 40px 0px 40px 0px !important;
+		padding: 15px 0px 20px 0px !important;
 		border-left: none !important;
 		border-right: none !important;
 	}
@@ -911,11 +877,28 @@ footer{
 	.comercial-padd2{
 		padding:30px 30px 0px 30px !important;	
 	}
+	
+	.wallRocket {
+		-webkit-background-size: 65% !important;
+		-moz-background-size: 65% !important;
+		-o-background-size: 65% !important;
+		background-size: 65% !important;
+	}
 
 }
 
 /*----------------------CAMBIOS PARA PANTALLAS DE 600PX Y MENORES----------------------------------------*/
 @media only screen and (max-width : 600px) {
+
+	nav a.button-collapse {
+		height: 60px;
+		line-height: 19px;
+		margin-top: 10px;
+		font-size: 1.5rem;
+		text-align: center;
+		min-height: 45px;
+	}
+
 	.detail2{
 		border: none !important;
 	}
@@ -927,13 +910,13 @@ footer{
 	}
 
 	.bordes2{
-		padding: 40px 0px 40px 0px !important;
+		padding: 0px 0px 20px 0px !important;
 		border-left: none !important;
 		border-right: none !important;
 	}
 
 	.padd-arriba-mob{
-		padding-top: 50px !important;
+		padding-top: 70px !important;
 	}
 
 	.marcas{
@@ -955,26 +938,53 @@ footer{
 	}
 
 	.hola{
-		font-size: 4rem;		
+		font-size: 5rem;		
 	}
 
 	.padd-left p{
 		padding-left:30px;
 		padding-bottom: 40px;
 	}
+
+	.wallRocket {
+		-webkit-background-size: cover !important;
+		-moz-background-size: cover !important;
+		-o-background-size: cover !important;
+		background-size: cover !important;
+	}
 }
 
 /*-----------------------------------PARALLAX---------------------------------------------*/
 
-.miparallax2 {
-	position:relative;
-	background: url('/imgs/parallax7.jpg') no-repeat fixed;
-	background-position: center center;
+.wall92 {	
+	background: url('/imgs/92.svg') no-repeat;
+	background-position: top left;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	min-height: 770px;
+	min-height: 450px !important;
+}
+
+.wallRojo {	
+	background: url('/imgs/cityred.svg') no-repeat;
+	background-position: bottom center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 450px !important;
+}
+
+
+.wallRocket {
+	position:relative;
+	background: url('/imgs/rocket.svg') no-repeat;
+	background-position: bottom center;
+	-webkit-background-size: 50%;
+	-moz-background-size: 50%;
+	-o-background-size: 50%;
+	background-size: 50%;
 }
 
 .miparallax3 {
@@ -988,9 +998,9 @@ footer{
 	min-height: 250px;	
 }
 
-.miparallax4 {
+.wallCafe {
 	position:relative;
-	background: url('/imgs/parallax8.jpg') no-repeat fixed;
+	background: url('/imgs/parallax.jpg') no-repeat fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1019,7 +1029,7 @@ footer{
 }
 
 .wallDiseno {	
-	background: url('/imgs/wallDiseno-01.png') no-repeat;
+	background: url('/imgs/wallDiseno-01.svg') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1039,7 +1049,7 @@ footer{
 }
 
 .wallDiseno3 {	
-	background: url('/imgs/wallDiseno-02.png') no-repeat;
+	background: url('/imgs/wallDiseno-02.svg') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1049,7 +1059,7 @@ footer{
 }
 
 .wallDiseno4 {	
-	background: url('/imgs/wallDiseno-03.png') no-repeat;
+	background: url('/imgs/wallDiseno-03.svg') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1058,8 +1068,8 @@ footer{
 	min-height: 450px !important;
 }
 
-.fondoContacto {	
-	background: url('/imgs/parallax3.jpg') no-repeat;
+.wallContacto {	
+	background: url('/imgs/parallax12.svg') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1116,11 +1126,11 @@ footer{
 
 /*--------------detalles-----------------------*/
 .color{
-	background-color: #34ffd5 !important;
+	background-color: #003241 !important;
 }
 
 .color2{
-	background-color: #1c1f26 !important;
+	background-color: #003241 !important;
 }
 
 .color3{
@@ -1128,7 +1138,7 @@ footer{
 }
 
 .text-color{
-	color: #34ffd5 !important
+	color: #003241 !important
 }
 
 .text-color2{
@@ -1136,12 +1146,12 @@ footer{
 }
 
 .degcolor{
-	background: rgba(28,31,38,1);
-	background: -moz-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(28,31,38,1)), color-stop(55%, rgba(38,43,55,1)), color-stop(100%, rgba(47,53,69,1)));
-	background: -webkit-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
-	background: -o-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
-	background: -ms-linear-gradient(left, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
-	background: linear-gradient(to right, rgba(28,31,38,1) 0%, rgba(38,43,55,1) 55%, rgba(47,53,69,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1f26', endColorstr='#2f3545', GradientType=1 );
+	background: rgba(0,50,65,1);
+background: -moz-linear-gradient(left, rgba(0,50,65,1) 0%, rgba(1,36,46,1) 81%, rgba(1,36,46,1) 82%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,50,65,1)), color-stop(81%, rgba(1,36,46,1)), color-stop(82%, rgba(1,36,46,1)));
+background: -webkit-linear-gradient(left, rgba(0,50,65,1) 0%, rgba(1,36,46,1) 81%, rgba(1,36,46,1) 82%);
+background: -o-linear-gradient(left, rgba(0,50,65,1) 0%, rgba(1,36,46,1) 81%, rgba(1,36,46,1) 82%);
+background: -ms-linear-gradient(left, rgba(0,50,65,1) 0%, rgba(1,36,46,1) 81%, rgba(1,36,46,1) 82%);
+background: linear-gradient(to right, rgba(0,50,65,1) 0%, rgba(1,36,46,1) 81%, rgba(1,36,46,1) 82%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003241', endColorstr='#01242e', GradientType=1 );
 }
