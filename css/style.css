@@ -227,7 +227,7 @@ vh-> height
 
 .btn-contacto:hover{
 	/*	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-/*	border: 2px solid #a5a5a5;*/
+	/*	border: 2px solid #a5a5a5;*/
 	color: #fff;
 	background-color: #003241;
 }
@@ -294,7 +294,7 @@ vh-> height
 	background-color: #ffba1e;
 }
 
-/*---------------------------------------PROYECTOS-------------------------------------*/
+/*---------------------------------------GALERIA-------------------------------------*/
 .marcas{
 	height: 117px !important;
 }
@@ -351,8 +351,41 @@ vh-> height
 	background: url('/imgs/marcas/marca-12.svg') no-repeat center center;
 }
 
-.team h5, .team p{
-	margin: 3px 0px; !important;
+.pic-set{
+	background-size: cover !important;
+	min-height:250px !important;
+}
+
+.pic1{
+	background: url('/imgs/galeria/1.jpg') no-repeat center center;	
+}
+
+.pic2{
+	background: url('/imgs/galeria/2.jpg') no-repeat center center;
+}
+
+.pic3{
+	background: url('/imgs/galeria/3.jpg') no-repeat center center;
+}
+
+.pic4{
+	background: url('/imgs/galeria/4.jpg') no-repeat center center;
+}
+
+.pic5{
+	background: url('/imgs/galeria/5.jpg') no-repeat center center;
+}
+
+.pic6{
+	background: url('/imgs/galeria/6.jpg') no-repeat center center;
+}
+
+.pic7{
+	background: url('/imgs/galeria/7.jpg') no-repeat center center;
+}
+
+.pic8{
+	background: url('/imgs/galeria/8.jpg') no-repeat center center;
 }
 
 /*----------------------------------FOOTER-------------------------------------*/
@@ -480,6 +513,10 @@ footer a{
 
 /*----------------------CAMBIOS PARA PANTALLAS DE 600PX Y MENORES----------------------------------------*/
 @media only screen and (max-width : 600px) {
+	.pic-set{
+		background-size: cover !important;
+		min-height:130px !important;
+	}
 
 	nav a.button-collapse {
 		height: 60px;
@@ -543,8 +580,8 @@ footer a{
 		-o-background-size: cover !important;
 		background-size: cover !important;
 	}
-	
-	
+
+
 }
 
 /*-----------------------------------PARALLAX---------------------------------------------*/
@@ -581,13 +618,13 @@ footer a{
 
 /*
 .wallFace {	
-	background: url('/imgs/face.svg') no-repeat;
-	background-position: top center;
-	-webkit-background-size: 50%;
-	-moz-background-size: 50%;
-	-o-background-size: 50%;
-	background-size: 50%;
-	min-height: 350px !important;
+background: url('/imgs/face.svg') no-repeat;
+background-position: top center;
+-webkit-background-size: 50%;
+-moz-background-size: 50%;
+-o-background-size: 50%;
+background-size: 50%;
+min-height: 350px !important;
 }
 */
 
