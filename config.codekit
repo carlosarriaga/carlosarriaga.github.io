@@ -254,6 +254,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/perfil-.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14709,
+		"inputAbbreviatedPath": "\/imgs\/perfil-.jpg",
+		"outputAbbreviatedPath": "\/imgs\/perfil-.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/perfil-.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -269,7 +280,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 219238,
+		"initialSize": 15239,
 		"inputAbbreviatedPath": "\/imgs\/perfil.jpg",
 		"outputAbbreviatedPath": "\/imgs\/perfil.jpg",
 		"outputPathIsOutsideProject": 0,

@@ -27,6 +27,8 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
 		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One|Righteous" rel="stylesheet">
+		<!--		<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700" rel="stylesheet">-->
 		<!--		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">-->
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
@@ -52,11 +54,11 @@
 			var options = 
 
 				 [ {
-					 selector: '#cafe', 
+					 selector: '#s5', 
 					 offset: 50, 
 					 callback: function(el) { 
 
-						 var counter = $(".counter", $("#cafe")),
+						 var counter = $(".counter", $("#s5")),
 							  speed = 4000;
 						 counter.each(function(){
 							 var $this = $(this);
@@ -104,48 +106,41 @@
 		<div class="navbar-fixed menu">
 			<nav class="transparent2 z-depth-0">
 				<div class="nav-wrapper2">				
-					<a href="#" data-activates="mobile-demo" class="button-collapse" id="menu-txt">
-						<!--						<i class="material-icons">menu</i>-->
+					<a href="#" data-activates="mobile-demo" class="button-collapse" id="menu-txt">						
 						ME<br>NU
 					</a>
-					<ul class="right hide-on-med-and-down table-of-contents navbar-style">
-						<li><a href="#hero">SOMOS</a></li>
-						<li><a href="#iam">WEB</a></li>
-						<li><a href="#diseno">DISEÑO</a></li>
-						<li><a href="#social">SOCIAL</a></li>
-						<li><a href="#contacto">EXPERIENCE</a></li>
-						<li><a href="#cafe" class="hide">CAFE</a></li>
+					<ul class="right hide-on-med-and-down table-of-contents navbar-style">					
+						<li><a class="menu-l" href="#s2">GALERÍA</a></li>
+						<li><a class="menu-l" href="#s3">SERVICIOS</a></li>						
+						<li><a class="menu-l" href="#s4">CONTACTO</a></li>						
 					</ul>
 					<ul class="side-nav white" id="mobile-demo">
-						<li><a class="light text-color" href="sass.html">Sass</a></li>
-						<li><a class="light text-color" href="badges.html">Components</a></li>
-						<li><a class="light text-color" href="experience.html">EXPERIENCE</a></li>
-						<li><a class="light text-color" href="mobile.html">Mobile</a></li>
+						<li class="center text-color padd-arriba">
+							<h2 class="more-bold">CARLOS</h1>
+							<h2 class="more-light">ARRIAGA</h1>							
+						</li>
+						<li><a class="light text-color" href="#hero">Servicios</a></li>
+						<li><a class="light text-color" href="#iam">Galería</a></li>
+						<li><a class="light text-color" href="#red">Contacto</a></li>
+						<li><a class="light text-color" href="#contacto">Mobile</a></li>
+						<li><a class="light text-color" href="#cafe">Cafe</a></li>
 					</ul>
 				</div>
 			</nav>
-		</div>
+		</div>		
 
-		<!----------FAB------------>
-		<!--
-<div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 45px; right: 24px;">
-<a class="btn-floating btn-large red" href="#introduction">
-<i class="material-icons">menu</i>
-</a>			
-</div>
--->
 		<!------------------MAIN-------------------------------------------->
 		<main>
 
 			<!------------------INTRO-------------------------------------------->
-			<section class="scrollspy mobFiller100-auto color2 white-text wallRocket" id="hero">
+			<section class="scrollspy mobFiller100-auto color2 white-text wallRocket" id="s1">
 
 				<div class="row padd-arriba2">
-					<div class="container center">
-						<div class="col s12 l6 padd-arriba">
-							<h1 class="more-bold">CARLOS</h1>
+					<div class="container center-align">
+						<div class="col s12 l12 padd-arriba2">
+							<h1 class="more-bold padd-arriba">CARLOS</h1>
 							<h1 class="more-light">ARRIAGA</h1>
-							<H5>digital design</H5>
+							<h5 class="light expand center">diseño &amp; creactividad digital</h5>
 						</div>
 						<div class="col s12 l12">
 
@@ -154,203 +149,283 @@
 				</div>
 
 			</section>
-			<!----------------------------------PROCESO-------------------------------------->
-			<section class="scrollspy wall92 white padd-arriba padd-abajo2" id="iam">
+			<!----------------------------------HELLO-------------------------------------->
+			<section class="scrollspy mobFiller100-auto wall92 white padd-arriba padd-abajo2" id="s2">
 				<div class="row">
 					<div class="container">
 						<div class="col s12 m6 l6"></div>
 						<div class="col s12 m6 l6 transparent padd-arriba2">
-							<h2 class="light hola">HOLA</h2>
-							<p class="light right-align">
-								Soy Carlos Arriaga, Ingeniero de Software con gusto por el diseño digital aprendiendo a cada línea de código y por cada vector trazado, siendo creativo desde que se presenta la oportunidad, enfocado en encontrar nuevas y significativas maneras de hacer crecer tu marca, en el mundo digital.
+							<h2 class="light hola bar">HOLA</h2>
+							<p class="light right-align bar">
+								Soy Carlos Arriaga, Ingeniero de Software con gusto por el <b>diseño digital</b> aprendiendo a cada línea de código y por cada vector trazado, siendo creativo desde que se presenta la oportunidad, enfocado en encontrar nuevas y significativas maneras de hacer <b>crecer tu marca</b>, en el mundo digital.
 							</p>
+							<div class="col s12 l12 padd-arriba right-align bar">
+								<a class="btn-large btn-galeria z-depth-0">Galería</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<!------------------------------------PROJECTS---------------------------------------->
+			<!------------------------------------SERVICES---------------------------------------->
 
-			<section class="scrollspy mobFiller100-auto red darken-3 wallRojo padd-arriba2 padd-abajo2" id="red">
+			<section class="scrollspy mobFiller100-auto red darken-3 wallRojo padd-arriba2 padd-abajo2" id="s3">
 				<div class="row white-text">
-					<div class="container center">
+					<div class="container center padd-arriba">
 
-						<div class="col s12 l5 push-l7 team">
-							<img src="imgs/perfil.jpg" class="responsive-img circle">
-							<h5 class="light">Carlos Arriaga</h5>
-							<p>Digital Designer</p>
+						<div class="col s12 l5 push-l7 team padd-abajo">
+							<img src="imgs/perfil.jpg" class="responsive-img circle profile-pic">
+							<p class="light yellow-text text-accent-4 expand2 border-top margen-arriba">Ingeniero de Software</p>
+							<p class="light yellow-text text-accent-4 expand2 ">Diseñador Gráfico</p>
+							<p class="light yellow-text text-accent-4 expand2 ">Diseñador UI &amp; UX</p>
 						</div>
 
-						<div class="col s12 l7 pull-l5 padd-arriba">
-							<p class="light right-align">
-								Entender el Internet píxel por píxel para crear soluciones digitales eficaces. 
-
+						<div class="col s12 l7 pull-l5">	
+							<h3 class="no-margin right-align foo">
+								<b>
+									Proyección.<br>
+									Diseño. Creatividad.
+								</b>
+							</h3>
+							<p class="light right-align foo">
+								Ofrezco <b>soluciones profesionales y creativas</b> para impulsar tu proyecto enfocado a tu Marca y Mercado planeando, diseñando y creando justo a tu Medida para que la Medida de <b>tu empresa Crezca.</b>
 							</p>
-							<p class="light right-align">
-								Ofrezco soluciones profesionales y creativas para impulsar tu proyecto enfocado a tu Marca y Mercado planeando, diseñando y creando justo a tu Medida para que la Medida de tu empresa Crezca.
+						</div>
 
-								<br>
-								Es hora de que seas el Tú que siempre quisiste ser a través de tu Logo, tu Marca.
-							</p>
+						<div class="col s12 l12 padd-abajo">
+							<a class="btn-large btn-servicio z-depth-0">Servicios</a>
 						</div>
 
 					</div>
 				</div>
 			</section>
 
+			<!----------------------------------CONTACT----------------------------->
+			<section class="scrollspy white text-color wallGris" id="s4">
 
-			<section class="scrollspy" id="statistics">
-				<div class="wallCafe" id="cafe">
-					<div class="row light padd-arriba2 padd-abajo white-text">
+				<div class="row padd-arriba2 padd-abajo center">
 
-						<div class="col l3 m3 s6 center">
+					<div class="col s12 m12 l12 center-align">
+						<div class="container">
+							<h3 class="thin">"Es hora de que seas el <b>Tú</b> que siempre quisiste ser <b>a través de tu Marca.</b>"</h3>
+						</div>
+
+					</div>
+					<div class="col s12 m12 l6 offset-l3 center-align">
+						<div class="container">							
+							<p class="light">Tengo la experiencia y visión para ofrecerte ventajas
+								competitivas y profesionales. Darte el impulso creativo que tu negocio necesita 
+								y hacerlo un elemento de éxito.</p>														
+							<a class="btn-large btn-contacto z-depth-0">Contáctame</a>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="scrollspy" id="s5">
+				<div class="wallCafe">
+					<div class="row light padd-arriba2 padd-abajo white-text">						
+
+						<div class="col l3 m3 s6 center box">
+							<i class="fa fa-sitemap  fa-2x" style="display:block;"></i>
+							<p>Proyectos</p>
+							<h3 class="light timer count-title counter">128</h3>
+						</div>
+
+						<div class="col l3 m3 s6 center box">
 							<i class="fa fa-coffee fa-2x" style="display:block;"></i>
 							<p>Tazas de Café</p>
 							<h3 class="light timer count-title counter">923</h3>
 						</div>
 
-						<div class="col l3 m3 s6 center">
-							<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
-							<p>Proyectos</p>
-							<h3 class="light timer count-title counter">123</h3>
+						<div class="col l3 m3 s6 center padd-arriba-mob box">
+							<i class="fa fa-gamepad  fa-2x" style="display:block;"></i>
+							<p>Logros Desbloqueados</p>
+							<h3 class="light timer count-title counter">759</h3>
 						</div>
 
-						<div class="col l3 m3 s6 center padd-arriba-mob">
-							<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
-							<p>Líneas de código</p>
-							<h3 class="light timer count-title counter">9754</h3>
-						</div>
-
-						<div class="col l3 m3 s6 center padd-arriba-mob">
-							<i class="fa fa-hand-spock-o  fa-2x" style="display:block;"></i>
+						<div class="col l3 m3 s6 center padd-arriba-mob box">
+							<i class="fa fa-briefcase fa-2x" style="display:block;"></i>
 							<p>Clientes</p>
-							<h3 class="light timer count-title counter">74</h3>
+							<h3 class="light timer count-title counter">64</h3>
 						</div>
 
 					</div>
 				</div>
 			</section>
 
-			<!----------------------------------SOCIAL----------------------------->
-			<section class="scrollspy amber accent-4" id="contacto">
 
-				<div class="row padd-arriba padd-abajo">
-					<div class="container">
-						<div class="col s12 l8">
-							<h5 class="">Me encantará conocer tu proyecto</h5>
-						</div>
-						<div class="col s12 l4">
-							<a class="btn-large btn-contacto z-depth-0"><b>Contáctame</b></a>
-						</div>
-					</div>
-				</div>
-
-			</section>
 
 		</main>
 		<!-----------------------FOOTER------------------------------------------>
-		<footer class="page-footer color2 scrollspy no-padd no-margin" id="contacto">
-			<div class="container padd-abajo">
-				<div class="row padd-abajo">
+		<footer class="page-footer screenFiller color2 scrollspy padd-abajo white-text" id="s6">
+			<div class="container">
+				<div class="row padd-arriba padd-abajo2">
 					<div class="col s12 l12 center white-text">
-						<img src="imgs/logo-06.svg" class="responsive-img logo-footer" width="80px">
+						<h4 class="more-bold">CARLOS ARRIAGA</h4>
+						<p class="light expand center">diseño &amp; creactividad digital</p>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col l6 s12">
-						<h5 class="white-text">Footer Content</h5>
-						<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+				<div class="row padd-abajo light">
+					<div class="col l4 m4 s12 center">
+						<img src="imgs/face.svg" class="responsive-img">
 					</div>
-					<div class="col l6 s12">
-						<form class="col s12">
-							<div class="row">
-								<div class="input-field col s12">
-									<input id="first_name2" type="text" class="validate">
-									<label class="active" for="first_name2">First Name</label>
-								</div>									
-							</div>								
-							<div class="row">
-								<div class="input-field col s12">
-									<input id="email" type="email" class="validate">
-									<label for="email">Email</label>
-								</div>
-							</div>
-							<div class="row">
-								<div class="input-field col s12">
-									<textarea id="textarea1" class="materialize-textarea"></textarea>
-									<label for="textarea1">Textarea</label>
-								</div>
-							</div>
-						</form>
+					<div class="col l4 m4 s12 footer-links">
+						<p class="footer-tit">EXPLORA</p>
+						<ul class="center-align">							
+							<li>
+								<a class="btn btn-galeria2 z-depth-0">Contacto</a>
+							</li>						
+							<li>
+								<a class="btn btn-galeria2 z-depth-0">Servicios</a>							
+							</li>
+							<li>
+								<a class="btn btn-galeria2 z-depth-0">Galería</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l4 m4 s12 footer-links">						
+						<p class="footer-tit">PORTAFOLIO</p>
+						<div class="col s6 l6 m6 center ic-portafolio">
+							<a target="_blank"href="https://www.behance.net/carlosarriagaj" class="light-blue-text text-accent-2">
+								<i class="fa fa-behance fa-2x" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div class="col s6 l6 m6 center ic-portafolio">
+							<a target="_blank"href="https://www.pinterest.com/carlitosarriaga/" class="red-text">
+								<i class="fa fa-pinterest fa-2x" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div class="col s6 l6 m6 center ic-portafolio">
+							<a target="_blank"href="https://github.com/carlosarriaga" class="deep-purple-text text-accent-1">
+								<i class="fa fa-github fa-2x" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div class="col s6 l6 m6 center ic-portafolio">
+							<a target="_blank"href="https://mx.linkedin.com/in/carlosjarriaga" class=" light-blue-text">
+								<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+							</a>
+						</div>						
+						<div class="col s12 l12 m12">
+							<p>							
+								Y por qué no?...
+								<a target="_blank"href="https://open.spotify.com/user/1288872061" class="light-green-text text-accent-4">
+									<i class="fa fa-spotify fa-2x" aria-hidden="true"></i>
+								</a>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="footer-copyright">
-				<div class="row center">						
-					© 2014 Copyright Text						
+			<div class="row footer-copyright">
+				<div class="row center text-color">						
+					© 2016 Todos los derechos reservados. Larga Vida y Prosperidad.
 				</div>
 			</div>
 		</footer>
 
-
 	</body>
-
 </html>
-
+<!------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------>
 
 <script type="text/javascript">
 
 	window.sr = ScrollReveal();
 
 	sr.reveal('.foo', { 
-		distance: '400px', 
+		distance: '200px', 
 		origin: 'left', 
 		easing: 'ease',
 		reset : false,
-		duration: 1000 });
+		duration: 2000 });
 
-	sr.reveal('.bar', { duration: 2000 });
+	sr.reveal('.bar', { 
+		distance: '200px', 
+		origin: 'bottom', 
+		easing: 'ease',
+		reset : false,
+		duration: 2000 });
+
+	sr.reveal('.box', { duration: 2000 }, 150);
 
 </script>
 <script type="text/javascript">
 
 	$(window).scroll(function(e) {
-		var s1 = $('#hero'),
-			 s2 = $('#iam'),
-			 s3 = $('#cafe'),
-			 s4 = $('#contacto'),
-			 s5 = $('#red'),
+		var s1 = $('#s1'),
+			 s2 = $('#s2'),
+			 s3 = $('#s3'),
+			 s4 = $('#s4'),
+			 s5 = $('#s5'),
+			 s6 = $('#s6'),
 			 menu = $('.menu'),
-			 diff = s1[0].offsetTop - window.pageYOffset;
-		diff2 = s2[0].offsetTop - window.pageYOffset; 
-		diff3 = s3[0].offsetTop - window.pageYOffset; 
-		diff4 = s4[0].offsetTop - window.pageYOffset; 
-		diff5 = s5[0].offsetTop - window.pageYOffset; 
+			 diff = s1[0].offsetTop - window.pageYOffset,
+			 diff2 = s2[0].offsetTop - window.pageYOffset, 
+			 diff3 = s3[0].offsetTop - window.pageYOffset, 
+			 diff4 = s4[0].offsetTop - window.pageYOffset, 
+			 diff5 = s5[0].offsetTop - window.pageYOffset, 
+			 diff6 = s6[0].offsetTop - window.pageYOffset; 
 
 		if(diff < 0) {
+			$("#menu-txt").removeClass("white-text");	
+			$("#menu-txt").removeClass("black-text");				
+			$(".menu-l").removeClass("white-text");
+			$(".menu-l").removeClass("black-text");
 			$("#menu-txt").addClass("white-text");
-			//			$(".menu").removeClass("blue");
+			$(".menu-l").addClass("white-text");			
 		}
+		//		92
 		if(diff2 < 60) {
-			$("#menu-txt").removeClass("white-text");
+			$("#menu-txt").removeClass("white-text");	
+			$("#menu-txt").removeClass("black-text");				
+			$(".menu-l").removeClass("white-text");
+			$(".menu-l").removeClass("black-text");
 			$("#menu-txt").addClass("black-text");
+			$(".menu-l").addClass("black-text");			
 		}
 		if(diff3 < 60) {
-			$("#menu-txt").removeClass("black-text");
+			$("#menu-txt").removeClass("white-text");	
+			$("#menu-txt").removeClass("black-text");				
+			$(".menu-l").removeClass("white-text");
+			$(".menu-l").removeClass("black-text");
 			$("#menu-txt").addClass("white-text");
+			$(".menu-l").addClass("white-text");			
 		}
 		if(diff4 < 60) {
-			$("#menu-txt").removeClass("black-text");
-			$("#menu-txt").addClass("white-text");
+			$("#menu-txt").removeClass("white-text");	
+			$("#menu-txt").removeClass("black-text");				
+			$(".menu-l").removeClass("white-text");
+			$(".menu-l").removeClass("black-text");			
+			$("#menu-txt").addClass("black-text");
+			$(".menu-l").addClass("black-text");			
 		}
+		//		cafe
 		if(diff5 < 60) {
-			$("#menu-txt").removeClass("black-text");
+			$("#menu-txt").removeClass("white-text");	
+			$("#menu-txt").removeClass("black-text");				
+			$(".menu-l").removeClass("white-text");
+			$(".menu-l").removeClass("black-text");
 			$("#menu-txt").addClass("white-text");
+			$(".menu-l").addClass("white-text");			
 		}
-		if(diff > 60) {
+		//		footer
+		if(diff6 < 60) {
+			$("#menu-txt").removeClass("white-text");	
+			$("#menu-txt").removeClass("black-text");				
+			$(".menu-l").removeClass("white-text");
+			$(".menu-l").removeClass("black-text");
 			$("#menu-txt").addClass("white-text");
-			//			$(".menu").removeClass("white");
-			//			$(".menu").removeClass("blue");
+			$(".menu-l").addClass("white-text");			
+		}
+		if(diff > 1) {
+			$("#menu-txt").removeClass("white-text");	
+			$("#menu-txt").removeClass("black-text");				
+			$(".menu-l").removeClass("white-text");
+			$(".menu-l").removeClass("black-text");
+			$("#menu-txt").addClass("white-text");
+			$(".menu-l").addClass("white-text");			
 		}
 	});
 
