@@ -82,7 +82,7 @@ vw ->with
 vh-> height
 */
 .screenFiller {
-	min-height: 100vh;
+	min-height: 100vh !important;
 }
 
 .halfFiller{
@@ -147,17 +147,26 @@ vh-> height
 	transition: all 1s !important;
 }
 
-
-
 #menu-txt{
 	-webkit-transition: all 1s !important; /* Safari */
 	transition: all 1s !important;
 }
 
-/*----------------------------------HERO--------------------------------*/
+/*------------------------------------------------------------------*/
 .hola{	
 	font-size: 6rem;
 	font-weight: 100;
+}
+
+
+.galeria-txt h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 6em;
+}
+
+.servicios-txt h1{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 6em;
 }
 
 .expand{
@@ -186,7 +195,7 @@ vh-> height
 
 
 
-/*--------------------------------------------LOGO--------------------------------------*/
+/*------------------------------------------------------------------------------*/
 
 .more-light, .more-bold{
 	font-family: 'Righteous', cursive;
@@ -208,9 +217,34 @@ vh-> height
 	border-top: 2px solid #ffba1e;
 }
 
+.card-title{
+	width: 100% !important;
+	padding: 10px 20px 10px 20px !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+82 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 82%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 82%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 82%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
 
+/*----------------------------------------------------------------------------------*/
 
-/*-----------------------------------------SOCIAL-----------------------------------------*/
+.blink {
+	animation: blink 1s steps(2, start) infinite;
+	-webkit-animation: blink 1s steps(2, start) infinite;
+}
+@keyframes blink {
+	to {
+		visibility: hidden;
+	}
+}
+@-webkit-keyframes blink {
+	to {
+		visibility: hidden;
+	}
+}
+
+/*----------------------------------------------------------------------------------*/
 
 .btn-contacto{
 	background-color: rgba(255, 255, 255, 0);
@@ -230,6 +264,26 @@ vh-> height
 	/*	border: 2px solid #a5a5a5;*/
 	color: #fff;
 	background-color: #003241;
+}
+
+.btn-contacto2{
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #C62828;
+	-webkit-transition: all 0.7s !important; /* Safari */
+	transition-timing-function: ease-in-out;
+	transition: all 0.7s !important;
+	text-align: center;
+	letter-spacing: .5px;
+	transition: .2s ease-out;
+	cursor: pointer;
+}
+
+.btn-contacto2:hover{
+	/*	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	border: 1px solid #ffea78;
+	color: #C62828;
+	background-color: #ffea78;
 }
 
 .btn-servicio{
@@ -296,64 +350,62 @@ vh-> height
 
 /*---------------------------------------GALERIA-------------------------------------*/
 .marcas{
-	height: 117px !important;
+	min-height: 120px !important;
+	background-size: 120px !important;
 }
 
 .marcaUmbrella{
-	background: url('/imgs/marcas/marca-01.svg') no-repeat center center;
+	background: url('/imgs/marcas/marca-01.svg') no-repeat center center;	
 }
 
 .marcaUmbrella:hover{
-	background: url('/imgs/marcas/marca-02.svg') no-repeat center center;
+	background: url('/imgs/marcas/marca-02.svg') no-repeat center center;	
 }
 
 .marcaPinta{
-	background: url('/imgs/marcas/marca-03.svg') no-repeat center center;
-	background-size: 120px;
+	background: url('/imgs/marcas/marca-03.svg') no-repeat center center;	
 }
 
 .marcaPinta:hover{
-	background: url('/imgs/marcas/marca-04.svg') no-repeat center center;
-	background-size: 120px;
+	background: url('/imgs/marcas/marca-04.svg') no-repeat center center;	
 }
 
 .marcaAR{
-	background: url('/imgs/marcas/marca-05.svg') no-repeat center center;
+	background: url('/imgs/marcas/marca-05.svg') no-repeat center center;	
 }
 
 .marcaAR:hover{
-	background: url('/imgs/marcas/marca-06.svg') no-repeat center center;
+	background: url('/imgs/marcas/marca-06.svg') no-repeat center center;	
 }
 
 .marcaBio{
-	background: url('/imgs/marcas/marca-07.svg') no-repeat center center;
-	background-size: 120px;
+	background: url('/imgs/marcas/marca-07.svg') no-repeat center center;	
 }
 
 .marcaBio:hover{
-	background: url('/imgs/marcas/marca-08.svg') no-repeat center center;
-	background-size: 120px;
+	background: url('/imgs/marcas/marca-08.svg') no-repeat center center;	
 }
 
 .marcaSinver{
-	background: url('/imgs/marcas/marca-09.svg') no-repeat center center;
+	background: url('/imgs/marcas/marca-09.svg') no-repeat center center;	
 }
 
 .marcaSinver:hover{
-	background: url('/imgs/marcas/marca-10.svg') no-repeat center center;
+	background: url('/imgs/marcas/marca-10.svg') no-repeat center center;	
 }
 
 .marcaGui{
-	background: url('/imgs/marcas/marca-11.svg') no-repeat center center;
+	background: url('/imgs/marcas/marca-11.svg') no-repeat center center;	
 }
 
 .marcaGui:hover{
-	background: url('/imgs/marcas/marca-12.svg') no-repeat center center;
+	background: url('/imgs/marcas/marca-12.svg') no-repeat center center;	
 }
 
 .pic-set{
 	background-size: cover !important;
 	min-height:250px !important;
+	/*	display: none;*/
 }
 
 .pic1{
@@ -388,6 +440,45 @@ vh-> height
 	background: url('/imgs/galeria/8.jpg') no-repeat center center;
 }
 
+.pic9{
+	background: url('/imgs/galeria/9.jpg') no-repeat center center;
+}
+
+.pic10{
+	background: url('/imgs/galeria/10.jpg') no-repeat center center;
+}
+
+.pic11{
+	background: url('/imgs/galeria/11.jpg') no-repeat center center;
+}
+
+.pic12{
+	background: url('/imgs/galeria/12.jpg') no-repeat center center;
+}
+
+.pic13{
+	background: url('/imgs/galeria/13.jpg') no-repeat center center;
+}
+
+.pic14{
+	background: url('/imgs/galeria/14.jpg') no-repeat center center;
+}
+
+.pic15{
+	background: url('/imgs/galeria/15.jpg') no-repeat center center;
+}
+
+.pic16{
+	background: url('/imgs/galeria/16.jpg') no-repeat center center;
+}
+
+.pic17{
+	background: url('/imgs/galeria/17.jpg') no-repeat center center;
+}
+
+.pic18{
+	background: url('/imgs/galeria/18.jpg') no-repeat center center;
+}
 /*----------------------------------FOOTER-------------------------------------*/
 
 
@@ -432,6 +523,14 @@ footer a{
 		background-size: cover;
 		display: table;
 		width: 100%; 		
+	}
+
+	.servicios-txt h1{
+		font-size: 5em;		
+	}
+
+	.galeria-txt h1{
+		font-size: 5em;
 	}
 
 	.hero .container {
@@ -518,6 +617,16 @@ footer a{
 		min-height:130px !important;
 	}
 
+
+	.servicios-txt h1{
+		font-size: 4em;
+		letter-spacing: -4px;
+	}
+
+	.galeria-txt h1{
+		font-size: 4em;
+	}
+
 	nav a.button-collapse {
 		height: 60px;
 		line-height: 19px;
@@ -581,6 +690,11 @@ footer a{
 		background-size: cover !important;
 	}
 
+	.wallRojoGris {	
+		background: none !important;
+		background-color: #f2f2f2 !important;	
+	}
+
 
 }
 
@@ -616,17 +730,15 @@ footer a{
 	min-height: 450px !important;
 }
 
-/*
-.wallFace {	
-background: url('/imgs/face.svg') no-repeat;
-background-position: top center;
--webkit-background-size: 50%;
--moz-background-size: 50%;
--o-background-size: 50%;
-background-size: 50%;
-min-height: 350px !important;
+.wallRojoGris {	
+	background: url('/imgs/red.svg') no-repeat;
+	background-position: bottom left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 450px !important;
 }
-*/
 
 .wallRocket {
 	position:relative;
@@ -646,10 +758,27 @@ min-height: 350px !important;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
-	/*	max-height: 351px !important;*/
 }
 
+.wallGaleria {
+	position:relative;
+	background: url('/imgs/parallax5.jpg') no-repeat fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.wallServicios {
+	position:relative;
+	background: url('/imgs/parallax9.jpg') no-repeat fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 /*--------------detalles-----------------------*/
 .color{
@@ -670,4 +799,12 @@ min-height: 350px !important;
 
 .text-color2{
 	color: #a5a5a5 !important
+}
+
+.flash:hover{
+	color: #fff500;
+}
+
+.nave:hover{
+	color: #fff;
 }

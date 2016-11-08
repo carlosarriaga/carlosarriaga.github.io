@@ -100,11 +100,110 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/galeria\/2.jpg": {
+	"\/imgs\/galeria\/10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130817,
+		"inputAbbreviatedPath": "\/imgs\/galeria\/10.jpg",
+		"outputAbbreviatedPath": "\/imgs\/galeria\/10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/galeria\/11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 934402,
+		"inputAbbreviatedPath": "\/imgs\/galeria\/11.jpg",
+		"outputAbbreviatedPath": "\/imgs\/galeria\/7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/galeria\/12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 730071,
+		"inputAbbreviatedPath": "\/imgs\/galeria\/12.jpg",
+		"outputAbbreviatedPath": "\/imgs\/galeria\/12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/galeria\/13.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 771309,
+		"inputAbbreviatedPath": "\/imgs\/galeria\/13.jpg",
+		"outputAbbreviatedPath": "\/imgs\/galeria\/13.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/galeria\/14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 384624,
+		"inputAbbreviatedPath": "\/imgs\/galeria\/14.jpg",
+		"outputAbbreviatedPath": "\/imgs\/galeria\/14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/galeria\/15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 295412,
+		"inputAbbreviatedPath": "\/imgs\/galeria\/15.jpg",
+		"outputAbbreviatedPath": "\/imgs\/galeria\/15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/galeria\/16.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130817,
+		"inputAbbreviatedPath": "\/imgs\/galeria\/16.jpg",
+		"outputAbbreviatedPath": "\/imgs\/galeria\/16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/galeria\/17.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207823,
+		"inputAbbreviatedPath": "\/imgs\/galeria\/17.jpg",
+		"outputAbbreviatedPath": "\/imgs\/galeria\/17.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/galeria\/18.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
+		"inputAbbreviatedPath": "\/imgs\/galeria\/18.jpg",
+		"outputAbbreviatedPath": "\/imgs\/galeria\/18.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/galeria\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98672,
 		"inputAbbreviatedPath": "\/imgs\/galeria\/2.jpg",
 		"outputAbbreviatedPath": "\/imgs\/galeria\/2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -115,7 +214,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 207823,
 		"inputAbbreviatedPath": "\/imgs\/galeria\/3.jpg",
 		"outputAbbreviatedPath": "\/imgs\/galeria\/3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -137,7 +236,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 547863,
+		"initialSize": 813153,
 		"inputAbbreviatedPath": "\/imgs\/galeria\/5.jpg",
 		"outputAbbreviatedPath": "\/imgs\/galeria\/5.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -148,7 +247,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.04155e+06,
+		"initialSize": 1.13873e+06,
 		"inputAbbreviatedPath": "\/imgs\/galeria\/6.jpg",
 		"outputAbbreviatedPath": "\/imgs\/galeria\/6.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -159,7 +258,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 934402,
+		"initialSize": 547863,
 		"inputAbbreviatedPath": "\/imgs\/galeria\/7.jpg",
 		"outputAbbreviatedPath": "\/imgs\/galeria\/7.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -170,7 +269,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 813153,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/imgs\/galeria\/8.jpg",
 		"outputAbbreviatedPath": "\/imgs\/galeria\/8.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -232,6 +331,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/parallax13.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 828264,
+		"inputAbbreviatedPath": "\/imgs\/parallax13.png",
+		"outputAbbreviatedPath": "\/imgs\/parallax13.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/parallax14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13696e+06,
+		"inputAbbreviatedPath": "\/imgs\/parallax14.jpg",
+		"outputAbbreviatedPath": "\/imgs\/parallax14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/parallax15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 563532,
+		"inputAbbreviatedPath": "\/imgs\/parallax15.jpg",
+		"outputAbbreviatedPath": "\/imgs\/parallax15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/parallax2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -276,6 +408,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/parallax5 copia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.18358e+06,
+		"inputAbbreviatedPath": "\/imgs\/parallax5 copia.jpg",
+		"outputAbbreviatedPath": "\/imgs\/parallax5 copia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/parallax5.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -309,6 +452,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/parallax8 copia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 544326,
+		"inputAbbreviatedPath": "\/imgs\/parallax8 copia.jpg",
+		"outputAbbreviatedPath": "\/imgs\/parallax8 copia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/parallax8.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -316,6 +470,17 @@
 		"initialSize": 3.73803e+06,
 		"inputAbbreviatedPath": "\/imgs\/parallax8.jpg",
 		"outputAbbreviatedPath": "\/imgs\/parallax8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/parallax9 copia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.73752e+06,
+		"inputAbbreviatedPath": "\/imgs\/parallax9 copia.jpg",
+		"outputAbbreviatedPath": "\/imgs\/parallax9 copia.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -558,6 +723,15 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/servicios.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/servicios.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/video\/hero\/Snapshots\/Busy-People.jpg": {
 		"fileType": 16384,
