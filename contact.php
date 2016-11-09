@@ -3,11 +3,11 @@
 echo '<h1>Simple Mail</h1>';
 /* @var SimpleMail $mail */
 $mail = new SimpleMail();
-$mail->setTo('test1@gmail.com', 'Recipient 1')
-	->setTo('test2@gmail.com', 'Recipient 2')
+$mail->setTo('carlos.arriaga@live.com', 'Recipient 1')
+	->setTo('carlitos.arriaga@outlook.com', 'Recipient 2')
 	->setSubject('Test Message')
-	->setFrom('sender@gmail.com', 'Mail Bot')
-	->addMailHeader('Reply-To', 'sender@gmail.com', 'Mail Bot')
+	->setFrom('alguien@gmail.com', 'Mail Bot')
+	->addMailHeader('Reply-To', 'alguien@gmail.com', 'Mail Bot')
 	->addMailHeader('Cc', 'bill@example.com', 'Bill Gates')
 	->addMailHeader('Bcc', 'steve@example.com', 'Steve Jobs')
 	->addGenericHeader('X-Mailer', 'PHP/' . phpversion())
