@@ -2,12 +2,12 @@
 #HTACCESS PARA SERVER
 #
 ###############
-RewriteEngine on
-RewriteCond $0 !^(index.php|css|js|imgs|robots.txt)
+#RewriteEngine on
+#RewriteCond $0 !^(index.php|css|js|imgs|robots.txt)
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /index.php/$0 [PT,L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ /index.php/$0 [PT,L]
 
 
 
@@ -16,9 +16,9 @@ RewriteRule ^(.*)$ /index.php/$0 [PT,L]
 #HTACCES PARA LOCALHOST
 #
 ###########
-#RewriteEngine on
-#RewriteCond $0 !^(index.php|css|js|imgs|robots.txt)
+RewriteEngine on
+RewriteCond $0 !^(index.php|css|js|imgs|robots.txt)
 
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteRule .* index.php/$0 [PT,L] 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L] 
