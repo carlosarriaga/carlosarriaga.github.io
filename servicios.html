@@ -51,36 +51,7 @@
 				jQuery("#preloader").delay(1000).fadeOut("slow");
 			})
 		</script>
-		<!--counter-->
-		<script type="text/javascript">
-			var options = 
-
-				 [ {
-					 selector: '#s5', 
-					 offset: 50, 
-					 callback: function(el) { 
-
-						 var counter = $(".counter", $("#s5")),
-							  speed = 4000;
-						 counter.each(function(){
-							 var $this = $(this);
-							 var parse = parseInt($this);
-							 console.log(typeof parse);
-							 $({value:0}).animate({value:$this.html()},{
-								 duration:speed,
-								 easing:"swing",
-								 step:function(){
-									 $this.html(Math.round(this.value));
-								 }
-							 });
-						 });
-
-					 }
-				 }]; 					
-			Materialize.scrollFire(options); 
-
-
-		</script>
+		
 
 		<style type="text/css">
 
@@ -115,22 +86,37 @@
 						<li><a class="menu-l" href="index.html">INICIO</a></li>	
 						<li><a class="menu-l" href="servicios.html">SERVICIOS</a></li>	
 						<li><a class="menu-l" href="galeria.html">GALERÍA</a></li>											
-						<li><a class="menu-l" href="#s4">CONTACTO</a></li>						
+						<li><a class="menu-l" href="contacto.html">CONTACTO</a></li>						
 					</ul>
-					<ul class="side-nav white" id="mobile-demo">
-						<li class="center text-color padd-arriba">
+					<ul class="side-nav menu-bg-color center" id="mobile-demo">
+						<li class="text-color padd-arriba">
 							<h2 class="more-bold">CARLOS</h1>
 							<h2 class="more-light">ARRIAGA</h1>							
 						</li>
-						<li><a class="light text-color" href="index.html">Inicio</a></li>
-						<li><a class="light text-color" href="servicios.html">Servicios</a></li>
-						<li><a class="light text-color" href="galeria.html">Galería</a></li>
-						<li><a class="light text-color" href="contacto.html">Contacto</a></li>						
+						<li>
+							<a class="light text-color" href="index.html">
+								<p>Inicio</p>
+							</a>
+						</li>
+						<li>
+							<a class="light text-color" href="servicios.html">
+								<p>Servicios</p>
+							</a>
+						</li>
+						<li>
+							<a class="light text-color" href="galeria.html">
+								<p>Galería</p>
+							</a>
+						</li>
+						<li>
+							<a class="light text-color" href="contacto.html">
+								<p>Contacto</p>
+							</a>
+						</li>						
 					</ul>
 				</div>
 			</nav>
 		</div>
-
 
 		<!--------------------------------------------------------------->
 		<!--------------------------------------------------------------->
@@ -145,7 +131,8 @@
 				<div class="wallServicios screenFiller valign-wrapper">
 					<div class="row servicios-txt center valign">
 						<h1 class="white-text"> >servicios<span class="blink">_</span></h1>
-					</div>
+						<p class=" grey-text light">desliza</p>
+					</div>					
 				</div>
 			</section>			
 
@@ -155,7 +142,14 @@
 
 				<div class="row padd-arriba2 padd-abajo">
 					<div class="col s12 l6 offset-l3 center">
-						<h3 class="thin">En realidad hay que <b>ofrecer Experiencias</b>, no Servicios</h3>
+						<h3 class="">
+							<b>Empodera tu Marca desde el Diseño</b>
+						</h3>
+						<p class="light">
+							Tu Marca, tu Sitio Web, Publicidad, Redes Sociales, Diseño de Interfaces... 
+							<br>
+							Es momento de contar con diseños de alta calidad, que proyecten e impulsen tu Proyecto y Marca.
+						</p>
 					</div>
 				</div>
 
@@ -164,7 +158,7 @@
 						<div class="container">
 							<div class="card box">
 								<div class="card-image">
-									<img src="imgs/parallax13.png">
+									<img src="imgs/servicioWeb.svg">
 									<div class="card-title">Diseño Web</div>
 								</div>
 								<div class="card-content">
@@ -179,7 +173,7 @@
 						<div class="container">
 							<div class="card box">
 								<div class="card-image">
-									<img src="imgs/parallax8.jpg">
+									<img src="imgs/servicioDiseno.svg">
 									<span class="card-title">Diseño Gráfico</span>
 								</div>
 								<div class="card-content">
@@ -196,7 +190,7 @@
 						<div class="container">
 							<div class="card box">
 								<div class="card-image">
-									<img src="imgs/parallax14.jpg">
+									<img src="imgs/servicioRedes.svg">
 									<span class="card-title">Redes Sociales</span>
 								</div>
 								<div class="card-content">
@@ -211,7 +205,7 @@
 						<div class="container">
 							<div class="card box">
 								<div class="card-image">
-									<img src="imgs/parallax15.jpg">
+									<img src="imgs/servicioSEO.svg">
 									<span class="card-title">Posicionamiento en Buscadores</span>
 								</div>
 								<div class="card-content">
@@ -227,18 +221,20 @@
 			</section>
 
 			<!--------------------------------------------------------------->
-			<section class="scrollspy" id="s3">
-				<div class="row padd-arriba padd-abajo center">					
-					<div class="col s12 m12 l6 offset-l3">
-						<div class="container">							
-							<p class="light">
-								Estoy dedicado a entregar calidad y profesionalismo, tu proyecto no será diferente.
-							</p>														
-							<a class="btn-large btn-contacto z-depth-0">Contáctame</a>
-						</div>
-					</div>
-				</div>
-			</section>
+			<!--
+<section class="scrollspy" id="s3">
+<div class="row padd-arriba padd-abajo center">					
+<div class="col s12 m12 l6 offset-l3">
+<div class="container">							
+<p class="light">
+Estoy dedicado a entregar calidad y profesionalismo, tu proyecto no será diferente.
+</p>														
+<a href="contacto.html" class="btn-large btn-contacto z-depth-0">Contáctame</a>
+</div>
+</div>
+</div>
+</section>
+-->
 
 
 
@@ -247,7 +243,7 @@
 		<!--------------------------------------------------------------->
 		<!--------------------------------------------------------------->
 		<!-----------------------FOOTER------------------------------------------>
-		<footer class="page-footer screenFiller color2 scrollspy padd-abajo white-text" id="s4">
+		<footer class="page-footer screenFiller color2 scrollspy padd-abajo white-text" id="s3">
 
 			<div class="row padd-arriba padd-abajo2">
 				<div class="col s12 l12 center white-text">
@@ -262,15 +258,15 @@
 					</div>
 					<div class="col l4 m4 s12 footer-links">
 						<p class="footer-tit">EXPLORA</p>
-						<ul class="center-align">							
+						<ul class="center-align">														
 							<li>
-								<a class="btn btn-galeria2 z-depth-0">Contacto</a>
-							</li>						
-							<li>
-								<a class="btn btn-galeria2 z-depth-0">Servicios</a>							
+								<a href="servicios.html" class="btn btn-galeria2 z-depth-0">Servicios</a>							
 							</li>
 							<li>
-								<a class="btn btn-galeria2 z-depth-0">Galería</a>
+								<a href="galeria.html" class="btn btn-galeria2 z-depth-0">Galería</a>
+							</li>
+							<li>
+								<a href="contacto.html" class="btn btn-galeria2 z-depth-0">Contacto</a>
 							</li>
 						</ul>
 					</div>
@@ -347,13 +343,11 @@
 	$(window).scroll(function(e) {
 		var s1 = $('#s1'),
 			 s2 = $('#s2'),
-			 s3 = $('#s3'),
-			 s4 = $('#s4'),			 
+			 s3 = $('#s3'),			 			 
 			 menu = $('.menu'),
 			 diff = s1[0].offsetTop - window.pageYOffset,
 			 diff2 = s2[0].offsetTop - window.pageYOffset, 
-			 diff3 = s3[0].offsetTop - window.pageYOffset, 
-			 diff4 = s4[0].offsetTop - window.pageYOffset; 
+			 diff3 = s3[0].offsetTop - window.pageYOffset; 
 
 		if(diff < 0) {
 			$("#menu-txt").removeClass("white-text");	
@@ -378,17 +372,9 @@
 			$("#menu-txt").removeClass("black-text");				
 			$(".menu-l").removeClass("white-text");
 			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("black-text");
-			$(".menu-l").addClass("black-text");			
-		}
-		if(diff4 < 60) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");			
 			$("#menu-txt").addClass("white-text");
 			$(".menu-l").addClass("white-text");			
-		}		
+		}
 		if(diff > 1) {
 			$("#menu-txt").removeClass("white-text");	
 			$("#menu-txt").removeClass("black-text");				

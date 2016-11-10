@@ -28,8 +28,12 @@
 		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
 		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Poiret+One|Righteous" rel="stylesheet">
+		<!--galeria-->
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<!--servicios-->
 		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+		<!--contacto-->
+		<link href="https://fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet">
 		<!--		<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700" rel="stylesheet">-->
 		<!--		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">-->
 
@@ -115,17 +119,33 @@
 						<li><a class="menu-l" href="index.html">INICIO</a></li>	
 						<li><a class="menu-l" href="servicios.html">SERVICIOS</a></li>	
 						<li><a class="menu-l" href="galeria.html">GALERÍA</a></li>											
-						<li><a class="menu-l" href="#s4">CONTACTO</a></li>						
+						<li><a class="menu-l" href="contacto.html">CONTACTO</a></li>						
 					</ul>
-					<ul class="side-nav white" id="mobile-demo">
-						<li class="center text-color padd-arriba">
+					<ul class="side-nav menu-bg-color center" id="mobile-demo">
+						<li class="text-color padd-arriba">
 							<h2 class="more-bold">CARLOS</h1>
 							<h2 class="more-light">ARRIAGA</h1>							
 						</li>
-						<li><a class="light text-color" href="index.html">Inicio</a></li>
-						<li><a class="light text-color" href="servicios.html">Servicios</a></li>
-						<li><a class="light text-color" href="galeria.html">Galería</a></li>
-						<li><a class="light text-color" href="contacto.php">Contacto</a></li>						
+						<li>
+							<a class="light text-color" href="index.html">
+								<p>Inicio</p>
+							</a>
+						</li>
+						<li>
+							<a class="light text-color" href="servicios.html">
+								<p>Servicios</p>
+							</a>
+						</li>
+						<li>
+							<a class="light text-color" href="galeria.html">
+								<p>Galería</p>
+							</a>
+						</li>
+						<li>
+							<a class="light text-color" href="contacto.html">
+								<p>Contacto</p>
+							</a>
+						</li>						
 					</ul>
 				</div>
 			</nav>
@@ -143,73 +163,39 @@
 
 			<!------------------------------------PROJECTS---------------------------------------->
 			<section class="scrollspy" id="s1">
-				<div class="wallGaleria screenFiller valign-wrapper">
-					<div class="row galeria-txt center valign">
-						<h1 class="white-text">Contacto</h1>
+				<div class="wallContacto screenFiller valign-wrapper">
+					<div class="row contacto-txt center valign">
+						<h1 class="color-text">Contact<i class="material-icons ic-contacto">fingerprint</i></h1>
+						<p class=" color-text light">desliza</p>
 					</div>
 				</div>
 			</section>
 
-			<section class="scrollspy color2 padd-abajo2 padd-arriba2 white-text" id="s2">
-				<form class="col s12" action="contact.php" name="htmlform" method="post">
-			  <div class="row">
-				<div class="input-field col s12">
-				  <input placeholder="Introduce tu Nombre(s)" class="validate" name="first_name" type="text">
-				  <label for="first_name" class="active">Nombre</label>
-				</div>
-				<div class="input-field col s12">
-				  <input placeholder="Introduce tus Apellidos" class="validate" name="last_name" type="text">
-				  <label for="first_name" class="active">Apellidos</label>
-				</div>
-				<div class="input-field col s12">
-				  <input placeholder="Introduce un correo electrónico válido" class="validate" name="email" type="email">
-				  <label for="email" class="active">Email</label>
-				</div>
-				<div class="input-field col s12">
-					<input placeholder="Introduce un numero telefónico" class="validate" name="telephone" type="tel">
-					<label for="telephone" class="active">Teléfono</label>
-				</div>
-					<div class="input-field col s12">					
-					<textarea class="materialize-textarea" name="comments"></textarea>
-					<label for="comments" class="">Mensaje</label>
-				</div>
+			<section class="scrollspy color wallCity padd-abajo2 padd-arriba2 white-text" id="s2">
+				<div class="row">
+					<div class="col s12 m6 offset-m3 l6 offset-l3 center">
+						<p class="grey-text light">
+							Siempre preferiré conocer y trabajar junto a personas interesadas
+							en crear, innovar y desarrollar nuevos proyectos para mejorar
+							nuestro mundo.						
+							<br>
+							<b>Si tienes un proyecto en mente, podemos desarrollar y hacer crecer tu idea.</b>
+						</p>
+						<p class="padd-abajo">
+							<b>Siéntete libre de enviarme un e-mail para contactarme: </b>
+						</p>
+						<a href="mailto:carlos.arriaga@live.com" class="btn-large btn-mail light z-depth-0 ">carlos.arriaga@live.com</a>
 
-				<div class="col s12 center">
-					<button class="btn blue" type="submit" value="submit">Enviar
-						<i class="material-icons right">send</i>
-					</button>
+					</div>
 				</div>
-			  </div>
-			 
+			</section>
 			
-			</form>
-			</section>
-
-
-			<!--------------------------------------------------------------->
-			<section class="scrollspy" id="s3">
-
-
-
-			</section>
-
-			<!--------------------------------------------------------------->
-			<section class="scrollspy red darken-3" id="s4">
-
-
-
-			</section>
-
-			<!--------------------------------------------------------------->
-			<section class="scrollspy" id="s5">
-
-			</section>
 
 		</main>
 		<!--------------------------------------------------------------->
 		<!--------------------------------------------------------------->
 		<!-----------------------FOOTER------------------------------------------>
-		<footer class="page-footer screenFiller color2 scrollspy padd-abajo white-text" id="s6">
+		<footer class="page-footer screenFiller color2 scrollspy padd-abajo white-text" id="s3">
 
 			<div class="row padd-arriba padd-abajo2">
 				<div class="col s12 l12 center white-text">
@@ -224,15 +210,15 @@
 					</div>
 					<div class="col l4 m4 s12 footer-links">
 						<p class="footer-tit">EXPLORA</p>
-						<ul class="center-align">							
+						<ul class="center-align">														
 							<li>
-								<a class="btn btn-galeria2 z-depth-0">Contacto</a>
-							</li>						
-							<li>
-								<a class="btn btn-galeria2 z-depth-0">Servicios</a>							
+								<a href="servicios.html" class="btn btn-galeria2 z-depth-0">Servicios</a>							
 							</li>
 							<li>
-								<a class="btn btn-galeria2 z-depth-0">Galería</a>
+								<a href="galeria.html" class="btn btn-galeria2 z-depth-0">Galería</a>
+							</li>
+							<li>
+								<a href="contacto.html" class="btn btn-galeria2 z-depth-0">Contacto</a>
 							</li>
 						</ul>
 					</div>
@@ -309,25 +295,19 @@
 	$(window).scroll(function(e) {
 		var s1 = $('#s1'),
 			 s2 = $('#s2'),
-			 s3 = $('#s3'),
-			 s4 = $('#s4'),
-			 s5 = $('#s5'),
-			 s6 = $('#s6'),
+			 s3 = $('#s3'),			 
 			 menu = $('.menu'),
 			 diff = s1[0].offsetTop - window.pageYOffset,
 			 diff2 = s2[0].offsetTop - window.pageYOffset, 
-			 diff3 = s3[0].offsetTop - window.pageYOffset, 
-			 diff4 = s4[0].offsetTop - window.pageYOffset, 
-			 diff5 = s5[0].offsetTop - window.pageYOffset, 
-			 diff6 = s6[0].offsetTop - window.pageYOffset; 
+			 diff3 = s3[0].offsetTop - window.pageYOffset; 
 
 		if(diff < 0) {
 			$("#menu-txt").removeClass("white-text");	
 			$("#menu-txt").removeClass("black-text");				
 			$(".menu-l").removeClass("white-text");
 			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("white-text");
-			$(".menu-l").addClass("white-text");			
+			$("#menu-txt").addClass("black-text");
+			$(".menu-l").addClass("black-text");			
 		}
 		//		92
 		if(diff2 < 60) {
@@ -346,39 +326,13 @@
 			$("#menu-txt").addClass("white-text");
 			$(".menu-l").addClass("white-text");			
 		}
-		if(diff4 < 60) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");			
-			$("#menu-txt").addClass("white-text");
-			$(".menu-l").addClass("white-text");			
-		}
-		//		cafe
-		if(diff5 < 60) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("white-text");
-			$(".menu-l").addClass("white-text");			
-		}
-		//		footer
-		if(diff6 < 60) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("white-text");
-			$(".menu-l").addClass("white-text");			
-		}
 		if(diff > 1) {
 			$("#menu-txt").removeClass("white-text");	
 			$("#menu-txt").removeClass("black-text");				
 			$(".menu-l").removeClass("white-text");
 			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("white-text");
-			$(".menu-l").addClass("white-text");			
+			$("#menu-txt").addClass("black-text");
+			$(".menu-l").addClass("black-text");			
 		}
 	});
 

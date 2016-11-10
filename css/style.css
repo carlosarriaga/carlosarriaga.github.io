@@ -169,6 +169,15 @@ vh-> height
 	font-size: 6em;
 }
 
+.contacto-txt h1{
+	font-family: 'Rubik', sans-serif;
+	font-size: 6em;
+}
+
+.ic-contacto{
+	font-size: .6em;
+}
+
 .expand{
 	font-family: 'Poiret One', cursive;
 	font-size: 1em;
@@ -214,7 +223,7 @@ vh-> height
 
 
 .border-top{
-	border-top: 2px solid #ffba1e;
+	border-top: 2px solid #003241;
 }
 
 .card-title{
@@ -243,6 +252,7 @@ vh-> height
 		visibility: hidden;
 	}
 }
+
 
 /*----------------------------------------------------------------------------------*/
 
@@ -301,9 +311,9 @@ vh-> height
 
 .btn-servicio:hover{
 	/*	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-	border: 1px solid #fff;
+	border: 1px solid #003241;
 	color: #fff;
-	background-color: #c60000;
+	background-color: #003241;
 }
 
 .btn-galeria{
@@ -348,6 +358,28 @@ vh-> height
 	background-color: #ffba1e;
 }
 
+.btn-mail{
+	background-color: #ffba1e;
+	border: 1px solid #ffba1e;
+	color: #fff;
+	-webkit-transition: all 0.7s !important; /* Safari */
+	transition-timing-function: ease-in-out;
+	transition: all 0.7s !important;
+	text-align: center;
+	letter-spacing: .1px;
+	transition: .2s ease-out;
+	cursor: pointer;
+	margin-bottom: 15px;
+	min-width: 140px;
+}
+
+.btn-mail:hover{
+	/*	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.35);
+}
+
 /*---------------------------------------GALERIA-------------------------------------*/
 .marcas{
 	min-height: 120px !important;
@@ -380,10 +412,12 @@ vh-> height
 
 .marcaBio{
 	background: url('/imgs/marcas/marca-07.svg') no-repeat center center;	
+	background-size: 170px !important;
 }
 
 .marcaBio:hover{
 	background: url('/imgs/marcas/marca-08.svg') no-repeat center center;	
+	background-size: 170px !important;
 }
 
 .marcaSinver{
@@ -479,6 +513,22 @@ vh-> height
 .pic18{
 	background: url('/imgs/galeria/18.jpg') no-repeat center center;
 }
+
+.pic19{
+	background: url('/imgs/galeria/19.jpg') no-repeat center center;
+}
+
+.pic20{
+	background: url('/imgs/galeria/20.jpg') no-repeat center center;
+}
+
+.pic21{
+	background: url('/imgs/galeria/21.jpg') no-repeat center center;
+}
+
+.pic22{
+	background: url('/imgs/galeria/22.jpg') no-repeat center center;
+}
 /*----------------------------------FOOTER-------------------------------------*/
 
 
@@ -531,6 +581,14 @@ footer a{
 
 	.galeria-txt h1{
 		font-size: 5em;
+	}
+
+	.contacto-txt h1{
+		font-size: 5em;
+	}
+
+	.ic-contacto{
+		font-size: .6em;
 	}
 
 	.hero .container {
@@ -625,6 +683,14 @@ footer a{
 
 	.galeria-txt h1{
 		font-size: 4em;
+	}
+
+	.contacto-txt h1{
+		font-size: 4em;
+	}
+
+	.ic-contacto{
+		font-size: .6em;
 	}
 
 	nav a.button-collapse {
@@ -740,6 +806,16 @@ footer a{
 	min-height: 450px !important;
 }
 
+.wallSpace {	
+	background: url('/imgs/space.svg') no-repeat;
+	background-position: bottom center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+/*	min-height: 450px !important;*/
+}
+
 .wallRocket {
 	position:relative;
 	background: url('/imgs/rocket.svg') no-repeat;
@@ -748,6 +824,16 @@ footer a{
 	-moz-background-size: 50%;
 	-o-background-size: 50%;
 	background-size: 50%;
+}
+
+.wallCity {
+	position:relative;
+	background: url('/imgs/city-01.svg') no-repeat;
+	background-position: bottom center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .wallCafe {
@@ -780,9 +866,19 @@ footer a{
 	background-size: cover;
 }
 
+.wallContacto {
+	position:relative;
+	background: url('/imgs/parallax16.jpeg') no-repeat fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 /*--------------detalles-----------------------*/
 .color{
-	background-color: #003241 !important;
+	background-color: #003748 !important;
 }
 
 .color2{
@@ -791,6 +887,16 @@ footer a{
 
 .color3{
 	background-color: #232831 !important;
+}
+
+.menu-bg-color{
+	background: -moz-linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 54%, rgba(255,255,255,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(46%, rgba(255,255,255,1)), color-stop(100%, rgba(192,192,192,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 54%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 54%, rgba(255,255,255,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 54%, rgba(255,255,255,1) 100%); /* ie10+ */
+	background: linear-gradient(0deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 54%, rgba(255,255,255,1) 100%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c0c0c0',GradientType=0 ); /* ie6-9 */
 }
 
 .text-color{
