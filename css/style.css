@@ -182,8 +182,8 @@ vh-> height
 	font-family: 'Poiret One', cursive;
 	font-size: 1em;
 	letter-spacing: 10px !important;
-	-webkit-transition: all 1s !important; /* Safari */
-	transition: all 1s !important;
+	-webkit-transition: all 3s !important; /* Safari */
+	transition: all 3s !important;
 }
 
 .expand:hover{
@@ -223,7 +223,7 @@ vh-> height
 
 
 .border-top{
-	border-top: 2px solid #003241;
+	border-top: 2px solid #fff;
 }
 
 .card-title{
@@ -252,6 +252,66 @@ vh-> height
 		visibility: hidden;
 	}
 }
+
+/*----------------------------------------------------------------------*/
+.focus {
+	font-family: 'Pacifico', cursive;
+	width: 100%;
+	-webkit-transform: translateY(-10%);
+	transform: translateY(-10%);
+	z-index: 1;
+	/*  font-family: futura, sans-serif;*/
+	font-size: 8em;
+	color: transparent;
+	text-align: center;
+	letter-spacing: -.11em;
+	-webkit-transition: letter-spacing 2s ease;
+	transition: letter-spacing 2s ease;
+}
+.focus .letter {
+	-webkit-transition: text-shadow 2s ease;
+	transition: text-shadow 2s ease;
+}
+.focus .letter:nth-of-type(1), .focus .letter:nth-of-type(7) {
+	text-shadow: 0 0 2px white, 0 0 1px rgba(255, 215, 0, 0.75), 0.03em 0 0.06em rgba(255, 0, 0, 0.9), -0.03em 0 0.06em rgba(0, 255, 255, 0.9);
+}
+.focus .letter:nth-of-type(2), .focus .letter:nth-of-type(6) {
+	text-shadow: 0 0 2px white, 0 0 1px rgba(255, 215, 0, 0.75), 0.018em 0 0.036em rgba(255, 0, 0, 0.9), -0.018em 0 0.036em rgba(0, 255, 255, 0.9);
+}
+.focus .letter:nth-of-type(3) {
+	text-shadow: 0 0 2px white, 0 0 1px rgba(255, 215, 0, 0.75), 0.003em 0 0.006em rgba(255, 0, 0, 0.9), -0.003em 0 0.006em rgba(0, 255, 255, 0.9);
+}
+.focus .letter:nth-of-type(4) {
+	text-shadow: 0 0 2px white, 0 0 1px rgba(255, 215, 0, 0.75), 0.003em 0 0.006em rgba(255, 0, 0, 0.9), -0.003em 0 0.006em rgba(0, 255, 255, 0.9);
+}
+.focus .letter:nth-of-type(5) {
+	text-shadow: 0 0 2px white, 0 0 1px rgba(255, 215, 0, 0.75), 0.003em 0 0.006em rgba(255, 0, 0, 0.9), -0.003em 0 0.006em rgba(0, 255, 255, 0.9);
+}
+
+/*
+.focus:hover {
+letter-spacing: .1em;
+}
+*/
+
+body:hover .focus .letter:nth-of-type(1), body:hover .focus .letter:nth-of-type(7) {
+	text-shadow: 0 0 4px white, 0 0 1px rgba(255, 215, 0, 0.75), 0.042em 0 0.084em rgba(255, 0, 0, 0.9), -0.042em 0 0.084em rgba(0, 255, 255, 0.9);
+}
+body:hover .focus .letter:nth-of-type(2), body:hover .focus .letter:nth-of-type(6) {
+	text-shadow: 0 0 2px white, 0 0 1px rgba(255, 215, 0, 0.75), 0.024em 0 0.066em rgba(255, 0, 0, 0.9), -0.024em 0 0.066em rgba(0, 255, 255, 0.9);
+}
+body:hover .focus .letter:nth-of-type(3) {
+	text-shadow: 0 0 1px white, 0 0 1px rgba(255, 215, 0, 0.75), 0.009em 0 0.048em rgba(255, 0, 0, 0.9), -0.009em 0 0.048em rgba(0, 255, 255, 0.9);
+}
+
+body:hover .focus .letter:nth-of-type(4) {
+	text-shadow: 0 0 1px white, 0 0 1px rgba(255, 215, 0, 0.75), 0.009em 0 0.048em rgba(255, 0, 0, 0.9), -0.009em 0 0.048em rgba(0, 255, 255, 0.9);
+}
+
+body:hover .focus .letter:nth-of-type(5) {
+	text-shadow: 0 0 1px white, 0 0 1px rgba(255, 215, 0, 0.75), 0.009em 0 0.048em rgba(255, 0, 0, 0.9), -0.009em 0 0.048em rgba(0, 255, 255, 0.9);
+}
+
 
 
 /*----------------------------------------------------------------------------------*/
@@ -583,6 +643,10 @@ footer a{
 		font-size: 5em;
 	}
 
+	.focus {
+		font-size: 6em !important;
+	}
+
 	.contacto-txt h1{
 		font-size: 5em;
 	}
@@ -683,6 +747,10 @@ footer a{
 
 	.galeria-txt h1{
 		font-size: 4em;
+	}
+	
+	.focus {
+		font-size: 5em !important;
 	}
 
 	.contacto-txt h1{
@@ -813,7 +881,7 @@ footer a{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-/*	min-height: 450px !important;*/
+	/*	min-height: 450px !important;*/
 }
 
 .wallRocket {
@@ -829,7 +897,7 @@ footer a{
 .wallCity {
 	position:relative;
 	background: url('/imgs/city-01.svg') no-repeat;
-	background-position: bottom center;
+	background-position: bottom left;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
