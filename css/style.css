@@ -398,8 +398,8 @@ body:hover .focus .letter:nth-of-type(5) {
 
 .btn-galeria2{
 	background-color: rgba(255, 255, 255, 0);
-	border: 1px solid #ffba1e;
-	color: #ffba1e;
+	border: 1px solid #fff;
+	color: #fff;
 	-webkit-transition: all 0.7s !important; /* Safari */
 	transition-timing-function: ease-in-out;
 	transition: all 0.7s !important;
@@ -413,9 +413,9 @@ body:hover .focus .letter:nth-of-type(5) {
 
 .btn-galeria2:hover{
 	/*	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-	border: 1px solid #ffba1e;
+	border: 1px solid #fff;
 	color: #003241;
-	background-color: #ffba1e;
+	background-color: #fff;
 }
 
 .btn-mail{
@@ -589,6 +589,14 @@ body:hover .focus .letter:nth-of-type(5) {
 .pic22{
 	background: url('/imgs/galeria/22.jpg') no-repeat center center;
 }
+
+.pic23{
+	background: url('/imgs/galeria/23.jpg') no-repeat center center;
+}
+
+.pic24{
+	background: url('/imgs/galeria/24.jpg') no-repeat center center;
+}
 /*----------------------------------FOOTER-------------------------------------*/
 
 
@@ -618,8 +626,8 @@ footer a{
 }
 
 .footer-tit{
-	color: #c48800;
-	border-bottom: 2px solid #c48800;
+	color: #fff;
+	border-bottom: 2px solid #fff;
 
 }
 
