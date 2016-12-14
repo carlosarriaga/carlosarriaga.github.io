@@ -494,6 +494,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/parallax17.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230448,
+		"inputAbbreviatedPath": "\/imgs\/parallax17.jpg",
+		"outputAbbreviatedPath": "\/imgs\/parallax17.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/parallax2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -710,6 +721,39 @@
 		"initialSize": 195490,
 		"inputAbbreviatedPath": "\/imgs\/perfil.jpg",
 		"outputAbbreviatedPath": "\/imgs\/perfil.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/perfil.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22275,
+		"inputAbbreviatedPath": "\/imgs\/perfil.png",
+		"outputAbbreviatedPath": "\/imgs\/perfil.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/perfil2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9122,
+		"inputAbbreviatedPath": "\/imgs\/perfil2.jpg",
+		"outputAbbreviatedPath": "\/imgs\/perfil2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/perfil3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10519,
+		"inputAbbreviatedPath": "\/imgs\/perfil3.jpg",
+		"outputAbbreviatedPath": "\/imgs\/perfil3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

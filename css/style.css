@@ -1,28 +1,11 @@
 body{
 	background-color: #ffffff;
-	/*	font-family: 'Poppins', sans-serif;*/
-}
-
-form {
-	font-size: 24px;
-	padding: 10px;
-
-	color: white;
-	text-shadow: 0px 0px 0px #fff;
-	-webkit-text-fill-color: transparent;
-}
-
-
-form::-webkit-input-placeholder{
-	color:
-		text-shadow: none;
-	-webkit-text-fill-color: initial;
+	/*		font-family: 'Poppins', sans-serif;*/
 }
 
 p{
 	font-size: 1.1em !important;
 }
-
 
 .panel {
 	height: 100%;
@@ -174,13 +157,15 @@ vh-> height
 	font-size: 6em;
 }
 
+/*
 .ic-contacto{
 	font-size: .6em;
 }
+*/
 
 .expand{
-	font-family: 'Poiret One', cursive;
-	font-size: 1em;
+	font-family: 'Poppins', sans-serif;
+	font-size: .8em !important;
 	letter-spacing: 10px !important;
 	-webkit-transition: all 3s !important; /* Safari */
 	transition: all 3s !important;
@@ -190,19 +175,29 @@ vh-> height
 	letter-spacing: 15px !important;
 }
 
+/*
 .expand2{
-	font-family: 'Poiret One', cursive;
-	font-size: 1em;
-	letter-spacing: 5px !important;
+font-family: 'Poppins', sans-serif;
+font-size: .5em;
+letter-spacing: 5px !important;
+-webkit-transition: all 1s !important;  Safari 
+transition: all 1s !important;
+}
+
+.expand2:hover{
+letter-spacing: 8px !important;
+}
+*/
+
+.team{
 	-webkit-transition: all 1s !important; /* Safari */
 	transition: all 1s !important;
 }
 
-.expand2:hover{
-	letter-spacing: 8px !important;
+.team:hover{
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:  rgba(255, 54, 54, 0.56);
 }
-
-
 
 /*------------------------------------------------------------------------------*/
 
@@ -609,7 +604,8 @@ footer{
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	background-color: rgba(0, 0, 0, 0.6) !important;
+	color: #004b62 !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .logo-footer{
@@ -659,9 +655,11 @@ footer a{
 		font-size: 5em;
 	}
 
+/*
 	.ic-contacto{
 		font-size: .6em;
 	}
+*/
 
 	.hero .container {
 		padding: 0px 20px;
@@ -756,7 +754,7 @@ footer a{
 	.galeria-txt h1{
 		font-size: 4em;
 	}
-	
+
 	.focus {
 		font-size: 5em !important;
 	}
@@ -765,9 +763,11 @@ footer a{
 		font-size: 4em;
 	}
 
+/*
 	.ic-contacto{
 		font-size: .6em;
 	}
+*/
 
 	nav a.button-collapse {
 		height: 60px;
@@ -944,8 +944,8 @@ footer a{
 
 .wallContacto {
 	position:relative;
-	background: url('/imgs/parallax16.jpeg') no-repeat fixed;
-	background-position: center center;
+	background: url('/imgs/parallax17.jpg') no-repeat fixed;
+	background-position: bottom center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
