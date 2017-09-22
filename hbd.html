@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta property="og:title" content="Carlos Arriaga" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://carlosarriaga.github.io" />
+		<meta property="og:image" content="http://carlosarriaga.github.io/imgs/bannerfb.jpg" />
+		<meta property="og:description" content="Software Enginner / WEB Developer / Graphic Designer / UI Android Designer"/>
+		<meta property="og:image:width" content="300" />
+		<meta property="og:image:height" content="300" />
+
+
+		<title>Carlos Arriaga - Diseño &amp; Creatividad Digital</title>
+		<meta charset="utf-8">
+		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+
+		<!--Import Google Icon Font-->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
+		<!--website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+
+		<!--		<script src="js/jquery-1.10.2.min.js"></script>-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!--		<script src="js/jquery.sldr.js"></script>-->
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+
+		<!--loader-->
+		<script type="text/javascript">
+			// makes sure the whole site is loaded
+			jQuery(window).load(function() {
+				// will first fade out the loading animation
+				jQuery("#status").fadeOut();
+				// will fade out the whole DIV that covers the website.
+				jQuery("#preloader").delay(1000).fadeOut("slow");
+			})
+		</script>
+		<!--counter-->
+		<script type="text/javascript">
+			var options = 
+				 [ {
+					 selector: '#s5', 
+					 offset: 50, 
+					 callback: function(el) { 
+
+						 var counter = $(".counter", $("#s5")),
+							  speed = 4000;
+						 counter.each(function(){
+							 var $this = $(this);
+							 var parse = parseInt($this);
+							 console.log(typeof parse);
+							 $({value:0}).animate({value:$this.html()},{
+								 duration:speed,
+								 easing:"swing",
+								 step:function(){
+									 $this.html(Math.round(this.value));
+								 }
+							 });
+						 });
+					 }
+				 }]; 					
+			Materialize.scrollFire(options); 
+		</script>
+
+		<style type="text/css">
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="row margen-arriba2 margen-abajo2">
+			<div class="container">
+				<div class="col s12 l12 m12 center">
+					<h1 class="hbd-txt">FELIZ CUMPLEAÑOS</h1>
+					<h1 class="hbd-txt">Pecosita</h1>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+
+</html>
