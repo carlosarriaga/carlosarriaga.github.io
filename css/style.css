@@ -1021,7 +1021,7 @@ footer a{
 
 .wallHBD {
     position:relative;
-    background: url('/carlos4/imgs/wallHBD.jpg') no-repeat fixed;
+    background: url('/imgs/wallHBD.jpg') no-repeat fixed;
     background-position: bottom right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1032,7 +1032,7 @@ footer a{
 
 .wallVideo {
     position:relative;
-    background: url('/carlos4/imgs/hbd/sky.png') no-repeat fixed;
+    background: url('/imgs/hbd/sky.png') no-repeat fixed;
     background-position: bottom right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
