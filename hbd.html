@@ -1,101 +1,241 @@
-<!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta property="og:title" content="Carlos Arriaga" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://carlosarriaga.github.io" />
-		<meta property="og:image" content="http://carlosarriaga.github.io/imgs/bannerfb.jpg" />
-		<meta property="og:description" content="Software Enginner / WEB Developer / Graphic Designer / UI Android Designer"/>
-		<meta property="og:image:width" content="300" />
-		<meta property="og:image:height" content="300" />
+    <head>
+        <meta property="og:title" content="Carlos Arriaga" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://carlosarriaga.github.io" />
+        <meta property="og:image" content="http://carlosarriaga.github.io/imgs/bannerfb.jpg" />
+        <meta property="og:description" content="Software Enginner / WEB Developer / Graphic Designer / UI Android Designer"/>
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
 
 
-		<title>Carlos Arriaga - Diseño &amp; Creatividad Digital</title>
-		<meta charset="utf-8">
-		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+        <title>Carlos Arriaga - Diseño &amp; Creatividad Digital</title>
+        <meta charset="utf-8">
+        <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
 
-		<!--Import Google Icon Font-->
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
-		<!--website is optimized for mobile-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
-		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   
+        <!--website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Architects+Daughter" rel="stylesheet">
 
-		<!--		<script src="js/jquery-1.10.2.min.js"></script>-->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<!--		<script src="js/jquery.sldr.js"></script>-->
-		<script src="js/materialize.js"></script>
-		<script src="js/init.js"></script>
+        <!--        <script src="js/jquery-1.10.2.min.js"></script>-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!--        <script src="js/jquery.sldr.js"></script>-->
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
 
-		<!--loader-->
-		<script type="text/javascript">
-			// makes sure the whole site is loaded
-			jQuery(window).load(function() {
-				// will first fade out the loading animation
-				jQuery("#status").fadeOut();
-				// will fade out the whole DIV that covers the website.
-				jQuery("#preloader").delay(1000).fadeOut("slow");
-			})
-		</script>
-		<!--counter-->
-		<script type="text/javascript">
-			var options = 
-				 [ {
-					 selector: '#s5', 
-					 offset: 50, 
-					 callback: function(el) { 
+        <!--loader-->
+        <script type="text/javascript">
+            // makes sure the whole site is loaded
+            jQuery(window).load(function() {
+                // will first fade out the loading animation
+                jQuery("#status").fadeOut();
+                // will fade out the whole DIV that covers the website.
+                jQuery("#preloader").delay(1000).fadeOut("slow");
+            })
+        </script>
+        <!--counter-->
+        <script type="text/javascript">
+            var options = 
+                 [ {
+                     selector: '#s5', 
+                     offset: 50, 
+                     callback: function(el) { 
 
-						 var counter = $(".counter", $("#s5")),
-							  speed = 4000;
-						 counter.each(function(){
-							 var $this = $(this);
-							 var parse = parseInt($this);
-							 console.log(typeof parse);
-							 $({value:0}).animate({value:$this.html()},{
-								 duration:speed,
-								 easing:"swing",
-								 step:function(){
-									 $this.html(Math.round(this.value));
-								 }
-							 });
-						 });
-					 }
-				 }]; 					
-			Materialize.scrollFire(options); 
-		</script>
+                         var counter = $(".counter", $("#s5")),
+                              speed = 4000;
+                         counter.each(function(){
+                             var $this = $(this);
+                             var parse = parseInt($this);
+                             console.log(typeof parse);
+                             $({value:0}).animate({value:$this.html()},{
+                                 duration:speed,
+                                 easing:"swing",
+                                 step:function(){
+                                     $this.html(Math.round(this.value));
+                                 }
+                             });
+                         });
+                     }
+                 }];                    
+            Materialize.scrollFire(options); 
+        </script>
 
-		<style type="text/css">
+        <style type="text/css">
 
-		</style>
-	</head>
+        </style>
+    </head>
+    <body>
 
-	<body>
+    <div class="row padd-arriba2 padd-abajo2 wallHBD ">
+        <div class="container">
+            <div class="col s12 l12 m12 center white-text">
+                <h1 class="hbd-tit">FELIZ CUMPLEAÑOS</h1>
+                <h1 class="hbd-tit">Pecosita</h1>
+            </div>
+        </div>
+    </div>
 
-		<div class="row margen-arriba2 margen-abajo2">
-			<div class="container">
-				<div class="col s12 l12 m12 center">
-					<h1 class="hbd-txt">FELIZ CUMPLEAÑOS</h1>
-					<h1 class="hbd-txt">Pecosita</h1>
-				</div>
-			</div>
-		</div>
+    <div class="row padd-abajo padd-arriba white-text z-depth-3" style="background-color:#202020;">
+        <div class="container">
+            <div class="col s12 m7 l7 hbd-txt">
+                <p>
+                    "Mientras me hagas latir así de fuerte el corazón cuando te acercas a mis labios, tienes un mundo entero a tus pies...
+                    <br>
+                    El mío."
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="row padd-arriba2 padd-abajo2 white">
+        <div class="container">
+            <div class="col s12 m6 l6 center">
+                <img src="imgs/hbd/love.jpg" class="responsive-img tooltipped img-love circle z-depth-3 margen-abajo" style="border: 3px solid #202020; padding:4px; background-color:transparent;" data-position="bottom" data-delay="50" data-tooltip="Yep! Te amo">
+            </div>
+            <div class="col s12 m6 l6 right-align">
+                <p class="hbd-txt">
+                    Mereces amor por montones, mereces ser amada y siempre un poco más. No hay mujer en esta vida que me brinde cariño desinteresado, que calme mis demonios y aliente mis virtudes como tú lo haces.
+                    <br>
+                    <br>
+                    Desde el primer momento me pude ver lo grande de tu corazón y lo sencilla de tu alma y desde entonces reconocí lo mucho que vales y lo mucho que me gusta tenerte en mi vida. Lo bien que me hace saberte cerca de mí.
+                    <br>
+                    <br>
+                    La ilusión, el deseo de tenerte en mi vida crece a cada momento, cada que estás conmigo y reímos, cada que compartimos...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row vidio">
+        <div class="padd-arriba2 hide-on-med-and-up" style="position:relative;">
+            <img src="imgs/hbd/sky.png">
+            <div class="container texto-img">
+                <div class="col s12 white-text">
+                    <h3 class="text-white text-thin hbd-tit">FELICIDADES :3</h3>
+                    <p class="hbd-txt">Y así como tú me has dicho, "eres enorme", pero además de todo eres capaz, hermosa y de corazón sincero... mi tesoro. Y sigo descubriendo día a día tantas cualidades en ti, eres sobre todo inteligente, gentil, sencilla, tierna y muy cariñosa, demuestras lo que piensas y te gusta soñar y eres hermosa (ya sé que lo había mencionado antes).</p>
+                    <br>
+                    <p class="hbd-txt">Y si algo tengo seguro es lo mucho que te impulsaré a que seas mejor, a que sigas avanzando, porque tú lo mereces, llegar lejos y alcanzar todo lo que sueñas, te jalaré las orejas, te levantaré si caes y por supuesto festejaré cada logro.
+                        <br><br>
+                        Me sentiré halagado de saber que puedo participar en tus triunfos y de pertenecer a tu vida.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--        <div class="homepage-hero-module">-->
+        <div class="video-container hide-on-small-only">
+            <div class="title-container">
+                <div class="headline container" style="color:#232767;">
+                    <h3 class="text-thin hbd-tit">FELICIDADES :3</h3>
+                    <h5 class="hbd-txt">Y así como tú me has dicho, "eres enorme", pero además de todo eres capaz, hermosa y de corazón sincero... mi tesoro. Y sigo descubriendo día a día tantas cualidades en ti, eres sobre todo inteligente, gentil, sencilla, tierna y muy cariñosa, demuestras lo que piensas y te gusta soñar y eres hermosa (ya sé que lo había mencionado antes).</h5>
+                    <br>
+                    <h5 class="hbd-txt">Y si algo tengo seguro es lo mucho que te impulsaré a que seas mejor, a que sigas avanzando, porque tú lo mereces, llegar lejos y alcanzar todo lo que sueñas, te jalaré las orejas, te levantaré si caes y por supuesto festejaré cada logro.
+                        <br><br>
+                        Me sentiré halagado de saber que puedo participar en tus triunfos y de pertenecer a tu vida.</h5>
+                </div>
+            </div>
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth" muted>
+                <source src="https://coverr.co/s3/mp4/Sunset-Lapse.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                <source src="https://coverr.co/s3/mp4/Sunset-Lapse.mp4" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+            <!-- Image fallback if video is not supported by browser -->
+            <div class="poster hidden" style="display: none">
+                <img src="imgs/hbd/sky.png" alt="">
+            </div>
+        </div>
+        <!--        </div>-->
+
+    </div>
+    
+    
+    
+    <div class="row padd-abajo padd-arriba white-text z-depth-3" style="background-color:#202020;">
+        <div class="container">
+            <div class="col s12 m7 offset-m5 l7 offset-l5 right-align hbd-txt">
+                <p>
+                    "Me aferraré a nosotros, a hacernos felices como hasta ahora, a conocernos com nadie se ha conocido, a confiarnos como nadie más podría confiarse y a amarnos como el amor mismo"
+                </p>
+            </div>
+        </div>
+    </div>
 
 
-
-
-
-
-
-
-
-
-
-	</body>
+</body>
 
 </html>
+
+<script type="application/javascript">
+    //jQuery is required to run this code
+    $( document ).ready(function() {
+
+        scaleVideoContainer();
+
+        initBannerVideoSize('.video-container .poster img');
+        initBannerVideoSize('.video-container .filter');
+        initBannerVideoSize('.video-container video');
+
+        $(window).on('resize', function() {
+            scaleVideoContainer();
+            scaleBannerVideoSize('.video-container .poster img');
+            scaleBannerVideoSize('.video-container .filter');
+            scaleBannerVideoSize('.video-container video');
+        });
+
+    });
+
+    function scaleVideoContainer() {
+
+        var height = $(window).height() + 5;
+        var unitHeight = parseInt(height) + 'px';
+        $('.homepage-hero-module').css('height',unitHeight);
+
+    }
+
+    function initBannerVideoSize(element){
+
+        $(element).each(function(){
+            $(this).data('height', $(this).height());
+            $(this).data('width', $(this).width());
+        });
+
+        scaleBannerVideoSize(element);
+
+    }
+
+    function scaleBannerVideoSize(element){
+
+        var windowWidth = $(window).width(),
+             windowHeight = $(window).height() + 5,
+             videoWidth,
+             videoHeight;
+
+        console.log(windowHeight);
+
+        $(element).each(function(){
+            var videoAspectRatio = $(this).data('height')/$(this).data('width');
+
+            $(this).width(windowWidth);
+
+            if(windowWidth < 1000){
+                videoHeight = windowHeight;
+                videoWidth = videoHeight / videoAspectRatio;
+                // $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+
+                $(this).width(videoWidth).height(videoHeight);
+            }
+
+            $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+
+        });
+    }
+</script>

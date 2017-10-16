@@ -1001,17 +1001,139 @@ footer a{
 
 
 /*-----------------------------------------------------------------------*/
-.hbd-txt{
-	font-family: 'Wendy One', sans-serif;
+.hbd-tit{
+    font-family: 'Amatic SC', cursive;
 }
 
+.hbd-txt{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.img-love{
+    width: 200px;
+    -webkit-transition: all .6s !important; /* Safari */
+    transition: all .6s !important;
+}
+
+.img-love:hover{
+    width: 250px;
+}
 
 .wallHBD {
-	position:relative;
-	background: url('/imgs/parallax17.jpg') no-repeat fixed;
-	background-position: bottom center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    position:relative;
+    background: url('/carlos4/imgs/wallHBD.jpg') no-repeat fixed;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
 }
+
+.wallVideo {
+    position:relative;
+    background: url('/carlos4/imgs/hbd/sky.png') no-repeat fixed;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.texto-img{
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  padding: 20px;
+    
+}
+
+body {
+/*  overflow: hidden;*/
+  height: 100vh;
+  width: 100vw;
+}
+
+.homepage-hero-module {
+  border-right: none;
+  border-left: none;
+  position: relative;
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+  display: none;
+}
+
+.no-video .video-container .poster,
+.touch .video-container .poster {
+  display: block !important;
+}
+
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.video-container .poster img {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+.video-container .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  bottom: 0;
+}
+
+.video-container video.fillWidth {
+  width: 100%;
+}
+
+.title-container {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+  font-family: 'Roboto', sans-serif;
+  z-index: 999;
+}
+
+.title-container .headline {
+  text-align: center;
+  color: #fff;
+}
+
+.title-container h3, .title-container h5 {
+  position: relative;
+  font-weight: 300;
+}
+
+.title-container h3 {
+  font-size: 42px;
+  line-height: 44px;
+  margin: 15px 0 10px;
+}
+
+.title-container h5 {
+  font-size: 22px;
+  margin: 20px 0 0;
+}
+
