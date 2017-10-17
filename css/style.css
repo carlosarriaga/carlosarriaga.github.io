@@ -1025,7 +1025,7 @@ footer a{
 
 .wallHBD {
     position:relative;
-    background: url('/carlos4/imgs/wallHBD.jpg') no-repeat fixed;
+    background: url('/imgs/wallHBD.jpg') no-repeat fixed;
     background-position: bottom right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1036,7 +1036,7 @@ footer a{
 
 .video-img {
     position:relative;
-    background: url('/carlos4/imgs/hbd/sea.png') no-repeat fixed;
+    background: url('/imgs/hbd/sea.png') no-repeat fixed;
     background-position: top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
