@@ -1009,6 +1009,10 @@ footer a{
     font-family: 'Architects Daughter', cursive;
 }
 
+.hbd-li{
+    font-family: 'Raleway', sans-serif;
+}
+
 .img-love{
     width: 200px;
     -webkit-transition: all .6s !important; /* Safari */
@@ -1021,7 +1025,7 @@ footer a{
 
 .wallHBD {
     position:relative;
-    background: url('/imgs/wallHBD.jpg') no-repeat fixed;
+    background: url('/carlos4/imgs/wallHBD.jpg') no-repeat fixed;
     background-position: bottom right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1030,10 +1034,10 @@ footer a{
     min-height: 600px;
 }
 
-.wallVideo {
+.video-img {
     position:relative;
-    background: url('/imgs/hbd/sky.png') no-repeat fixed;
-    background-position: bottom right;
+    background: url('/carlos4/imgs/hbd/sea.png') no-repeat fixed;
+    background-position: top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1078,7 +1082,7 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #000;
+  background: #202020;
 }
 
 .video-container .poster img {
@@ -1136,4 +1140,15 @@ body {
   font-size: 22px;
   margin: 20px 0 0;
 }
+
+.video-txt-bg p, .video-txt-bg h5, .video-txt-bg h3{
+/*  background-color: rgba(206, 240, 255, 0.7);*/
+    text-shadow: 1px 1px #c3c3c3;
+    
+}
+
+.bd-tit-bg h1{
+    text-shadow: 2px 2px #b4428c;
+}
+
 
