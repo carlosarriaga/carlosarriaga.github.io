@@ -1,230 +1,236 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta property="og:title" content="Carlos Arriaga" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://carlosarriaga.github.io" />
-		<meta property="og:image" content="http://carlosarriaga.github.io/imgs/bannerfb.jpg" />
-		<meta property="og:description" content="Software Enginner / WEB Developer / Graphic Designer / UI Android Designer"/>
-		<meta property="og:image:width" content="300" />
-		<meta property="og:image:height" content="300" />
+    <head>
+        <meta property="og:title" content="Carlos Arriaga" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://carlosarriaga.github.io" />
+        <meta property="og:image" content="http://carlosarriaga.github.io/imgs/bannerfb.jpg" />
+        <meta property="og:description" content="Software Enginner / WEB Developer / Graphic Designer / UI Android Designer"/>
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+        <!--TITLE-->
+        <title>Carlos Arriaga - Diseño &amp; Creatividad Digital</title>
+        <meta charset="utf-8">
+        <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   
+        <!--website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--STYLE-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+        <!--FONTS-->
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One|Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">      
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,700,900" rel="stylesheet">
+        <!--JS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+
+        <!--LOADER-->
+        <script type="text/javascript">
+            // makes sure the whole site is loaded
+            jQuery(window).load(function() {
+                // will first fade out the loading animation
+                jQuery("#status").fadeOut();
+                // will fade out the whole DIV that covers the website.
+                jQuery("#preloader").delay(1000).fadeOut("slow");
+            })
+        </script>
+        <!--COUNTER-->
+        <script type="text/javascript">
+            var options = 
+                 [ {
+                     selector: '#s5', 
+                     offset: 50, 
+                     callback: function(el) { 
+
+                         var counter = $(".counter", $("#s5")),
+                              speed = 4000;
+                         counter.each(function(){
+                             var $this = $(this);
+                             var parse = parseInt($this);
+                             console.log(typeof parse);
+                             $({value:0}).animate({value:$this.html()},{
+                                 duration:speed,
+                                 easing:"swing",
+                                 step:function(){
+                                     $this.html(Math.round(this.value));
+                                 }
+                             });
+                         });
+                     }
+                 }];                    
+            Materialize.scrollFire(options); 
+        </script>
+
+        <style type="text/css">
+
+        </style>
+    </head>
+
+    <body>
+
+        <!-------------------------LOADER------------------------------->
+        <div id="preloader">            
+            <div class="preloader-wrapper small active" id="status">
+                <div class="spinner-layer spinner-color">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div><div class="gap-patch">
+                    <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                    </div>
+                </div>
+            </div>      
+        </div>
 
 
-		<title>Carlos Arriaga - Diseño &amp; Creatividad Digital</title>
-		<meta charset="utf-8">
-		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
 
-		<!--Import Google Icon Font-->
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
-		<!--website is optimized for mobile-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
-		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Poiret+One|Righteous" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">		
-		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 
-		<!--		<script src="js/jquery-1.10.2.min.js"></script>-->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<!--		<script src="js/jquery.sldr.js"></script>-->
-		<script src="js/materialize.js"></script>
-		<script src="js/init.js"></script>
 
-		<!--loader-->
-		<script type="text/javascript">
-			// makes sure the whole site is loaded
-			jQuery(window).load(function() {
-				// will first fade out the loading animation
-				jQuery("#status").fadeOut();
-				// will fade out the whole DIV that covers the website.
-				jQuery("#preloader").delay(1000).fadeOut("slow");
-			})
-		</script>
-		<!--counter-->
-		<script type="text/javascript">
-			var options = 
-				 [ {
-					 selector: '#s5', 
-					 offset: 50, 
-					 callback: function(el) { 
 
-						 var counter = $(".counter", $("#s5")),
-							  speed = 4000;
-						 counter.each(function(){
-							 var $this = $(this);
-							 var parse = parseInt($this);
-							 console.log(typeof parse);
-							 $({value:0}).animate({value:$this.html()},{
-								 duration:speed,
-								 easing:"swing",
-								 step:function(){
-									 $this.html(Math.round(this.value));
-								 }
-							 });
-						 });
-					 }
-				 }]; 					
-			Materialize.scrollFire(options); 
-		</script>
+<!------------------NAVBAR-------------------------------------------->
+<div class="navbar-fixed menu">
+    <nav class="transparent2 z-depth-0">
+        <div class="nav-wrapper2">              
+            <a href="#" data-activates="mobile-demo" class="button-collapse" id="menu-txt">                     
+                ME<br>NU
+            </a>
+            <ul class="right hide-on-med-and-down table-of-contents navbar-style">                  
+                <!--                        <li><a class="menu-l" href="index.html">INICIO</a></li> -->
+                <li><a class="menu-l" href="servicios.html">SERVICIOS</a></li>  
+                <li><a class="menu-l" href="galeria.html">GALERÍA</a></li>                                          
+                <li><a class="menu-l" href="contacto.html">CONTACTO</a></li>                        
+            </ul>
+            <ul class="side-nav menu-bg-color center" id="mobile-demo">
+                <li class="text-color padd-arriba">                         
+                    <h2 class="more-bold">CARLOS</h1>
+                    <h2 class="more-light">ARRIAGA</h1>                         
+                </li>                       
+                <li>
+                    <a class="light text-color" href="servicios.html">
+                        <p>Servicios</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="light text-color" href="galeria.html">
+                        <p>Galería</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="light text-color" href="contacto.html">
+                        <p>Contacto</p>
+                    </a>
+                </li>                       
+            </ul>
+        </div>
+    </nav>
+</div>
 
-		<style type="text/css">
+<!------------------MAIN-------------------------------------------->
+<main>
 
-		</style>
-	</head>
+    <!------------------INTRO-------------------------------------------->
+    <section class="scrollspy mobFiller100-auto color2 white-text wallRocket" id="s1">
 
-	<body>
+        <div class="row padd-arriba2">
+            <div class="container center-align">
+                <div class="col s12 l12 padd-arriba2">
 
-		<!-------------------------LOADER------------------------------->
-		<div id="preloader">			
-			<div class="preloader-wrapper small active" id="status">
-				<div class="spinner-layer spinner-color">
-					<div class="circle-clipper left">
-						<div class="circle"></div>
-					</div><div class="gap-patch">
-					<div class="circle"></div>
-					</div><div class="circle-clipper right">
-					<div class="circle"></div>
-					</div>
-				</div>
-			</div>		
-		</div>
+                    <h1 class="more-bold padd-arriba">CARLOS</h1>
+                    <h1 class="more-light">ARRIAGA</h1>
+                    <h5 class="light expand center">Diseño &amp; Creactividad Digital</h5>
+                </div>
+                <div class="col s12 l12">
 
-		<!------------------NAVBAR-------------------------------------------->
-		<div class="navbar-fixed menu">
-			<nav class="transparent2 z-depth-0">
-				<div class="nav-wrapper2">				
-					<a href="#" data-activates="mobile-demo" class="button-collapse" id="menu-txt">						
-						ME<br>NU
-					</a>
-					<ul class="right hide-on-med-and-down table-of-contents navbar-style">					
-						<!--						<li><a class="menu-l" href="index.html">INICIO</a></li>	-->
-						<li><a class="menu-l" href="servicios.html">SERVICIOS</a></li>	
-						<li><a class="menu-l" href="galeria.html">GALERÍA</a></li>											
-						<li><a class="menu-l" href="contacto.html">CONTACTO</a></li>						
-					</ul>
-					<ul class="side-nav menu-bg-color center" id="mobile-demo">
-						<li class="text-color padd-arriba">							
-							<h2 class="more-bold">CARLOS</h1>
-							<h2 class="more-light">ARRIAGA</h1>							
-						</li>						
-						<li>
-							<a class="light text-color" href="servicios.html">
-								<p>Servicios</p>
-							</a>
-						</li>
-						<li>
-							<a class="light text-color" href="galeria.html">
-								<p>Galería</p>
-							</a>
-						</li>
-						<li>
-							<a class="light text-color" href="contacto.html">
-								<p>Contacto</p>
-							</a>
-						</li>						
-					</ul>
-				</div>
-			</nav>
-		</div>
+                </div>
+            </div>
+        </div>
 
-		<!------------------MAIN-------------------------------------------->
-		<main>
+    </section>
+    <!----------------------------------HELLO-------------------------------------->
+    <section class="scrollspy mobFiller100-auto wall92 white padd-arriba padd-abajo2" id="s2">
+        <div class="row">
+            <div class="col s12 m7 l7 push-m5 push-l5 center">
+                <img class="responsive-img hello-img" src="/imgs/disenio.png">
+            </div>
+            <div class="col s12 m5 pull-m7 l5 pull-l7 transparent padd-arriba2">
+                <div class="container">
+                    <h2 class="light hola barlow bold bar">HEY!</h2>
+                    <p class="light right-align bar">
+                        Soy Carlos Arriaga, 
+                        <br>
+                        Ingeniero de Software con gusto por el <b>diseño digital</b> aprendiendo a cada línea de código y por cada vector trazado, siendo creativo desde que se presenta la oportunidad.
+                        <br>
+                        Estoy enfocado a encontrar nuevas y significativas maneras de hacer <b>crecer tu marca</b>, en el mundo digital.
+                    </p>
+                    <div class="col s12 l12 padd-arriba right-align bar">
+                        <a href="galeria.html" class="btn-large btn-galeria z-depth-0">Galería</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<!------------------INTRO-------------------------------------------->
-			<section class="scrollspy mobFiller100-auto color2 white-text wallRocket" id="s1">
+    <!------------------------------------SERVICES---------------------------------------->
 
-				<div class="row padd-arriba2">
-					<div class="container center-align">
-						<div class="col s12 l12 padd-arriba2">
+    <section class="scrollspy mobFiller100-auto red darken-3 wallRojo padd-arriba2 padd-abajo2" id="s3">
+        <div class="row">
+            <div class="col s12 l6 offset-l3 m6 offset-m6 white-text">  
+                <h2 class="no-margin right-align foo">
+                    <b>
+                        Proyección.<br>
+                        Diseño. Creatividad.
+                    </b>
+                </h2>
+                <p class="light right-align foo">
+                    Ofrecemos <b>soluciones profesionales y creativas</b> para impulsar tu proyecto enfocado a tu Marca y Mercado planeando, diseñando y creando justo a tu Medida para que la Medida de <b>tu empresa Crezca.</b>
+                </p>                        
+            </div>
+        </div>
+        <div class="row padd-arriba2 padd-abajo white-text">
+            <div class="container center">
+                <div class="row padd-abajo">
+                    <div class="col s12 l6 offset-l3 m6 offset-m3">
+                        <h5 class="thin">
+                            Somos un equipo profesional y preparado para crear soluciones digitales funcionales para tu empresa. 
+                        </h5>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4 team padd-arriba box" style="min-height:325px;">
+                    <img src="imgs/perfil.jpg" class="responsive-img circle">
+                    <h5>CARLOS ARRIAGA</h5>
+                    <p class="thin no-margin">Fundador &amp; Director de Operaciones /Director Creativo</p>
+                </div>
 
-							<h1 class="more-bold padd-arriba">CARLOS</h1>
-							<h1 class="more-light">ARRIAGA</h1>
-							<h5 class="light expand center">Diseño &amp; Creactividad Digital</h5>
-						</div>
-						<div class="col s12 l12">
+                <div class="col s12 m4 l4 team padd-arriba box" style="min-height:325px;">
+                    <img src="imgs/perfil2.jpg" class="responsive-img circle">
+                    <h5>ALEJANDRA RAZO</h5>
+                    <p class="thin no-margin">Directora de Comunicación &amp; Marketing</p>
+                </div>
 
-						</div>
-					</div>
-				</div>
-
-			</section>
-			<!----------------------------------HELLO-------------------------------------->
-			<section class="scrollspy mobFiller100-auto wall92 white padd-arriba padd-abajo2" id="s2">
-				<div class="row">
-					<div class="container">
-						<div class="col s12 m6 l6"></div>
-						<div class="col s12 m6 l6 transparent padd-arriba2">
-							<h2 class="light hola bar">HOLA</h2>
-							<p class="light right-align bar">
-								Soy Carlos Arriaga, 
-								<br>
-								Ingeniero de Software con gusto por el <b>diseño digital</b> aprendiendo a cada línea de código y por cada vector trazado, siendo creativo desde que se presenta la oportunidad.
-								<br>
-								Estoy enfocado a encontrar nuevas y significativas maneras de hacer <b>crecer tu marca</b>, en el mundo digital.
-							</p>
-							<div class="col s12 l12 padd-arriba right-align bar">
-								<a href="galeria.html" class="btn-large btn-galeria z-depth-0">Galería</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<!------------------------------------SERVICES---------------------------------------->
-
-			<section class="scrollspy mobFiller100-auto red darken-3 wallRojo padd-arriba2 padd-abajo2" id="s3">
-				<div class="row">
-					<div class="col s12 l6 offset-l3 m6 offset-m6 white-text">	
-						<h2 class="no-margin right-align foo">
-							<b>
-								Proyección.<br>
-								Diseño. Creatividad.
-							</b>
-						</h2>
-						<p class="light right-align foo">
-							Ofrecemos <b>soluciones profesionales y creativas</b> para impulsar tu proyecto enfocado a tu Marca y Mercado planeando, diseñando y creando justo a tu Medida para que la Medida de <b>tu empresa Crezca.</b>
-						</p>						
-					</div>
-				</div>
-				<div class="row padd-arriba2 padd-abajo white-text">
-					<div class="container center">
-						<div class="row padd-abajo">
-							<div class="col s12 l6 offset-l3 m6 offset-m3">
-								<h5 class="thin">
-									Somos un equipo profesional y preparado para crear soluciones digitales funcionales para tu empresa. 
-								</h5>
-							</div>
-						</div>
-						<div class="col s12 m4 l4 team padd-arriba box" style="min-height:325px;">
-							<img src="imgs/perfil.jpg" class="responsive-img circle">
-							<h5>CARLOS ARRIAGA</h5>
-							<p class="thin no-margin">Fundador &amp; Director de Operaciones /Director Creativo</p>
-						</div>
-
-						<div class="col s12 m4 l4 team padd-arriba box" style="min-height:325px;">
-							<img src="imgs/perfil2.jpg" class="responsive-img circle">
-							<h5>ALEJANDRA RAZO</h5>
-							<p class="thin no-margin">Directora de Comunicación &amp; Marketing</p>
-						</div>
-
-						<div class="col s12 m4 l4 team padd-arriba box" style="min-height:325px;">
-							<img src="imgs/perfil3.jpg" class="responsive-img circle">
-							<h5>IVÁN TORRES</h5>
-							<p class="thin no-margin">Director de Desarrollo &amp; Software</p>
-						</div>
-					</div>
-				</div>
-				<div class="row center white-text">
-					<p class="light padd-arriba">Echa un vistazo!</p>
-					<a href="servicios.html" class="btn-large btn-servicio z-depth-0">Servicios</a>
-				</div>
-				<!--
+                <div class="col s12 m4 l4 team padd-arriba box" style="min-height:325px;">
+                    <img src="imgs/perfil3.jpg" class="responsive-img circle">
+                    <h5>IVÁN TORRES</h5>
+                    <p class="thin no-margin">Director de Desarrollo &amp; Software</p>
+                </div>
+            </div>
+        </div>
+        <div class="row center white-text">
+            <p class="light padd-arriba">Echa un vistazo!</p>
+            <a href="servicios.html" class="btn-large btn-servicio z-depth-0">Servicios</a>
+        </div>
+        <!--
 <div class="row white-text">
 <div class="container center padd-arriba">
 
@@ -236,7 +242,7 @@
 <p class="light white-text ">DISEÑADOR UI / UX</p>
 </div>
 
-<div class="col s12 l7 pull-l5">	
+<div class="col s12 l7 pull-l5">    
 <h3 class="no-margin right-align foo">
 <b>
 Proyección.<br>
@@ -253,242 +259,243 @@ Ofrezco <b>soluciones profesionales y creativas</b> para impulsar tu proyecto en
 </div>
 </div>
 -->
-			</section>
+    </section>
 
-			<!----------------------------------CONTACT----------------------------->
-			<section class="scrollspy white text-color wallGris" id="s4">
+    <!----------------------------------CONTACT----------------------------->
+    <section class="scrollspy white text-color wallGris" id="s4">
 
-				<div class="row padd-arriba2 padd-abajo center">
+        <div class="row padd-arriba2 padd-abajo center">
 
-					<div class="col s12 m12 l12 center-align">
-						<div class="container">
-							<h3 class="thin bar">"Es hora que seas el <em><b>Tú</b></em> que quisiste ser <b>a través de tu Marca.</b>"</h3>
-						</div>
+            <div class="col s12 m12 l12 center-align">
+                <div class="container">
+                    <h3 class="thin bar">"Es hora que seas el <em><b>Tú</b></em> que quisiste ser <b>a través de tu Marca.</b>"</h3>
+                </div>
 
-					</div>
-					<div class="col s12 m12 l6 offset-l3 center-align">
-						<div class="container">							
-							<p class="light bar">Tengo la experiencia y visión para ofrecerte ventajas
-								competitivas y profesionales. Darte el impulso creativo que tu negocio necesita 
-								y hacerlo un elemento de éxito.</p>														
-							<a href="contacto.html" class="btn-large btn-contacto z-depth-0 bar">Contáctame</a>
-						</div>
-					</div>
-				</div>
+            </div>
+            <div class="col s12 m12 l6 offset-l3 center-align">
+                <div class="container">                         
+                    <p class="light bar">Tengo la experiencia y visión para ofrecerte ventajas
+                        competitivas y profesionales. Darte el impulso creativo que tu negocio necesita 
+                        y hacerlo un elemento de éxito.</p>                                                     
+                    <a href="contacto.html" class="btn-large btn-contacto z-depth-0 bar">Contáctame</a>
+                </div>
+            </div>
+        </div>
 
-			</section>
+    </section>
 
-			<section class="scrollspy black" id="s5">
-				<div class="wallCafe">
-					<div class="row light padd-arriba2 padd-abajo white-text">						
+    <section class="scrollspy black" id="s5">
+        <div class="wallCafe">
+            <div class="row light padd-arriba2 padd-abajo white-text">                      
 
-						<div class="col l3 m3 s6 center">
-							<i class="fa fa-sitemap  fa-2x" style="display:block;"></i>
-							<p>Proyectos</p>
-							<h3 class="light timer count-title counter">128</h3>
-						</div>
+                <div class="col l3 m3 s6 center">
+                    <i class="fa fa-sitemap  fa-2x" style="display:block;"></i>
+                    <p>Proyectos</p>
+                    <h3 class="light timer count-title counter">128</h3>
+                </div>
 
-						<div class="col l3 m3 s6 center">
-							<i class="fa fa-coffee fa-2x" style="display:block;"></i>
-							<p>Tazas de Café</p>
-							<h3 class="light timer count-title counter">923</h3>
-						</div>
+                <div class="col l3 m3 s6 center">
+                    <i class="fa fa-coffee fa-2x" style="display:block;"></i>
+                    <p>Tazas de Café</p>
+                    <h3 class="light timer count-title counter">923</h3>
+                </div>
 
-						<div class="col l3 m3 s6 center padd-arriba-mob">
-							<i class="fa fa-gamepad  fa-2x" style="display:block;"></i>
-							<p>Logros Desbloqueados</p>
-							<h3 class="light timer count-title counter">759</h3>
-						</div>
+                <div class="col l3 m3 s6 center padd-arriba-mob">
+                    <i class="fa fa-gamepad  fa-2x" style="display:block;"></i>
+                    <p>Logros Desbloqueados</p>
+                    <h3 class="light timer count-title counter">759</h3>
+                </div>
 
-						<div class="col l3 m3 s6 center padd-arriba-mob">
-							<i class="fa fa-briefcase fa-2x" style="display:block;"></i>
-							<p>Clientes</p>
-							<h3 class="light timer count-title counter">64</h3>
-						</div>
+                <div class="col l3 m3 s6 center padd-arriba-mob">
+                    <i class="fa fa-briefcase fa-2x" style="display:block;"></i>
+                    <p>Clientes</p>
+                    <h3 class="light timer count-title counter">64</h3>
+                </div>
 
-					</div>
-				</div>
-			</section>
+            </div>
+        </div>
+    </section>
 
 
 
-		</main>
-		<!-----------------------FOOTER------------------------------------------>
-		<footer class="page-footer screenFiller color2 scrollspy padd-abajo white-text" id="s6">
+</main>
+    
+    <!-----------------------FOOTER------------------------------------------>
+        <footer class="page-footer screenFiller color2 scrollspy padd-abajo white-text" id="s6">
 
-			<div class="row padd-arriba padd-abajo2">
-				<div class="col s12 l12 center white-text">
-					<h4 class="more-bold">CARLOS ARRIAGA</h4>
-					<p class="light expand center">Diseño &amp; Creactividad Digital</p>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row padd-abajo light">
-					<div class="col l4 m4 s12 center">
-						<img src="imgs/face.svg" class="responsive-img">
-					</div>
-					<div class="col l4 m4 s12 footer-links">
-						<p class="footer-tit">EXPLORA</p>
-						<ul class="center-align">														
-							<li>
-								<a href="servicios.html" class="btn btn-galeria2 z-depth-0">Servicios</a>							
-							</li>
-							<li>
-								<a href="galeria.html" class="btn btn-galeria2 z-depth-0">Galería</a>
-							</li>
-							<li>
-								<a href="contacto.html" class="btn btn-galeria2 z-depth-0">Contacto</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col l4 m4 s12 footer-links">						
-						<p class="footer-tit">PORTAFOLIO</p>
-						<div class="col s6 l6 m6 center ic-portafolio">
-							<a target="_blank"href="https://www.facebook.com/CarlosArriagaDesign/" class="blue-text">
-								<i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-							</a>
-						</div>
-						<div class="col s6 l6 m6 center ic-portafolio">
-							<a target="_blank"href="https://www.behance.net/carlosarriagaj" class="light-blue-text text-accent-2">
-								<i class="fa fa-behance fa-2x" aria-hidden="true"></i>
-							</a>
-						</div>
-						<div class="col s6 l6 m6 center ic-portafolio">
-							<a target="_blank"href="https://www.pinterest.com/carlitosarriaga/" class="red-text">
-								<i class="fa fa-pinterest fa-2x" aria-hidden="true"></i>
-							</a>
-						</div>
-						<div class="col s6 l6 m6 center ic-portafolio">
-							<a target="_blank"href="https://github.com/carlosarriaga" class="deep-purple-text text-accent-1">
-								<i class="fa fa-github fa-2x" aria-hidden="true"></i>
-							</a>
-						</div>
-						<div class="col s6 l6 m6 center ic-portafolio">
-							<a target="_blank"href="https://mx.linkedin.com/in/carlosjarriaga" class=" light-blue-text">
-								<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-							</a>
-						</div>												
-						<div class="col s6 l6 m6 center ic-portafolio">
-							<a target="_blank"href="https://open.spotify.com/user/1288872061" class="light-green-text text-accent-4">
-								<i class="fa fa-spotify fa-2x" aria-hidden="true"></i>
-							</a>
-						</div>												
-					</div>
-				</div>
-			</div>
-			<div class="row footer-copyright">
-				<div class="row center">						
-					© 2016 Todos los derechos reservados.
-					<i class="fa fa-bolt flash" aria-hidden="true"></i>
-					<i class="fa fa-space-shuttle nave" aria-hidden="true"></i>
-					<a href="hbd.html"><i class="fa fa-heart coco" aria-hidden="true"></i></a>
-				</div>
-			</div>
-		</footer>
+            <div class="row padd-arriba padd-abajo2">
+                <div class="col s12 l12 center white-text">
+                    <h4 class="more-bold">CARLOS ARRIAGA</h4>
+                    <p class="light expand center">Diseño &amp; Creactividad Digital</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row padd-abajo light">
+                    <div class="col l4 m4 s12 center">
+                        <img src="imgs/face.svg" class="responsive-img footer-face">
+                    </div>
+                    <div class="col l4 m4 s12 footer-links">
+                        <p class="footer-tit">EXPLORA</p>
+                        <ul class="center-align">                                                       
+                            <li>
+                                <a href="servicios.html" class="btn btn-galeria2 z-depth-0">Servicios</a>                           
+                            </li>
+                            <li>
+                                <a href="galeria.html" class="btn btn-galeria2 z-depth-0">Galería</a>
+                            </li>
+                            <li>
+                                <a href="contacto.html" class="btn btn-galeria2 z-depth-0">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l4 m4 s12 footer-links">                        
+                        <p class="footer-tit">PORTAFOLIO</p>
+                        <div class="col s6 l6 m6 center ic-portafolio">
+                            <a target="_blank"href="https://www.facebook.com/CarlosArriagaDesign/" class="blue-text">
+                                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="col s6 l6 m6 center ic-portafolio">
+                            <a target="_blank"href="https://www.behance.net/carlosarriagaj" class="light-blue-text text-accent-2">
+                                <i class="fa fa-behance fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="col s6 l6 m6 center ic-portafolio">
+                            <a target="_blank"href="https://www.pinterest.com/carlitosarriaga/" class="red-text">
+                                <i class="fa fa-pinterest fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="col s6 l6 m6 center ic-portafolio">
+                            <a target="_blank"href="https://github.com/carlosarriaga" class="deep-purple-text text-accent-1">
+                                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="col s6 l6 m6 center ic-portafolio">
+                            <a target="_blank"href="https://mx.linkedin.com/in/carlosjarriaga" class=" light-blue-text">
+                                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </div>                                              
+                        <div class="col s6 l6 m6 center ic-portafolio">
+                            <a target="_blank"href="https://open.spotify.com/user/1288872061" class="light-green-text text-accent-4">
+                                <i class="fa fa-spotify fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </div>                                              
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-copyright">
+                <div class="row center">                        
+                    © 2016 Todos los derechos reservados.
+                    <i class="fa fa-bolt flash" aria-hidden="true"></i>
+                    <i class="fa fa-space-shuttle nave" aria-hidden="true"></i>
+<!--                    <a href="hbd.html"><i class="fa fa-heart coco" aria-hidden="true"></i></a>-->
+                </div>
+            </div>
+        </footer>
 
-	</body>
+    </body>
 </html>
 <!------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------>
 
 <script type="text/javascript">
 
-	window.sr = ScrollReveal();
+    window.sr = ScrollReveal();
 
-	sr.reveal('.foo', { 
-		distance: '200px', 
-		origin: 'left', 
-		easing: 'ease',
-		reset : false,
-		duration: 2000 });
+    sr.reveal('.foo', { 
+        distance: '200px', 
+        origin: 'left', 
+        easing: 'ease',
+        reset : false,
+        duration: 2000 });
 
-	sr.reveal('.bar', { 
-		distance: '200px', 
-		origin: 'bottom', 
-		easing: 'ease',
-		reset : false,
-		duration: 2000 });
+    sr.reveal('.bar', { 
+        distance: '200px', 
+        origin: 'bottom', 
+        easing: 'ease',
+        reset : false,
+        duration: 2000 });
 
-	sr.reveal('.box', { duration: 4000 }, 800);
+    sr.reveal('.box', { duration: 4000 }, 800);
 
 </script>
 <script type="text/javascript">
 
-	$(window).scroll(function(e) {
-		var s1 = $('#s1'),
-			 s2 = $('#s2'),
-			 s3 = $('#s3'),
-			 s4 = $('#s4'),
-			 s5 = $('#s5'),
-			 s6 = $('#s6'),
-			 menu = $('.menu'),
-			 diff = s1[0].offsetTop - window.pageYOffset,
-			 diff2 = s2[0].offsetTop - window.pageYOffset, 
-			 diff3 = s3[0].offsetTop - window.pageYOffset, 
-			 diff4 = s4[0].offsetTop - window.pageYOffset, 
-			 diff5 = s5[0].offsetTop - window.pageYOffset, 
-			 diff6 = s6[0].offsetTop - window.pageYOffset; 
+    $(window).scroll(function(e) {
+        var s1 = $('#s1'),
+             s2 = $('#s2'),
+             s3 = $('#s3'),
+             s4 = $('#s4'),
+             s5 = $('#s5'),
+             s6 = $('#s6'),
+             menu = $('.menu'),
+             diff = s1[0].offsetTop - window.pageYOffset,
+             diff2 = s2[0].offsetTop - window.pageYOffset, 
+             diff3 = s3[0].offsetTop - window.pageYOffset, 
+             diff4 = s4[0].offsetTop - window.pageYOffset, 
+             diff5 = s5[0].offsetTop - window.pageYOffset, 
+             diff6 = s6[0].offsetTop - window.pageYOffset; 
 
-		if(diff < 0) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("white-text");
-			$(".menu-l").addClass("white-text");			
-		}
-		//		92
-		if(diff2 < 60) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("black-text");
-			$(".menu-l").addClass("black-text");			
-		}
-		if(diff3 < 60) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("white-text");
-			$(".menu-l").addClass("white-text");			
-		}
-		if(diff4 < 60) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");			
-			$("#menu-txt").addClass("black-text");
-			$(".menu-l").addClass("black-text");			
-		}
-		//		cafe
-		if(diff5 < 60) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("white-text");
-			$(".menu-l").addClass("white-text");			
-		}
-		//		footer
-		if(diff6 < 60) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("white-text");
-			$(".menu-l").addClass("white-text");			
-		}
-		if(diff > 1) {
-			$("#menu-txt").removeClass("white-text");	
-			$("#menu-txt").removeClass("black-text");				
-			$(".menu-l").removeClass("white-text");
-			$(".menu-l").removeClass("black-text");
-			$("#menu-txt").addClass("white-text");
-			$(".menu-l").addClass("white-text");			
-		}
-	});
+        if(diff < 0) {
+            $("#menu-txt").removeClass("white-text");   
+            $("#menu-txt").removeClass("black-text");               
+            $(".menu-l").removeClass("white-text");
+            $(".menu-l").removeClass("black-text");
+            $("#menu-txt").addClass("white-text");
+            $(".menu-l").addClass("white-text");            
+        }
+        //      92
+        if(diff2 < 60) {
+            $("#menu-txt").removeClass("white-text");   
+            $("#menu-txt").removeClass("black-text");               
+            $(".menu-l").removeClass("white-text");
+            $(".menu-l").removeClass("black-text");
+            $("#menu-txt").addClass("black-text");
+            $(".menu-l").addClass("black-text");            
+        }
+        if(diff3 < 60) {
+            $("#menu-txt").removeClass("white-text");   
+            $("#menu-txt").removeClass("black-text");               
+            $(".menu-l").removeClass("white-text");
+            $(".menu-l").removeClass("black-text");
+            $("#menu-txt").addClass("white-text");
+            $(".menu-l").addClass("white-text");            
+        }
+        if(diff4 < 60) {
+            $("#menu-txt").removeClass("white-text");   
+            $("#menu-txt").removeClass("black-text");               
+            $(".menu-l").removeClass("white-text");
+            $(".menu-l").removeClass("black-text");         
+            $("#menu-txt").addClass("black-text");
+            $(".menu-l").addClass("black-text");            
+        }
+        //      cafe
+        if(diff5 < 60) {
+            $("#menu-txt").removeClass("white-text");   
+            $("#menu-txt").removeClass("black-text");               
+            $(".menu-l").removeClass("white-text");
+            $(".menu-l").removeClass("black-text");
+            $("#menu-txt").addClass("white-text");
+            $(".menu-l").addClass("white-text");            
+        }
+        //      footer
+        if(diff6 < 60) {
+            $("#menu-txt").removeClass("white-text");   
+            $("#menu-txt").removeClass("black-text");               
+            $(".menu-l").removeClass("white-text");
+            $(".menu-l").removeClass("black-text");
+            $("#menu-txt").addClass("white-text");
+            $(".menu-l").addClass("white-text");            
+        }
+        if(diff > 1) {
+            $("#menu-txt").removeClass("white-text");   
+            $("#menu-txt").removeClass("black-text");               
+            $(".menu-l").removeClass("white-text");
+            $(".menu-l").removeClass("black-text");
+            $("#menu-txt").addClass("white-text");
+            $(".menu-l").addClass("white-text");            
+        }
+    });
 
 </script>
 
