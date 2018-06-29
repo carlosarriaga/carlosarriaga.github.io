@@ -65,7 +65,7 @@ nav div{
     margin: 0px !important;
 }
 /*
-vw ->with 
+vw ->with
 vh-> height
 */
 .screenFiller {
@@ -133,7 +133,7 @@ vh-> height
     font-weight: 300;
     color: #ffffff;
     padding-left: 20px;
-    -webkit-transition: all 1s !important; 
+    -webkit-transition: all 1s !important;
     transition: all 1s !important;
 }
 
@@ -152,7 +152,7 @@ vh-> height
     text-decoration: underline;
 }
 /*------------------------------------------------------------------*/
-.hola{  
+.hola{
     font-size: 6rem;
     font-weight: 100;
 }
@@ -194,7 +194,7 @@ vh-> height
 font-family: 'Poppins', sans-serif;
 font-size: .5em;
 letter-spacing: 5px !important;
--webkit-transition: all 1s !important;  Safari 
+-webkit-transition: all 1s !important;  Safari
 transition: all 1s !important;
 }
 
@@ -219,8 +219,8 @@ letter-spacing: 8px !important;
     font-family: 'Righteous', cursive;
 }
 
-.more-bold{ 
-    font-weight: 700 !important;    
+.more-bold{
+    font-weight: 700 !important;
     margin: 0px !important;
     line-height: 47% !important;
 }
@@ -456,53 +456,53 @@ body:hover .focus .letter:nth-of-type(5) {
 }
 
 .marcaUmbrella{
-    background: url('/imgs/marcas/marca-01.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-01.svg') no-repeat center center;
 }
 
 .marcaUmbrella:hover{
-    background: url('/imgs/marcas/marca-02.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-02.svg') no-repeat center center;
 }
 
 .marcaPinta{
-    background: url('/imgs/marcas/marca-03.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-03.svg') no-repeat center center;
 }
 
 .marcaPinta:hover{
-    background: url('/imgs/marcas/marca-04.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-04.svg') no-repeat center center;
 }
 
 .marcaAR{
-    background: url('/imgs/marcas/marca-05.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-05.svg') no-repeat center center;
 }
 
 .marcaAR:hover{
-    background: url('/imgs/marcas/marca-06.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-06.svg') no-repeat center center;
 }
 
 .marcaBio{
-    background: url('/imgs/marcas/marca-07.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-07.svg') no-repeat center center;
     background-size: 170px !important;
 }
 
 .marcaBio:hover{
-    background: url('/imgs/marcas/marca-08.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-08.svg') no-repeat center center;
     background-size: 170px !important;
 }
 
 .marcaSinver{
-    background: url('/imgs/marcas/marca-09.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-09.svg') no-repeat center center;
 }
 
 .marcaSinver:hover{
-    background: url('/imgs/marcas/marca-10.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-10.svg') no-repeat center center;
 }
 
 .marcaGui{
-    background: url('/imgs/marcas/marca-11.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-11.svg') no-repeat center center;
 }
 
 .marcaGui:hover{
-    background: url('/imgs/marcas/marca-12.svg') no-repeat center center;   
+    background: url('/imgs/marcas/marca-12.svg') no-repeat center center;
 }
 
 .pic-set{
@@ -512,7 +512,7 @@ body:hover .focus .letter:nth-of-type(5) {
 }
 
 .pic1{
-    background: url('/imgs/galeria/1.jpg') no-repeat center center; 
+    background: url('/imgs/galeria/1.jpg') no-repeat center center;
 }
 
 .pic2{
@@ -613,7 +613,7 @@ footer{
     position: relative;
 }
 
-.footer-copyright{  
+.footer-copyright{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -654,11 +654,11 @@ footer a{
         -o-background-size: cover;
         background-size: cover;
         display: table;
-        width: 100%;        
+        width: 100%;
     }
 
     .servicios-txt h1{
-        font-size: 5em;     
+        font-size: 5em;
     }
 
     .galeria-txt h1{
@@ -697,7 +697,7 @@ footer a{
         margin-top: 12px;
         font-size: 1.5rem;
         text-align: center;
-        min-height: 45px;       
+        min-height: 45px;
     }
 
 
@@ -707,7 +707,7 @@ footer a{
     }
 
     .text-card{
-        padding: 20px 20px 30px 20px !important;        
+        padding: 20px 20px 30px 20px !important;
         border: none !important;
         height: auto !important;
     }
@@ -740,14 +740,14 @@ footer a{
     }
 
     .comercial-padd{
-        padding:50px 30px 0px 30px !important;  
+        padding:50px 30px 0px 30px !important;
     }
 
     .comercial-padd2{
-        padding:30px 30px 0px 30px !important;  
+        padding:30px 30px 0px 30px !important;
     }
 
-    
+
 
 }
 
@@ -830,7 +830,7 @@ footer a{
     }
 
     .hola{
-        font-size: 6rem;        
+        font-size: 6rem;
     }
 
     .padd-left p{
@@ -845,9 +845,9 @@ footer a{
         background-size: cover !important;
     }
 
-    .wallRojoGris { 
+    .wallRojoGris {
         background: none !important;
-        background-color: #f2f2f2 !important;   
+        background-color: #f2f2f2 !important;
     }
 
     /*  hbd*/
@@ -860,7 +860,7 @@ footer a{
 
 /*-----------------------------------PARALLAX---------------------------------------------*/
 
-.wall92 {   
+.wall92 {
     background: url('/imgs/92.svg') no-repeat fixed;
     background-position: top left;
     -webkit-background-size: cover;
@@ -870,7 +870,7 @@ footer a{
     min-height: 450px !important;
 }
 
-.wallRojo { 
+.wallRojo {
     background: url('/imgs/cityred.svg') no-repeat;
     background-position: bottom center;
     -webkit-background-size: cover;
@@ -880,7 +880,7 @@ footer a{
     min-height: 450px !important;
 }
 
-.wallGris { 
+.wallGris {
     background: url('/imgs/gris.svg') no-repeat;
     background-position: bottom left;
     -webkit-background-size: cover;
@@ -890,7 +890,7 @@ footer a{
     min-height: 450px !important;
 }
 
-.wallRojoGris { 
+.wallRojoGris {
     background: url('/imgs/red.svg') no-repeat;
     background-position: bottom left;
     -webkit-background-size: cover;
@@ -900,7 +900,7 @@ footer a{
     min-height: 450px !important;
 }
 
-.wallSpace {    
+.wallSpace {
     background: url('/imgs/space.svg') no-repeat;
     background-position: bottom center;
     -webkit-background-size: cover;
