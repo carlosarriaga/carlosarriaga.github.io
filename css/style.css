@@ -151,11 +151,168 @@ vh-> height
 .menu-l:hover{
     text-decoration: underline;
 }
-/*------------------------------------------------------------------*/
+/*--------------------------------INDEX----------------------------------*/
+/*INTRO*/
+.wallRocket {
+    background: url('/imgs/wallTierra.jpg') no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.more-light, .more-bold{
+    font-family: 'Righteous', cursive;
+}
+
+.more-bold{
+    font-weight: 700 !important;
+    margin: 0px !important;
+    line-height: 47% !important;
+}
+
+.more-light{
+    font-weight: 300 !important;
+    margin: 0px !important;
+}
+
+.expand{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8em !important;
+    letter-spacing: 10px !important;
+    -webkit-transition: all 3s !important; /* Safari */
+    transition: all 3s !important;
+}
+
+.expand:hover{
+    letter-spacing: 15px !important;
+}
+
+/*HELLO*/
+.wall92 {
+    background: url('/imgs/92.svg') no-repeat fixed;
+    background-position: top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 450px !important;
+}
+
+.hello-img{
+    margin-top: 40px;
+}
+
 .hola{
     font-size: 6rem;
     font-weight: 100;
 }
+
+.btn-galeria{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #000;
+    color: #000;
+    -webkit-transition: all 0.7s !important; /* Safari */
+    transition-timing-function: ease-in-out;
+    transition: all 0.7s !important;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+.btn-galeria:hover{
+    /*  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border: 1px solid #ef3f3f;
+    color: #fff;
+    background-color: #ef3f3f;
+}
+
+/*TEAM*/
+.wallRojo {
+    background: url('/imgs/cityred.svg') no-repeat;
+    background-position: bottom center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 450px !important;
+}
+
+.team{
+    -webkit-transition: all 1s !important; /* Safari */
+    transition: all 1s !important;
+}
+
+.team:hover{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:  rgba(255, 54, 54, 0.56);
+}
+
+.btn-servicio{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #C62828;
+    -webkit-transition: all 0.7s !important; /* Safari */
+    transition-timing-function: ease-in-out;
+    transition: all 0.7s !important;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+.btn-servicio:hover{
+    /*  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border: 1px solid #003241;
+    color: #fff;
+    background-color: #003241;
+}
+
+/*CONTACT*/
+.wallGris {
+    background: url('/imgs/gris.svg') no-repeat;
+    background-position: bottom left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 450px !important;
+}
+
+.btn-contacto{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #003241;
+    color: #003241;
+    -webkit-transition: all 0.7s !important; /* Safari */
+    transition-timing-function: ease-in-out;
+    transition: all 0.7s !important;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+.btn-contacto:hover{
+    /*  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    /*  border: 2px solid #a5a5a5;*/
+    color: #fff;
+    background-color: #003241;
+}
+
+/*COUNTERS*/
+.wallCafe {
+    position:relative;
+    background: url('/imgs/parallax.jpg') no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*-----------------------------------------------------------------------*/
+
 
 
 .galeria-txt h1{
@@ -173,62 +330,16 @@ vh-> height
     font-size: 6em;
 }
 
-.hello-img{
-    margin-top: 40px;
-}
 
-.expand{
-    font-family: 'Poppins', sans-serif;
-    font-size: .8em !important;
-    letter-spacing: 10px !important;
-    -webkit-transition: all 3s !important; /* Safari */
-    transition: all 3s !important;
-}
 
-.expand:hover{
-    letter-spacing: 15px !important;
-}
 
-/*
-.expand2{
-font-family: 'Poppins', sans-serif;
-font-size: .5em;
-letter-spacing: 5px !important;
--webkit-transition: all 1s !important;  Safari
-transition: all 1s !important;
-}
 
-.expand2:hover{
-letter-spacing: 8px !important;
-}
-*/
 
-.team{
-    -webkit-transition: all 1s !important; /* Safari */
-    transition: all 1s !important;
-}
 
-.team:hover{
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color:  rgba(255, 54, 54, 0.56);
-}
 
 /*------------------------------------------------------------------------------*/
 
-.more-light, .more-bold{
-    font-family: 'Righteous', cursive;
-}
 
-.more-bold{
-    font-weight: 700 !important;
-    margin: 0px !important;
-    line-height: 47% !important;
-}
-
-.more-light{
-    font-weight: 300 !important;
-    margin: 0px !important;
-}
 
 
 .border-top{
@@ -325,26 +436,6 @@ body:hover .focus .letter:nth-of-type(5) {
 
 /*----------------------------------------------------------------------------------*/
 
-.btn-contacto{
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid #003241;
-    color: #003241;
-    -webkit-transition: all 0.7s !important; /* Safari */
-    transition-timing-function: ease-in-out;
-    transition: all 0.7s !important;
-    text-align: center;
-    letter-spacing: .5px;
-    transition: .2s ease-out;
-    cursor: pointer;
-}
-
-.btn-contacto:hover{
-    /*  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-    /*  border: 2px solid #a5a5a5;*/
-    color: #fff;
-    background-color: #003241;
-}
-
 .btn-contacto2{
     background-color: #fff;
     border: 1px solid #fff;
@@ -365,45 +456,9 @@ body:hover .focus .letter:nth-of-type(5) {
     background-color: #ffea78;
 }
 
-.btn-servicio{
-    background-color: #fff;
-    border: 1px solid #fff;
-    color: #C62828;
-    -webkit-transition: all 0.7s !important; /* Safari */
-    transition-timing-function: ease-in-out;
-    transition: all 0.7s !important;
-    text-align: center;
-    letter-spacing: .5px;
-    transition: .2s ease-out;
-    cursor: pointer;
-}
 
-.btn-servicio:hover{
-    /*  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-    border: 1px solid #003241;
-    color: #fff;
-    background-color: #003241;
-}
 
-.btn-galeria{
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid #000;
-    color: #000;
-    -webkit-transition: all 0.7s !important; /* Safari */
-    transition-timing-function: ease-in-out;
-    transition: all 0.7s !important;
-    text-align: center;
-    letter-spacing: .5px;
-    transition: .2s ease-out;
-    cursor: pointer;
-}
 
-.btn-galeria:hover{
-    /*  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-    border: 1px solid #ef3f3f;
-    color: #fff;
-    background-color: #ef3f3f;
-}
 
 .btn-galeria2{
     background-color: rgba(255, 255, 255, 0);
@@ -430,7 +485,7 @@ body:hover .focus .letter:nth-of-type(5) {
 .btn-mail{
     background-color: #ffba1e;
     border: 1px solid #ffba1e;
-    color: #fff;
+    color: #003748;
     -webkit-transition: all 0.7s !important; /* Safari */
     transition-timing-function: ease-in-out;
     transition: all 0.7s !important;
@@ -637,7 +692,7 @@ footer a{
 
 .footer-tit{
     color: #fff;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
 
 }
 
@@ -860,35 +915,10 @@ footer a{
 
 /*-----------------------------------PARALLAX---------------------------------------------*/
 
-.wall92 {
-    background: url('/imgs/92.svg') no-repeat fixed;
-    background-position: top left;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 450px !important;
-}
 
-.wallRojo {
-    background: url('/imgs/cityred.svg') no-repeat;
-    background-position: bottom center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 450px !important;
-}
 
-.wallGris {
-    background: url('/imgs/gris.svg') no-repeat;
-    background-position: bottom left;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 450px !important;
-}
+
+
 
 .wallRojoGris {
     background: url('/imgs/red.svg') no-repeat;
@@ -910,14 +940,7 @@ footer a{
     /*  min-height: 450px !important;*/
 }
 
-.wallRocket {
-    background: url('/imgs/wallTierra.jpg') no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 
 .wallCity {
     position:relative;
@@ -929,15 +952,7 @@ footer a{
     background-size: cover;
 }
 
-.wallCafe {
-    position:relative;
-    background: url('/imgs/parallax.jpg') no-repeat fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 
 .wallGaleria {
     position:relative;
