@@ -149,7 +149,8 @@ vh-> height
 }
 
 .menu-l:hover{
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    color: #FF4343;
 }
 /*--------------------------------INDEX----------------------------------*/
 /*INTRO*/
