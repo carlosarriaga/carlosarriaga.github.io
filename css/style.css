@@ -150,7 +150,7 @@ vh-> height
 
 .menu-l:hover{
     /*text-decoration: underline;*/
-    color: #FF4343;
+    color: #FF4343 !important;
 }
 /*--------------------------------INDEX----------------------------------*/
 /*INTRO*/
