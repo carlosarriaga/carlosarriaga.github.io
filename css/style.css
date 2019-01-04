@@ -284,7 +284,7 @@ vh-> height
 }
 /*-------------SERVICES------------------------------------------------------------------------------------*/
 .wallMac {
-	background: url('/imgs/wallmac.png') no-repeat;
+	background: url('/imgs/wallMac.png') no-repeat;
 	background-position: top left;
 	-webkit-background-size: 100% !important;
 	-moz-background-size: 100% !important;
