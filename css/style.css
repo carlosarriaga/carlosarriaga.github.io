@@ -116,7 +116,7 @@ vh-> height
 /*-------------INTRO--------------------------------------------------------------------------------------*/
 
 .wallInit{
-	background:url("/parallax.io/imgs/wallInit.jpg") no-repeat fixed;
+	background:url("/imgs/wallInit.jpg") no-repeat fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -136,7 +136,7 @@ vh-> height
 
 /*-------------WELCOME--------------------------------------------------------------------------------------*/
 .wallWelcome{
-	background: url('/parallax.io/imgs/wallWelcome.jpg') no-repeat;
+	background: url('/imgs/wallWelcome.jpg') no-repeat;
 	background-position: right top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -162,7 +162,7 @@ vh-> height
 }
 
 #cafe{
-	background:url("/parallax.io/imgs/wallCafe.jpg") no-repeat;
+	background:url("/imgs/wallCafe.jpg") no-repeat;
 	background-position: center center;
 	-webkit-background-size: 100% !important;
 	-moz-background-size: 100% !important;
@@ -176,7 +176,7 @@ vh-> height
 }
 
 .mini:nth-child(1){
-	background: url('/parallax.io/imgs/mini/img1.png') no-repeat;
+	background: url('/imgs/mini/img1.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -185,7 +185,7 @@ vh-> height
 }
 
 .mini:nth-child(2){
-	background: url('/parallax.io/imgs/mini/img2.png') no-repeat;
+	background: url('/imgs/mini/img2.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -194,7 +194,7 @@ vh-> height
 }
 
 .mini:nth-child(3){
-	background: url('/parallax.io/imgs/mini/img3.png') no-repeat;
+	background: url('/imgs/mini/img3.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -203,7 +203,7 @@ vh-> height
 }
 
 .mini:nth-child(4){
-	background: url('/parallax.io/imgs/mini/img4.png') no-repeat;
+	background: url('/imgs/mini/img4.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -212,7 +212,7 @@ vh-> height
 }
 
 .mini:nth-child(5){
-	background: url('/parallax.io/imgs/mini/img5.png') no-repeat;
+	background: url('/imgs/mini/img5.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -221,7 +221,7 @@ vh-> height
 }
 
 .mini:nth-child(6){
-	background: url('/parallax.io/imgs/mini/img6.png') no-repeat;
+	background: url('/imgs/mini/img6.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -230,7 +230,7 @@ vh-> height
 }
 
 .mini:nth-child(7){
-	background: url('/parallax.io/imgs/mini/img7.png') no-repeat;
+	background: url('/imgs/mini/img7.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -239,7 +239,7 @@ vh-> height
 }
 
 .mini:nth-child(8){
-	background: url('/parallax.io/imgs/mini/img8.png') no-repeat;
+	background: url('/imgs/mini/img8.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -248,7 +248,7 @@ vh-> height
 }
 
 .mini:nth-child(9){
-	background: url('/parallax.io/imgs/mini/img9.png') no-repeat;
+	background: url('/imgs/mini/img9.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -257,7 +257,7 @@ vh-> height
 }
 
 .mini:nth-child(10){
-	background: url('/parallax.io/imgs/mini/img10.png') no-repeat;
+	background: url('/imgs/mini/img10.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -266,7 +266,7 @@ vh-> height
 }
 
 .mini:nth-child(11){
-	background: url('/parallax.io/imgs/mini/img11.png') no-repeat;
+	background: url('/imgs/mini/img11.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -275,7 +275,7 @@ vh-> height
 }
 
 .mini:nth-child(12){
-	background: url('/parallax.io/imgs/mini/img12.png') no-repeat;
+	background: url('/imgs/mini/img12.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -284,7 +284,7 @@ vh-> height
 }
 /*-------------SERVICES------------------------------------------------------------------------------------*/
 .wallMac {
-	background: url('/parallax.io/imgs/wallmac.png') no-repeat;
+	background: url('/imgs/wallmac.png') no-repeat;
 	background-position: top left;
 	-webkit-background-size: 100% !important;
 	-moz-background-size: 100% !important;
@@ -337,7 +337,7 @@ vh-> height
 }
 /*-------------WEB------------------*/
 .wallWeb {
-	background: url('/parallax.io/imgs/wallWeb.png') no-repeat;
+	background: url('/imgs/wallWeb.png') no-repeat;
 	background-position: 70% center;
 	-webkit-background-size: 40%;
 	-moz-background-size: 40%;
@@ -363,7 +363,7 @@ vh-> height
 
 /*-------------BRANDING-------------*/
 .wallBrand {
-	background: url('/parallax.io/imgs/wallVyzva.png') no-repeat;
+	background: url('/imgs/wallVyzva.png') no-repeat;
 	background-position: center bottom;
 	-webkit-background-size: 70%;
 	-moz-background-size: 70%;
@@ -392,7 +392,7 @@ vh-> height
 } 
 
 .marcas:nth-child(1){
-	background: url('/parallax.io/imgs/marcas/marca-01.png') no-repeat;
+	background: url('/imgs/marcas/marca-01.png') no-repeat;
 	position:relative;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -403,7 +403,7 @@ vh-> height
 
 
 .marcas:nth-child(2){
-	background:url('/parallax.io/imgs/marcas/marca-02.png') no-repeat;
+	background:url('/imgs/marcas/marca-02.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -414,7 +414,7 @@ vh-> height
 
 
 .marcas:nth-child(3){
-	background:url('/parallax.io/imgs/marcas/marca-03.png') no-repeat;
+	background:url('/imgs/marcas/marca-03.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -423,7 +423,7 @@ vh-> height
 }
 
 .marcas:nth-child(4){
-	background: url('/parallax.io/imgs/marcas/marca-04.png') no-repeat;
+	background: url('/imgs/marcas/marca-04.png') no-repeat;
 	position:relative;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -433,7 +433,7 @@ vh-> height
 }
 
 .marcas:nth-child(5){
-	background:url('/parallax.io/imgs/marcas/marca-05.png') no-repeat;
+	background:url('/imgs/marcas/marca-05.png') no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -442,7 +442,7 @@ vh-> height
 }
 
 .marcas:nth-child(6	){
-	background: url('/parallax.io/imgs/marcas/marca-06.png') no-repeat;
+	background: url('/imgs/marcas/marca-06.png') no-repeat;
 	position:relative;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -527,7 +527,7 @@ a.redes:-webkit-any-link:hover{
 	}
 	/*-------------WEB------------------*/
 	.wallWeb {
-		background: url('/parallax.io/imgs/wallWeb.png') no-repeat;
+		background: url('/imgs/wallWeb.png') no-repeat;
 		background-position: center center;
 		-webkit-background-size: 90%;
 		-moz-background-size: 90%;
@@ -556,7 +556,7 @@ a.redes:-webkit-any-link:hover{
 	}
 
 	.wallWelcome{
-		background: url('/parallax.io/imgs/wallWelcome-mob.jpg') no-repeat;
+		background: url('/imgs/wallWelcome-mob.jpg') no-repeat;
 		-webkit-background-size: 100% !important;
 		-moz-background-size: 100% !important;
 		-o-background-size: 100% !important;
