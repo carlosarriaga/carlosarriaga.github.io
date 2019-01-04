@@ -1,16 +1,6 @@
-(function($){
-	$(function(){
-		
-		 $(".button-collapse").sideNav();
+$(document).ready(function(){
+//	$('.sidenav').sidenav();
+	$('.scrollspy').scrollSpy();
+	$('.parallax').parallax();
+});
 
-		$('.scrollspy').scrollSpy();
-
-		$('.parallax').parallax();
-
-		$('.tooltipped').tooltip({delay: 50});
-
-		$('.modal-trigger').leanModal();
-
-
-	}); // end of document ready
-})(jQuery); // end of jQuery name space

@@ -1,1 +1,1 @@
-!function($){$(function(){$(".button-collapse").sideNav(),$(".scrollspy").scrollSpy(),$(".parallax").parallax(),$(".tooltipped").tooltip({delay:50}),$(".modal-trigger").leanModal()})}(jQuery);
+$(document).ready(function(){$(".scrollspy").scrollSpy(),$(".parallax").parallax()});
