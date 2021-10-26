@@ -137,6 +137,16 @@ nav{
 	background-color: rgba(5, 5, 5, 0) !important;
 }
 
+.nav-social{
+    color: rgba(255, 255, 255, 0.2);
+    -webkit-transition: all .6s !important; /* Safari */
+	transition: all .6s !important;
+}
+
+.nav-social:hover{
+    color: #ffffff !important;
+}
+
 .intro-logo{
     width: 120px; 
     margin-top: 10px;
