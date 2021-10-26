@@ -2,7 +2,7 @@
 /*--------------------------------------------------------------*/
 body{
 	background-color: #edeef2;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	color: #424242;
 }
@@ -19,10 +19,6 @@ a {
 
 
 /*------FONTS-------------*/
-.barlow-semi{
-	font-family: 'Barlow Condensed', sans-serif;
-}
-
 .logo-font{
 	font-family: 'Righteous', cursive !important;
 }
@@ -143,11 +139,14 @@ nav{
     color: #ffffff !important;
 }
 
-.intro-logo{
+.nav-logo{
     width: 120px; 
     margin-top: 10px;
 }
 
+.intro-logo{
+    width: 240px; 
+}
 
 /*-------------FOOTER--------------*/
 footer{
