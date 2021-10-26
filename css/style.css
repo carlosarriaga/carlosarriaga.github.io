@@ -133,6 +133,14 @@ vh-> height
 	letter-spacing: 6px !important;
 }
 
+nav{
+	background-color: rgba(5, 5, 5, 0) !important;
+}
+
+.intro-logo{
+    width: 120px; 
+    margin-top: 10px;
+}
 
 /*-------------WELCOME--------------------------------------------------------------------------------------*/
 .wallWelcome{
