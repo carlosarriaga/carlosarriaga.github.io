@@ -109,7 +109,7 @@ vh-> height
 	background-color: #191c24 !important;	
 }
 .wallInit{
-	background:url("/imgs/wallCarlosArriaga.png") no-repeat fixed;
+	background:url("/imgs/wallCarlosArriaga.jpg") no-repeat;
 	/* background-color: #191c24 !important; */
 	background-position: left top;
 	-webkit-background-size: 100%;
