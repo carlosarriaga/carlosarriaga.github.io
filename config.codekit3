@@ -16,6 +16,30 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/agradecimiento.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/agradecimiento.html",
+		"oF": 0
+		},
+	"\/cotizacion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/cotizacion.html",
+		"oF": 0
+		},
+	"\/css\/materialize-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/materialize-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/materialize.css": {
 		"aP": 1,
 		"bl": 0,
@@ -33,6 +57,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/materialize.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -96,6 +130,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/imgs\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/imgs\/marcas\/marca-01.png": {
 		"ft": 32768,
@@ -355,6 +399,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/imgs\/qr.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/qr.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/imgs\/wallCafe.jpg": {
 		"ft": 16384,
 		"iS": 134290,
@@ -365,6 +419,35 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/imgs\/wallCarlosArriaga.jpg": {
+		"ft": 16384,
+		"iS": 1054858,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/wallCarlosArriaga.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/wallCarlosArriaga2.jpg": {
+		"ft": 16384,
+		"iS": 1054858,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/wallCarlosArriaga2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/wallCarlosArriaga2.jpg.sb-76677f6d-z9AXVP.sb-76677f6d-VLc4Y4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/imgs\/wallCarlosArriaga2.jpg.sb-76677f6d-z9AXVP.sb-76677f6d-VLc4Y4",
+		"oF": 0
 		},
 	"\/imgs\/wallInit.jpg": {
 		"ft": 16384,

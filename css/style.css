@@ -1,169 +1,254 @@
-
-/*--------------------------------------------------------------*/
 body{
-	background-color: #edeef2;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
-	color: #424242;
+    background-color: #edeef2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #121419;
 }
 
 section{
-	margin: 0 !important;
-	overflow: auto !important; /*eliminar espacio entre sections*/
-}
-
-a {
-	color: red;
+    margin: 0 !important;
+    overflow: auto !important; /*eliminar espacio entre sections*/
 }
 
 
 
 /*------FONTS-------------*/
 .logo-font{
-	font-family: 'Righteous', cursive !important;
+    font-family: 'Righteous', cursive !important;
 }
 
 .slogan-font{
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-b .b{
-	font-weight: 700 !important;
+b, .bold{
+    font-weight: 700 !important;
+}
+
+.thin{
+    font-weight: 300 !important;
 }
 
 
 /*---------------------------------------*/
 p{
-	font-size: 1.1em !important;
+    font-size: 1em !important;
 }
 
 .justify{
-	text-align: justify !important;
+    text-align: justify !important;
 }
 
 .margin-abajo{
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .margin-arriba{
-	margin-top: 50px !important;
+    margin-top: 50px !important;
 }
 
 .margin-abajo2{
-	margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .margin-arriba2{
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 .padd-arriba{
-	padding-top: 50px !important;
+    padding-top: 50px !important;
 }
 
 .padd-abajo{
-	padding-bottom: 50px !important;
+    padding-bottom: 50px !important;
 }
 
 .padd-arriba2{
-	padding-top: 100px !important;
+    padding-top: 100px !important;
 }
 
 .padd-abajo2{
-	padding-bottom: 100px !important;
+    padding-bottom: 100px !important;
 }
 
 .no-padd{
-	padding: 0px !important;
+    padding: 0px !important;
 }
 
 .no-margin{
-	margin: 0px !important;
+    margin: 0px !important;
 }
 /*
 vw ->with
 vh-> height
 */
 .screenFiller {
-	min-height: 100vh !important;
+    min-height: 100vh !important;
 }
 
 .halfFiller{
-	min-height: 50vh !important;
+    min-height: 50vh !important;
 }
 
 .mobFiller100-50{
-	min-height: 100vh;
+    min-height: 100vh;
 }
 
 .mobFiller100-auto{
-	min-height: 100vh;
+    min-height: 100vh;
 }
 
 .mobFiller50-auto{
-	min-height: 50vh;
+    min-height: 50vh;
 }
 
 /*--INTRO--*/
 #Intro{
-	background-color: #191c24 !important;	
+    background-color: #fff !important;	
 }
 .wallInit{
-	background:url("/imgs/wallCarlosArriaga.jpg") no-repeat;
-	/* background-color: #191c24 !important; */
-	background-position: left top;
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
+    background:url("/imgs/wallCarlosArriaga.jpg") no-repeat;
+    /* background-color: #191c24 !important; */
+    background-position: right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 nav{
-	background-color: rgba(5, 5, 5, 0) !important;
+    background-color: #191c24 !important;
+    height: 80px !important;
+    line-height: 80px !important;
 }
 
 .nav-social{
     color: rgba(255, 255, 255, 0.2);
     -webkit-transition: all .6s !important; /* Safari */
-	transition: all .6s !important;
+    transition: all .6s !important;
 }
 
 .nav-social:hover{
     color: #ffffff !important;
 }
 
+.nav-social i{
+    height: 30px !important;
+}
+
 .nav-logo{
-    width: 100px; 
-    margin-top: 15px;
+    width: 90px; 
+    margin-top: 23px;
 }
 
 .intro-logo{
     width: 240px; 
 }
 
+.titulo{
+    padding: 0 0 0 100px;
+    height: 100% !important;
+    display: inline-block !important;
+    position: relative !important;
+    top: 150px !important;
+
+}
+
+.titulo h1{
+    font-size: 9em;
+    bottom: 20px !important;
+}
+
+
 
 /*-------------FOOTER--------------*/
 footer{
-	background-color: #121419 !important;
+    background-color: #121419 !important;
 }
 
 a.redes:-webkit-any-link{
-	-webkit-transition: all .6s !important; /* Safari */
-	transition: all .6s !important;
-	color: rgba(255, 255, 255, 0.2);
-	padding-bottom: 20px !important;
+    -webkit-transition: all .6s !important; /* Safari */
+    transition: all .6s !important;
+    color: rgba(255, 255, 255, 0.2);
+    padding-bottom: 20px !important;
+    font-size: 1.4em;
 }
 
 a.redes:-webkit-any-link:hover{
-	color: #fff !important;
+    color: #fff !important;
 }
+
+.qr-card{
+    padding: 50px 50px !important;
+    color: #e4e7f0;
+    /*    margin: 40px 0px;*/
+    /*    border-radius: 5px;*/
+}
+
+.qr-card h5{
+    font-weight: 700 !important;
+    font-size: 1.2em;
+}
+
+.qr{
+    width: 150px;
+}
+
+.olas {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+
+.parallax-efct > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax-efct > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax-efct > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax-efct > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax-efct > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .olas {
+    height:40px;
+    min-height:40px;
+  }
+}
+
+
+
+
+
 
 
 
 /*--TABLET--*/
 /*--PANTALLAS DE 992PX Y MENORES--*/
 @media only screen and (max-width : 992px) {
-	/*-----INTRO------*/
+    /*-----INTRO------*/
 }
 
 
@@ -171,6 +256,17 @@ a.redes:-webkit-any-link:hover{
 /*--SMARTPHONES--*/
 /*--PANTALLAS DE 600PX Y MENORES--*/
 @media only screen and (max-width : 600px) {
-	
+    .titulo{
+        padding: 0 0 0 20px;
+    }
+
+    .wallInit{
+        background:url("/imgs/wallCarlosArriaga2.jpg") no-repeat;
+        background-position: right center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
 
