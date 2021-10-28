@@ -159,6 +159,89 @@ nav{
     bottom: 20px !important;
 }
 
+/*--MARCAS--*/
+.diseno-marca{
+    padding: 130px 190px 0px 0px !important;
+}
+
+.diseno-marca p{
+    color: #687086 !important;
+}
+
+
+
+
+
+
+
+
+/*--LOGOS--*/
+#logos{
+    background-color: #121419 !important;
+}
+
+.galeria-social{
+    color: rgba(255, 255, 255, 0.2);
+    -webkit-transition: all .6s !important; /* Safari */
+    transition: all .6s !important;
+}
+
+.galeria-social:hover{
+    color: #ffffff !important;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    /* Compensate for excess margin on outer gallery flex items */
+    margin: -1rem -1rem;
+}
+
+.gallery-item {
+    /* Minimum width of 24rem and grow to fit available space */
+    flex: 1 0 24rem;
+    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+    margin: 1rem;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        grid-gap: 2rem;
+    }
+
+    .gallery,
+    .gallery-item {
+        margin: 0;
+    }
+}
+
+
+
+
 
 
 /*-------------FOOTER--------------*/
@@ -195,48 +278,53 @@ a.redes:-webkit-any-link:hover{
 }
 
 .olas {
-  position:relative;
-  width: 100%;
-  height:15vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
-  min-height:100px;
-  max-height:150px;
+    position:relative;
+    width: 100%;
+    height:15vh;
+    margin-bottom:-7px; /*Fix for safari gap*/
+    min-height:100px;
+    max-height:150px;
 }
 
 .parallax-efct > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
 }
 .parallax-efct > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
+    animation-delay: -2s;
+    animation-duration: 7s;
 }
 .parallax-efct > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
+    animation-delay: -3s;
+    animation-duration: 10s;
 }
 .parallax-efct > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
+    animation-delay: -4s;
+    animation-duration: 13s;
 }
 .parallax-efct > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
+    animation-delay: -5s;
+    animation-duration: 20s;
 }
 @keyframes move-forever {
-  0% {
-   transform: translate3d(-90px,0,0);
-  }
-  100% { 
-    transform: translate3d(85px,0,0);
-  }
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% { 
+        transform: translate3d(85px,0,0);
+    }
 }
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
-  .olas {
-    height:40px;
-    min-height:40px;
-  }
+    .olas {
+        height:40px;
+        min-height:40px;
+    }
 }
+
+
+
+
+
 
 
 
@@ -268,5 +356,16 @@ a.redes:-webkit-any-link:hover{
         -o-background-size: cover;
         background-size: cover;
     }
+
+    /*--MARCAS--*/
+    .diseno-marca{
+        padding: 30px 30px 0px 30px !important;
+    }
+
+    /*-------------CAFE--------------*/
+    .padd-arriba-mob{
+        padding-top: 50PX !important;
+    }
+
 }
 
