@@ -10,17 +10,13 @@ section{
     overflow: auto !important; /*eliminar espacio entre sections*/
 }
 
-
-
-/*------FONTS-------------*/
-.logo-font{
-    font-family: 'Righteous', cursive !important;
+.dark-theme{
+    background-color: #121419 !important;
+    color: #fff !important;
 }
 
-.slogan-font{
-    font-family: 'Poppins', sans-serif;
-}
 
+/*------FONTS STYLES--------*/
 b, .bold{
     font-weight: 700 !important;
 }
@@ -30,15 +26,17 @@ b, .bold{
 }
 
 
-/*---------------------------------------*/
 p{
     font-size: 1em !important;
+    color: #687086 !important;
 }
 
 .justify{
     text-align: justify !important;
 }
 
+
+/*------MARGIN/PADDING--------*/
 .margin-abajo{
     margin-bottom: 50px;
 }
@@ -98,9 +96,20 @@ vh-> height
     min-height: 100vh;
 }
 
+.mobFiller75-auto{
+    min-height: 75vh;
+}
+
 .mobFiller50-auto{
     min-height: 50vh;
 }
+
+
+
+
+
+
+
 
 /*--INTRO--*/
 #Intro{
@@ -108,7 +117,6 @@ vh-> height
 }
 .wallInit{
     background:url("/imgs/wallCarlosArriaga.jpg") no-repeat;
-    /* background-color: #191c24 !important; */
     background-position: right center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -159,13 +167,35 @@ nav{
     bottom: 20px !important;
 }
 
+
+
+
+
+
 /*--MARCAS--*/
-.diseno-marca{
+.marca-txt{
     padding: 130px 190px 0px 0px !important;
 }
 
-.diseno-marca p{
-    color: #687086 !important;
+
+
+
+
+
+
+/*--PAPELERIA--*/
+.wallPapeleria{
+    background:url("/imgs/papeleria.png") no-repeat;
+    background-position: right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 75vh !important;
+}
+
+.papeleria-txt{
+    padding: 160px 120px 90px 130px !important;
 }
 
 
@@ -173,21 +203,20 @@ nav{
 
 
 
-
-
-/*--LOGOS--*/
-#logos{
-    background-color: #121419 !important;
-}
-
+/*--GALERIA--*/
 .galeria-social{
-    color: rgba(255, 255, 255, 0.2);
+    color: #fff;
     -webkit-transition: all .6s !important; /* Safari */
     transition: all .6s !important;
 }
 
+.galeria-social i{
+    padding-right: 6px;
+}
+
 .galeria-social:hover{
-    color: #ffffff !important;
+    color: #121419 !important;
+    background-color: #fff !important;
 }
 
 .gallery {
@@ -336,7 +365,25 @@ a.redes:-webkit-any-link:hover{
 /*--TABLET--*/
 /*--PANTALLAS DE 992PX Y MENORES--*/
 @media only screen and (max-width : 992px) {
-    /*-----INTRO------*/
+    /*--MARCAS--*/
+    .marca-txt{
+        padding: 100px 90px 0px 0px !important;
+    }
+
+    /*--PAPELERIA--*/
+    /*
+    .wallPapeleria{    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+    .papeleria-txt{
+    padding: 160px 120px 90px 130px !important;
+}
+    */
+
 }
 
 
@@ -345,7 +392,11 @@ a.redes:-webkit-any-link:hover{
 /*--PANTALLAS DE 600PX Y MENORES--*/
 @media only screen and (max-width : 600px) {
     .titulo{
-        padding: 0 0 0 20px;
+        padding: 120px 100px 0 20px;
+    }
+
+    .titulo h1{
+        font-size: 6em;
     }
 
     .wallInit{
@@ -358,9 +409,21 @@ a.redes:-webkit-any-link:hover{
     }
 
     /*--MARCAS--*/
-    .diseno-marca{
+    .marca-txt, .papeleria-txt{
         padding: 30px 30px 0px 30px !important;
     }
+
+    /*--PAPELERIA--*/
+    .wallPapeleria{
+        background:url("/imgs/papeleria-mob.png") no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 75vh !important;
+    }
+
 
     /*-------------CAFE--------------*/
     .padd-arriba-mob{

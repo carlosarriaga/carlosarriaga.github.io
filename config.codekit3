@@ -87,28 +87,6 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
-	"\/imgs\/bannerfb.jpg": {
-		"ft": 16384,
-		"iS": 148255,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/imgs\/bannerfb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/imgs\/coconut.png": {
-		"ft": 32768,
-		"iS": 498289,
-		"oA": 0,
-		"oAP": "\/imgs\/coconut.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/imgs\/elements-mob.png": {
 		"ft": 32768,
 		"iS": 376726,
@@ -151,6 +129,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/imgs\/marca.png": {
+		"ft": 32768,
+		"iS": 54886,
+		"oA": 0,
+		"oAP": "\/imgs\/marca.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/imgs\/marcas\/001.jpg": {
 		"ft": 16384,
@@ -202,8 +191,8 @@
 		"oA": 0,
 		"oAP": "\/imgs\/marcas\/005.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -224,8 +213,8 @@
 		"oA": 0,
 		"oAP": "\/imgs\/marcas\/007.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -248,7 +237,7 @@
 		"oAP": "\/imgs\/marcas\/009.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/imgs\/marcas\/010.jpg": {
@@ -259,7 +248,7 @@
 		"oAP": "\/imgs\/marcas\/010.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/imgs\/marcas\/011.jpg": {
@@ -282,6 +271,50 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/Opengraph-mob.jpg": {
+		"ft": 16384,
+		"iS": 368174,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/Opengraph-mob.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/imgs\/Opengraph.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/Opengraph.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/imgs\/papeleria-mob.png": {
+		"ft": 32768,
+		"iS": 4675628,
+		"oA": 0,
+		"oAP": "\/imgs\/papeleria-mob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/papeleria.png": {
+		"ft": 32768,
+		"iS": 475491,
+		"oA": 0,
+		"oAP": "\/imgs\/papeleria.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/imgs\/qr.svg": {
@@ -349,17 +382,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/imgs\/wallVyzva.png": {
-		"ft": 32768,
-		"iS": 4130060,
-		"oA": 0,
-		"oAP": "\/imgs\/wallVyzva.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/imgs\/wallWeb.png": {
 		"ft": 32768,
 		"iS": 2028250,
@@ -369,17 +391,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/wallWelcome-mob.jpg": {
-		"ft": 16384,
-		"iS": 400593,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/imgs\/wallWelcome-mob.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/imgs\/wallWelcome.jpg": {
