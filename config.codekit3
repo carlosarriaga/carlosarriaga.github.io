@@ -87,9 +87,20 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
+	"\/imgs\/contact.png": {
+		"ft": 32768,
+		"iS": 5669585,
+		"oA": 0,
+		"oAP": "\/imgs\/contact.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/imgs\/elements-mob.png": {
 		"ft": 32768,
-		"iS": 376726,
+		"iS": 331451,
 		"oA": 0,
 		"oAP": "\/imgs\/elements-mob.png",
 		"oF": 0,
@@ -100,7 +111,7 @@
 		},
 	"\/imgs\/elements.png": {
 		"ft": 32768,
-		"iS": 537830,
+		"iS": 473865,
 		"oA": 0,
 		"oAP": "\/imgs\/elements.png",
 		"oF": 0,
@@ -111,7 +122,7 @@
 		},
 	"\/imgs\/logo-email.png": {
 		"ft": 32768,
-		"iS": 13300,
+		"iS": 3075,
 		"oA": 0,
 		"oAP": "\/imgs\/logo-email.png",
 		"oF": 0,
@@ -132,172 +143,172 @@
 		},
 	"\/imgs\/marca.png": {
 		"ft": 32768,
-		"iS": 54886,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/imgs\/marca.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/marcas\/001.jpg": {
-		"ft": 16384,
-		"iS": 177727,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/imgs\/marcas\/001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/imgs\/marcas\/002.jpg": {
-		"ft": 16384,
-		"iS": 191426,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/imgs\/marcas\/002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/imgs\/marcas\/003.jpg": {
-		"ft": 16384,
-		"iS": 116901,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/imgs\/marcas\/003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/imgs\/marcas\/004.jpg": {
-		"ft": 16384,
-		"iS": 229715,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/imgs\/marcas\/004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/imgs\/marcas\/005.png": {
-		"ft": 32768,
-		"iS": 169757,
-		"oA": 0,
-		"oAP": "\/imgs\/marcas\/005.png",
-		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/imgs\/marcas\/006.jpg": {
+	"\/imgs\/marcas\/marca-01.jpg": {
 		"ft": 16384,
-		"iS": 165596,
+		"iS": 13334,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/imgs\/marcas\/006.jpg",
+		"oAP": "\/imgs\/marcas\/marca-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/imgs\/marcas\/007.png": {
-		"ft": 32768,
-		"iS": 19392,
-		"oA": 0,
-		"oAP": "\/imgs\/marcas\/007.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/marcas\/008.jpg": {
+	"\/imgs\/marcas\/marca-02.jpg": {
 		"ft": 16384,
-		"iS": 97292,
+		"iS": 14044,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/imgs\/marcas\/008.jpg",
+		"oAP": "\/imgs\/marcas\/marca-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/imgs\/marcas\/009.jpg": {
+	"\/imgs\/marcas\/marca-03.jpg": {
 		"ft": 16384,
-		"iS": 20763,
+		"iS": 10300,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/imgs\/marcas\/009.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/imgs\/marcas\/010.jpg": {
-		"ft": 16384,
-		"iS": 36258,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/imgs\/marcas\/010.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/imgs\/marcas\/011.jpg": {
-		"ft": 16384,
-		"iS": 131216,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/imgs\/marcas\/011.jpg",
+		"oAP": "\/imgs\/marcas\/marca-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/imgs\/marcas\/012.jpg": {
+	"\/imgs\/marcas\/marca-04.jpg": {
 		"ft": 16384,
-		"iS": 37648,
+		"iS": 8898,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/imgs\/marcas\/012.jpg",
+		"oAP": "\/imgs\/marcas\/marca-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/imgs\/Opengraph-mob.jpg": {
+	"\/imgs\/marcas\/marca-05.jpg": {
 		"ft": 16384,
-		"iS": 368174,
+		"iS": 16007,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/imgs\/Opengraph-mob.jpg",
+		"oAP": "\/imgs\/marcas\/marca-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/marcas\/marca-06.jpg": {
+		"ft": 16384,
+		"iS": 18710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/marcas\/marca-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/marcas\/marca-07.jpg": {
+		"ft": 16384,
+		"iS": 15537,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/marcas\/marca-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/marcas\/marca-08.jpg": {
+		"ft": 16384,
+		"iS": 9631,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/marcas\/marca-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/marcas\/marca-09.jpg": {
+		"ft": 16384,
+		"iS": 11031,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/marcas\/marca-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/marcas\/marca-10.jpg": {
+		"ft": 16384,
+		"iS": 20862,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/marcas\/marca-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/marcas\/marca-11.jpg": {
+		"ft": 16384,
+		"iS": 12923,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/marcas\/marca-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/marcas\/marca-12.jpg": {
+		"ft": 16384,
+		"iS": 9508,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/marcas\/marca-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/imgs\/opengraph-mob.jpg": {
+		"ft": 16384,
+		"iS": 64834,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/opengraph-mob.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/imgs\/Opengraph.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 291299,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/imgs\/Opengraph.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/imgs\/papeleria-mob.png": {
 		"ft": 32768,
-		"iS": 4675628,
+		"iS": 199666,
 		"oA": 0,
 		"oAP": "\/imgs\/papeleria-mob.png",
 		"oF": 0,
@@ -308,7 +319,7 @@
 		},
 	"\/imgs\/papeleria.png": {
 		"ft": 32768,
-		"iS": 475491,
+		"iS": 346947,
 		"oA": 0,
 		"oAP": "\/imgs\/papeleria.png",
 		"oF": 0,
@@ -329,7 +340,7 @@
 		},
 	"\/imgs\/wallCafe.jpg": {
 		"ft": 16384,
-		"iS": 134290,
+		"iS": 62641,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/imgs\/wallCafe.jpg",
@@ -340,7 +351,7 @@
 		},
 	"\/imgs\/wallCarlosArriaga.jpg": {
 		"ft": 16384,
-		"iS": 240684,
+		"iS": 237019,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/imgs\/wallCarlosArriaga.jpg",
@@ -351,7 +362,7 @@
 		},
 	"\/imgs\/wallCarlosArriaga2.jpg": {
 		"ft": 16384,
-		"iS": 69470,
+		"iS": 68969,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/imgs\/wallCarlosArriaga2.jpg",
@@ -360,48 +371,33 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/imgs\/wallInit.jpg": {
-		"ft": 16384,
-		"iS": 235872,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/imgs\/wallInit.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/imgs\/wallMac.png": {
+	"\/imgs\/web.png": {
 		"ft": 32768,
-		"iS": 44379,
+		"iS": 3131751,
 		"oA": 0,
-		"oAP": "\/imgs\/wallMac.png",
+		"oAP": "\/imgs\/web.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/imgs\/wallWeb.png": {
-		"ft": 32768,
-		"iS": 2028250,
+	"\/imgs\/web.png.sb-92a0a51e-ypoFsT": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/imgs\/wallWeb.png",
+		"oAP": "\/imgs\/web.png.sb-92a0a51e-ypoFsT",
+		"oF": 0
+		},
+	"\/imgs\/web1.png": {
+		"ft": 32768,
+		"iS": 728394,
+		"oA": 0,
+		"oAP": "\/imgs\/web1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/wallWelcome.jpg": {
-		"ft": 16384,
-		"iS": 94082,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/imgs\/wallWelcome.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/index.html": {
@@ -487,6 +483,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/materialize.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/carousel-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/carousel-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

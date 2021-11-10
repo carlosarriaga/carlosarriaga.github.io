@@ -46,11 +46,11 @@ p{
 }
 
 .margin-abajo2{
-    margin-bottom: 100px;
+    margin-bottom: 100px !important;
 }
 
 .margin-arriba2{
-    margin-top: 100px;
+    margin-top: 100px !important;
 }
 
 .padd-arriba{
@@ -106,9 +106,18 @@ vh-> height
 
 
 
+/*--GENERALES--*/
+.contenido-txt{
+    padding: 100px 120px !important;
+}
 
-
-
+img{
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
 
 
 /*--INTRO--*/
@@ -172,9 +181,51 @@ nav{
 
 
 
+
+
+
+
+
+
+
+/*--CONTACTO--*/
+.qr-card h5{
+    font-weight: 700 !important;
+    font-size: 1.2em;
+}
+
+.qr{
+    width: 250px;
+}
+
+.contacto-link{
+    color: #128C7E;
+    -webkit-transition: all .6s !important; /* Safari */
+    transition: all .6s !important;
+}
+
+.contacto-link:hover{
+    color: #25D366;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
 /*--MARCAS--*/
-.marca-txt{
-    padding: 130px 190px 0px 0px !important;
+.marcas-link{
+    color: #C13584;
+    -webkit-transition: all .6s !important; /* Safari */
+    transition: all .6s !important;
+}
+
+.marcas-link:hover{
+    color: #833AB4;
+    padding-left: 5px;
 }
 
 
@@ -194,8 +245,24 @@ nav{
     height: 75vh !important;
 }
 
-.papeleria-txt{
-    padding: 160px 120px 90px 130px !important;
+
+
+
+
+/*--WEB--*/
+.sinver-link{
+    color: #449a5b;
+    -webkit-transition: all .6s !important; /* Safari */
+    transition: all .6s !important;
+}
+
+.sinver-link:hover{
+    color: #e87e15;
+    padding-left: 5px;
+}
+
+.web-img{
+    padding: 0 2.75rem !important;
 }
 
 
@@ -205,19 +272,20 @@ nav{
 
 /*--GALERIA--*/
 .galeria-social{
-    color: #fff;
+    color: #121419;
+    background: #edeef2 !important;
     -webkit-transition: all .6s !important; /* Safari */
     transition: all .6s !important;
 }
 
-.galeria-social i{
-    padding-right: 6px;
-}
+
 
 .galeria-social:hover{
-    color: #121419 !important;
+    color: #fff !important;
     background-color: #fff !important;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
 }
+
 
 .gallery {
     display: flex;
@@ -268,7 +336,62 @@ Remove or comment-out the code block below to see how the browser will fall-back
     }
 }
 
+/*----------*/
 
+
+@-webkit-keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 12));
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 12));
+    }
+}
+.brand-slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.brand-slider::before, .brand-slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.brand-slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+.brand-slider::before {
+    left: 0;
+    top: 0;
+}
+.brand-slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.brand-slider .slide {
+    height: 100px;
+    width: 250px;
+}
 
 
 
@@ -290,6 +413,15 @@ a.redes:-webkit-any-link:hover{
     color: #fff !important;
 }
 
+.redes-text{
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.like{
+    color: #ed5959;
+}
+
 .qr-card{
     padding: 50px 50px !important;
     color: #e4e7f0;
@@ -297,14 +429,7 @@ a.redes:-webkit-any-link:hover{
     /*    border-radius: 5px;*/
 }
 
-.qr-card h5{
-    font-weight: 700 !important;
-    font-size: 1.2em;
-}
 
-.qr{
-    width: 150px;
-}
 
 .olas {
     position:relative;
@@ -365,24 +490,21 @@ a.redes:-webkit-any-link:hover{
 /*--TABLET--*/
 /*--PANTALLAS DE 992PX Y MENORES--*/
 @media only screen and (max-width : 992px) {
-    /*--MARCAS--*/
-    .marca-txt{
-        padding: 100px 90px 0px 0px !important;
+    /*--GENERALES--*/
+    .contenido-txt{
+        padding: 70px 70px !important;
     }
-
+    
     /*--PAPELERIA--*/
-    /*
-    .wallPapeleria{    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-    .papeleria-txt{
-    padding: 160px 120px 90px 130px !important;
-}
-    */
+    .wallPapeleria{
+        background:url("/imgs/papeleria-mob.png") no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 75vh !important;
+    }
 
 }
 
@@ -391,6 +513,12 @@ a.redes:-webkit-any-link:hover{
 /*--SMARTPHONES--*/
 /*--PANTALLAS DE 600PX Y MENORES--*/
 @media only screen and (max-width : 600px) {
+
+    /*--GENERALES--*/
+    .contenido-txt{
+        padding: 50px 30px !important;
+    }
+
     .titulo{
         padding: 120px 100px 0 20px;
     }
@@ -408,10 +536,7 @@ a.redes:-webkit-any-link:hover{
         background-size: cover;
     }
 
-    /*--MARCAS--*/
-    .marca-txt, .papeleria-txt{
-        padding: 30px 30px 0px 30px !important;
-    }
+
 
     /*--PAPELERIA--*/
     .wallPapeleria{
