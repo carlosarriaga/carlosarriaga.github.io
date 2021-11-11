@@ -328,16 +328,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/imgs\/qr.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/imgs\/qr.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/imgs\/wallCafe.jpg": {
 		"ft": 16384,
 		"iS": 62641,
@@ -381,13 +371,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/imgs\/web.png.sb-92a0a51e-ypoFsT": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/imgs\/web.png.sb-92a0a51e-ypoFsT",
-		"oF": 0
 		},
 	"\/imgs\/web1.png": {
 		"ft": 32768,

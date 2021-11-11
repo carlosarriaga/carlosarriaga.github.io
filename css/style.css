@@ -11,7 +11,11 @@ section{
 }
 
 .dark-theme{
-    background-color: #121419 !important;
+    background: rgb(18,20,25);
+    background: -moz-linear-gradient(72deg, rgba(18,20,25,1) 0%, rgba(26,29,37,1) 44%, rgba(46,52,68,1) 100%);
+    background: -webkit-linear-gradient(72deg, rgba(18,20,25,1) 0%, rgba(26,29,37,1) 44%, rgba(46,52,68,1) 100%);
+    background: linear-gradient(72deg, rgba(18,20,25,1) 0%, rgba(26,29,37,1) 44%, rgba(46,52,68,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#121419",endColorstr="#2e3444",GradientType=1);
     color: #fff !important;
 }
 
@@ -188,29 +192,6 @@ nav{
 
 
 
-/*--CONTACTO--*/
-.qr-card h5{
-    font-weight: 700 !important;
-    font-size: 1.2em;
-}
-
-.qr{
-    width: 250px;
-}
-
-.contacto-link{
-    color: #128C7E;
-    -webkit-transition: all .6s !important; /* Safari */
-    transition: all .6s !important;
-}
-
-.contacto-link:hover{
-    color: #25D366;
-    padding-left: 5px;
-}
-
-
-
 
 
 
@@ -245,19 +226,28 @@ nav{
     height: 75vh !important;
 }
 
+.papeleria-link{
+    color: #32b998;
+    -webkit-transition: all .6s !important; /* Safari */
+    transition: all .6s !important;
+}
 
+.papeleria-link:hover{
+    color: #22eb9e;
+    padding-left: 5px;
+}
 
 
 
 /*--WEB--*/
 .sinver-link{
-    color: #449a5b;
+    color: #e87e15;
     -webkit-transition: all .6s !important; /* Safari */
     transition: all .6s !important;
 }
 
 .sinver-link:hover{
-    color: #e87e15;
+    color: #449a5b;
     padding-left: 5px;
 }
 
@@ -266,8 +256,17 @@ nav{
 }
 
 
+/*--PUBLICIDAD--*/
+.hela-link{
+    color: #32b998;
+    -webkit-transition: all .6s !important; /* Safari */
+    transition: all .6s !important;
+}
 
-
+.hela-link:hover{
+    color: #22ebbb;
+    padding-left: 5px;
+}
 
 
 /*--GALERIA--*/
@@ -286,57 +285,6 @@ nav{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
 }
 
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    /* Compensate for excess margin on outer gallery flex items */
-    margin: -1rem -1rem;
-}
-
-.gallery-item {
-    /* Minimum width of 24rem and grow to fit available space */
-    flex: 1 0 24rem;
-    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-    margin: 1rem;
-    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-    overflow: hidden;
-}
-
-.gallery-image {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 400ms ease-out;
-}
-
-.gallery-image:hover {
-    transform: scale(1.15);
-}
-
-/*
-
-The following rule will only run if your browser supports CSS grid.
-
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
-
-*/
-
-@supports (display: grid) {
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-        grid-gap: 2rem;
-    }
-
-    .gallery,
-    .gallery-item {
-        margin: 0;
-    }
-}
-
-/*----------*/
 
 
 @-webkit-keyframes scroll {
@@ -396,6 +344,41 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
 
 
+
+
+/*--CONTACTO--*/
+.qr-card h5{
+    font-weight: 700 !important;
+    font-size: 1.2em;
+}
+
+.qr{
+    width: 220px;
+}
+
+.contacto-link{
+    color: #128C7E;
+    -webkit-transition: all .6s !important; /* Safari */
+    transition: all .6s !important;
+}
+
+.contacto-link:hover{
+    color: #25D366;
+    padding-left: 5px;
+}
+
+.contenido-contacto{
+    padding: 100px 0px !important;
+}
+
+
+
+
+
+
+
+
+
 /*-------------FOOTER--------------*/
 footer{
     background-color: #121419 !important;
@@ -422,12 +405,6 @@ a.redes:-webkit-any-link:hover{
     color: #ed5959;
 }
 
-.qr-card{
-    padding: 50px 50px !important;
-    color: #e4e7f0;
-    /*    margin: 40px 0px;*/
-    /*    border-radius: 5px;*/
-}
 
 
 
@@ -494,7 +471,7 @@ a.redes:-webkit-any-link:hover{
     .contenido-txt{
         padding: 70px 70px !important;
     }
-    
+
     /*--PAPELERIA--*/
     .wallPapeleria{
         background:url("/imgs/papeleria-mob.png") no-repeat;
